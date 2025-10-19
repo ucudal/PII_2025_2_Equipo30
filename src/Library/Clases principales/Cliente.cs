@@ -1,4 +1,4 @@
-namespace Library.Clases;
+namespace Library.Clases_principales;
 
 public class Cliente
 {
@@ -13,7 +13,7 @@ public class Cliente
 
     public void Contactar()
     {
-        //TODO
+        // TODO: Este método se implementará en la fachada o subsistema de comunicación.
     }
 
     public Cliente(string Nombre, string Apellido, string Telefono, string Email)
@@ -22,6 +22,5 @@ public class Cliente
         this.Apellido = Apellido;
         this.Telefono = Telefono;
         this.Email = Email;
-        //TODO ¿ID lo define el usuario que registra al cliente o se define automaticamente en base al registro?
     }
 }

@@ -1,6 +1,6 @@
 using Library.Clases_tipos;
 
-namespace Library.Clases;
+namespace Library.Clases_principales;
 
 public class RegistroCliente
 {
@@ -11,22 +11,43 @@ public class RegistroCliente
     public Reunion Reunion { get; set; }
     public Ventas Ventas { get; set; }
     public Precio Precio { get; set; }
-
-    public void RegistrarNacimiento()
+    
+    public bool RegistrarNacimiento(string fechaNacimiento)
     {
-        //TODO
-    }
+        if (string.IsNullOrEmpty(fechaNacimiento))
+            return false;
 
-    public void RegistrarGenero()
-    {
-        //TODO
-    }
-
-    public void RegistrarPrecio()
-    {
-        //TODO
+        Cliente.fechaNacimiento = fechaNacimiento;
+        return true;
     }
     
-    //TODO ¿Constructor?
-    //La fachada (pendiente) almacena lista de RegistroCliente.
+    public bool RegistrarGenero(string genero)
+    {
+        if (string.IsNullOrEmpty(genero))
+            return false;
+
+        Cliente.Genero = genero;
+        return true;
+    }
+    
+    public bool RegistrarPrecio(Precio precio)
+    {
+        if (precio == null)
+            return false;
+
+        this.Precio = precio;
+        return true;
+    }
+    
+    public RegistroCliente(Cliente cliente)
+    {
+        this.Cliente = cliente;
+        this.Mensajes = new Mensajes();
+        this.Emails = new Emails();
+        this.Llamadas = new Llamadas();
+        this.Reunion = new Reunion();
+        this.Ventas = new Ventas();
+        this.Precio = new Precio();
+    }
+
 }
