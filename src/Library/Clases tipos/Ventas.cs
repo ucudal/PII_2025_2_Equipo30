@@ -6,8 +6,8 @@ public class Ventas
 
     public void AgregarVenta(Venta venta)
     {
-        //TODO
+        //Logica
     }
     
-    //TODO ¿Constructor?
+    // Esqueleto de la clase
 }

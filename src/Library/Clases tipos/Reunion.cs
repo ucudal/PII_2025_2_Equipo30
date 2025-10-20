@@ -6,5 +6,5 @@ public class Reunion
     public string Fecha { get; set; }
     public string Asunto { get; set; }
     
-    //TODO ¿Constructor?
+    // Esqueleto general de la clase.
 }

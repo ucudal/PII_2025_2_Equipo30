@@ -9,21 +9,21 @@ public class Emails
 
     public void AgregarRecibidos(Email email)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarEnviados(Email email)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarAsunto(string asunto)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //TODO
+        //Logica
     }
 }

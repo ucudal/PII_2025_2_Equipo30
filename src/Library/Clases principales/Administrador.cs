@@ -15,7 +15,7 @@ public class Administrador
 
     public bool EliminarUsuario(string nombre)
     {
-        var usuario = Usuarios.FirstOrDefault(u => u.Nombre == nombre); //usa LINQ para buscar y guardar al primer usuario que coincida con el nombre en usuario
+        var usuario = Usuarios.FirstOrDefault(u => u.Nombre == nombre); //usa LINQ para buscar y guardar al primer usuario que coincida con el nombre en usuario. Esto debido a que nos gustaria poder implementar una base de datos basica para la entrega final.
         if (usuario == null)
             return false; // No se encontró el usuario
 

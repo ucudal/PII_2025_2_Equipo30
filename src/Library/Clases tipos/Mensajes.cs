@@ -9,23 +9,23 @@ public class Mensajes
 
     public void AgregarRecibidos(string mensaje, string fecha)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarEnviados(Mensaje mensaje)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarAsunto(Mensaje mensaje)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //TODO
+        //Logica
     }
     
-    //TODO ¿Constructor?
+    //Esqueleto general
 }

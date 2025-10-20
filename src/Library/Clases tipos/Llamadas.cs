@@ -8,18 +8,18 @@ public class Llamadas
 
     public void AgregarEnviados(Llamada llamada)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarRecibidos(Llamada llamada)
     {
-        //TODO
+        //Logica
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //TODO
+        //Logica
     }
     
-    //TODO ¿Constructor?
+    //Esqueleto general
 }
