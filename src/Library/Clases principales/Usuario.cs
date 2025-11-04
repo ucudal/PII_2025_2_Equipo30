@@ -1,3 +1,5 @@
+using Library.Clases_tipos;
+
 namespace Library.Clases_principales;
 
 public class Usuario
@@ -65,4 +67,35 @@ public class Usuario
         return listaClientes;
     }
     
+    public bool ActualizarCliente(int clienteId, object dato)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null) return false;
+
+        switch (dato)
+        {
+            case Mensaje mensaje:
+                registro.Mensajes.AgregarEnviados(mensaje);
+                return true;
+
+            case Llamada llamada:
+                registro.Llamadas.AgregarEnviados(llamada);
+                return true;
+
+            case Precio precio:
+                registro.RegistrarPrecio(precio);
+                return true;
+
+            case Reunion reunion:
+                registro.Reunion = reunion;
+                return true;
+
+            case Venta venta:
+                registro.Ventas.AgregarVenta(venta);
+                return true;
+
+            default:
+                return false;
+        }
+    }
 }

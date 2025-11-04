@@ -8,18 +8,17 @@ public class Llamadas
 
     public void AgregarEnviados(Llamada llamada)
     {
-        //Logica
+        this.Enviados.Add(llamada);
     }
 
     public void AgregarRecibidos(Llamada llamada)
     {
-        //Logica
+        this.Recibidos.Add(llamada);
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //Logica
+        this.Descripcion = descripcion;
     }
     
-    //Esqueleto general
 }

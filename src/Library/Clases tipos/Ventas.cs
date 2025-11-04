@@ -6,8 +6,7 @@ public class Ventas
 
     public void AgregarVenta(Venta venta)
     {
-        //Logica
+        this.ListaVentas.Add(venta);
     }
     
-    // Esqueleto de la clase
 }

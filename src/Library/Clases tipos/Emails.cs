@@ -3,27 +3,27 @@ namespace Library.Clases_tipos;
 public class Emails
 {
     public List<Email> Enviados { get; set; }
-    public List<Email> Recibos { get; set; }
+    public List<Email> Recibidos { get; set; }
     public string Asunto { get; set; }
     public string Descripcion { get; set; }
 
     public void AgregarRecibidos(Email email)
     {
-        //Logica
+        this.Recibidos.Add(email);
     }
 
     public void AgregarEnviados(Email email)
     {
-        //Logica
+        this.Enviados.Add(email);
     }
 
     public void AgregarAsunto(string asunto)
     {
-        //Logica
+        this.Asunto = asunto;
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //Logica
+        this.Descripcion = descripcion;
     }
 }

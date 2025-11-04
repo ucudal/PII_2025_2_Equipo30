@@ -7,25 +7,23 @@ public class Mensajes
     public string Asunto { get; set; }
     public string Descripcion { get; set; }
 
-    public void AgregarRecibidos(string mensaje, string fecha)
+    public void AgregarRecibidos(Mensaje mensaje, string fecha)
     {
-        //Logica
+        this.mensajesRecibidos.Add(mensaje);
     }
 
     public void AgregarEnviados(Mensaje mensaje)
     {
-        //Logica
+        this.mensajesEnviados.Add(mensaje);
     }
 
-    public void AgregarAsunto(Mensaje mensaje)
+    public void AgregarAsunto(string asunto)
     {
-        //Logica
+        this.Asunto = asunto;
     }
 
     public void AgregarDescripcion(string descripcion)
     {
-        //Logica
+        this.Descripcion = descripcion;
     }
-    
-    //Esqueleto general
 }
