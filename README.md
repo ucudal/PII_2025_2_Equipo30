@@ -34,9 +34,9 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 ---
 
 ## Documentacion
-- [**Diagrama De Clases**:](https://drive.google.com/file/d/16YVQckIlGIAxlRlldSShdRhSol4TAcct/view?usp=sharing)
-- [**Informe & Tarjetas CRC**:](https://docs.google.com/document/d/1IcK2Qds76VBsQNn_tbTL15GHuroAupoT/edit?usp=drive_link&ouid=114373684461076415920&rtpof=true&sd=true)
-
+- [**Diagrama De Clases**](https://drive.google.com/file/d/16YVQckIlGIAxlRlldSShdRhSol4TAcct/view?usp=sharing)
+- [**Informe & Tarjetas CRC**](https://docs.google.com/document/d/1IcK2Qds76VBsQNn_tbTL15GHuroAupoT/edit?usp=drive_link&ouid=114373684461076415920&rtpof=true&sd=true)
+- [**Historias De Usuario BOT CORE**](https://docs.google.com/document/d/1gokicN-E-mH8XW8sk8x3_lTA2epfpu3lMCv_7lvzzlI/edit?tab=t.0)
 ## Notas de reflexión del equipo
 - **Desafíos más difíciles:**  
 
