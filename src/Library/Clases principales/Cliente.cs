@@ -1,5 +1,10 @@
 namespace Library.Clases_principales;
-
+/// <summary>
+/// Contiene datos básicos del cliente.
+/// </summary>
+/// <remarks>
+/// Solo contiene datos del cliente, no de su interacción con el <see cref="Usuario"/>.
+/// </remarks>
 public class Cliente
 {
     public int Id { get; set; }
@@ -16,6 +21,13 @@ public class Cliente
         // TODO: Este método se implementará en la fachada o subsistema de comunicación.
     }
 
+    /// <summary>
+    /// Constructor.
+    /// </summary>
+    /// <param name="Nombre">Nombre del cliente.</param>
+    /// <param name="Apellido">Apellido del cliente.</param>
+    /// <param name="Telefono">Telefono del cliente.</param>
+    /// <param name="Email">Email del cliente.</param>
     public Cliente(string Nombre, string Apellido, string Telefono, string Email)
     {
         this.Nombre = Nombre;
