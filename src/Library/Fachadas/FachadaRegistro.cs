@@ -4,25 +4,64 @@ namespace Library.Fachadas
 {
     public class FachadaRegistro
     {
+        /// <summary>
+        /// Proporciona una interfaz simplificada para la gestión de usuarios y clientes
+        /// dentro del sistema de registro.
+        /// </summary>
+        /// <remarks>
+        /// Esta fachada encapsula la interacción con la clase <see cref="Administrador"/>,
+        /// y ofrece métodos de alto nivel para crear, modificar, listar y eliminar usuarios y clientes.
+        /// </remarks>
         private Administrador _admin;
-
+        
+        /// <summary>
+        /// Inicializa una nueva instancia de la clase <see cref="FachadaRegistro"/>
+        /// con un administrador predeterminado.
+        /// </summary>
         public FachadaRegistro()
         {
             _admin = new Administrador("admin", "admin");
         }
 
-        // historias de usuario
+        // --- Historias de usuario ---
 
+        /// <summary>
+        /// Crea un nuevo usuario en el sistema.
+        /// </summary>
+        /// <param name="nombre">Nombre del nuevo usuario.</param>
+        /// <param name="clave">Clave o contraseña del usuario.</param>
+        /// <returns>
+        /// El objeto <see cref="Usuario"/> creado, o <c>null</c> si no se pudo crear.
+        /// </returns>
         public Usuario CrearUsuario(string nombre, string clave)
         {
             return _admin.CrearUsuario(nombre, clave);
         }
 
+        /// <summary>
+        /// Elimina un usuario existente del sistema.
+        /// </summary>
+        /// <param name="nombre">Nombre del usuario a eliminar.</param>
+        /// <returns>
+        /// <c>true</c> si el usuario fue eliminado correctamente; <c>false</c> en caso contrario.
+        /// </returns>
         public bool EliminarUsuario(string nombre)
         {
             return _admin.EliminarUsuario(nombre);
         }
 
+        /// <summary>
+        /// Crea un nuevo cliente y lo asocia al usuario especificado.
+        /// </summary>
+        /// <param name="usuario">Instancia del <see cref="Usuario"/> al que se asignará el cliente.</param>
+        /// <param name="nombre">Nombre del cliente.</param>
+        /// <param name="apellido">Apellido del cliente.</param>
+        /// <param name="telefono">Teléfono del cliente.</param>
+        /// <param name="email">Correo electrónico del cliente.</param>
+        /// <returns>El objeto <see cref="Cliente"/> creado.</returns>
+        /// <remarks>
+        /// Este metodo crea el <c>RegistroCliente</c> con el <c>Cliente</c> dentro y ya lo almacena en el <c>Usuario</c>.
+        /// </remarks>
         public Cliente CrearCliente(Usuario usuario, string nombre, string apellido, string telefono, string email)
         {
             var cliente = new Cliente(nombre, apellido, telefono, email);
@@ -31,21 +70,42 @@ namespace Library.Fachadas
             return cliente;
         }
 
+        /// <summary>
+        /// Modifica los datos de un cliente existente.
+        /// </summary>
+        /// <param name="usuario">Usuario propietario del cliente.</param>
+        /// <param name="id">Identificador del cliente a modificar.</param>
+        /// <param name="nuevoNombre">Nuevo nombre del cliente (opcional).</param>
+        /// <param name="nuevoEmail">Nuevo correo electrónico del cliente (opcional).</param>
+        /// <returns>
+        /// <c>true</c> si la modificación se realizó correctamente; <c>false</c> si no se encontró el cliente.
+        /// </returns>
         public bool ModificarCliente(Usuario usuario, int id, string nuevoNombre = null, string nuevoEmail = null)
         {
             return usuario.ModificarCliente(id, nuevoNombre, null, null, nuevoEmail);
         }
 
+        /// <summary>
+        /// Obtiene una lista de todos los clientes asociados al usuario.
+        /// </summary>
+        /// <param name="usuario">Usuario del cual se listarán los clientes.</param>
+        /// <returns>Una lista de objetos <see cref="Cliente"/>.</returns>
         public List<Cliente> ListarClientes(Usuario usuario)
         {
             return usuario.ListarClientes();
         }
 
+        /// <summary>
+        /// Elimina un cliente asociado a un usuario.
+        /// </summary>
+        /// <param name="usuario">Usuario propietario del cliente.</param>
+        /// <param name="cliente">Cliente a eliminar.</param>
+        /// <returns>
+        /// <c>true</c> si el cliente fue eliminado correctamente; <c>false</c> en caso contrario.
+        /// </returns>
         public bool EliminarCliente(Usuario usuario, Cliente cliente)
         {
             return usuario.EliminarCliente(cliente);
         }
-        
-        //TODO Implementar sistema de registro de mensajes o información de cliente
     }
 }
