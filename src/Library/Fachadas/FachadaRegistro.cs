@@ -4,6 +4,30 @@ namespace Library.Fachadas
 {
     public class FachadaRegistro
     {
+        
+        // Aca empezamos a aplicar nuestro singleton.
+        private static FachadaRegistro _instancia;
+        private static readonly object _candado = new object();
+        
+        /// <summary>
+        /// Proporciona acceso a la instancia única de la fachada.
+        /// </summary>
+        public static FachadaRegistro ObtenerInstancia()
+        {
+            if (_instancia == null)
+            {
+                lock (_candado) // Garantiza que solo un hilo cree la instancia
+                {
+                    if (_instancia == null)
+                    {
+                        _instancia = new FachadaRegistro();
+                    }
+                }
+            }
+            return _instancia;
+        }
+
+        
         /// <summary>
         /// Proporciona una interfaz simplificada para la gestión de usuarios y clientes
         /// dentro del sistema de registro.
