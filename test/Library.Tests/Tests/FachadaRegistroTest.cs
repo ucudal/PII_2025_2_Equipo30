@@ -42,4 +42,34 @@ public class FachadaRegistroTest
         Assert.That(eliminado, Is.False);
     }
     
+    [Test]
+    public void CrearCliente_DesdeFachada()
+    {
+        var fachada = new FachadaRegistro();
+        var usuario = fachada.CrearUsuario("usuario1", "clave");
+
+        bool creado = fachada.CrearCliente(usuario, "Ana", "Lopez", "099111222", "ana@mail.com");
+
+        Assert.That(creado, Is.True);
+        Assert.That(usuario.Clientes.Count, Is.EqualTo(1));
+        Assert.That(usuario.Clientes[0].Cliente.Nombre, Is.EqualTo("Ana"));
+    }
+    
+    [Test]
+    public void ObtenerTotalVentasPorPeriodo_DesdeFachada()
+    {
+        var fachada = new FachadaRegistro();
+        var usuario = fachada.CrearUsuario("usuarioVentas", "clave");
+
+        var cliente = new Cliente("Clara", "Mendez", "091122334", "clara@mail.com") { Id = 10 };
+        var registro = new RegistroCliente(cliente);
+        registro.Ventas.AgregarVenta(new Venta { Fecha = "01/11/2025", Descripcion = "Pack A", Precio = 1000 });
+        registro.Ventas.AgregarVenta(new Venta { Fecha = "05/11/2025", Descripcion = "Pack B", Precio = 1500 });
+        usuario.Clientes.Add(registro);
+
+        int total = fachada.ObtenerTotalVentasPorPeriodo(usuario, 10, new DateTime(2025, 11, 01), new DateTime(2025, 11, 06));
+
+        Assert.That(total, Is.EqualTo(2500));
+    }
+
 }

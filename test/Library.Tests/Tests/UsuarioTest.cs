@@ -57,7 +57,7 @@ public class UsuarioTests
         Cliente cliente = new Cliente("Ana", "Lopez", "099111222", "ana@mail.com") { Id = 1 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Mensaje mensaje = new Mensaje { Fecha = "2025-11-08", Texto = "Hola Ana" };
+        Mensaje mensaje = new Mensaje { Fecha = "17/06/2025", Texto = "Hola Ana" };
         bool resultado = usuario.ActualizarCliente(1, mensaje);
 
         Assert.That(resultado, Is.True);
@@ -65,13 +65,27 @@ public class UsuarioTests
     }
     
     [Test]
+    public void RegistrarMensajeRecibido()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Diego", "Silva", "097654321", "diego@mail.com") { Id = 8 };
+        usuario.Clientes.Add(new RegistroCliente(cliente));
+
+        Mensaje mensaje = new Mensaje { Fecha = "09/11/2025", Texto = "Consulta por producto" };
+        bool resultado = usuario.RegistrarMensajeRecibido(8, mensaje);
+
+        Assert.That(resultado, Is.True);
+        Assert.That(usuario.Clientes[0].Mensajes.mensajesRecibidos, Contains.Item(mensaje));
+    }
+
+    [Test]
     public void ActualizarCliente_ConLlamada()
     {
         Usuario usuario = new Usuario();
         Cliente cliente = new Cliente("Luis", "Martinez", "098765432", "luis@mail.com") { Id = 2 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Llamada llamada = new Llamada { Fecha = "2025-11-08", Asunto = "Consulta de precios" };
+        Llamada llamada = new Llamada { Fecha = "21/04/2025", Asunto = "Consulta de precios" };
         bool resultado = usuario.ActualizarCliente(2, llamada);
 
         Assert.That(resultado, Is.True);
@@ -79,13 +93,27 @@ public class UsuarioTests
     }
     
     [Test]
+    public void RegistrarLlamadaRecibida()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Laura", "Torres", "098765432", "laura@mail.com") { Id = 7 };
+        usuario.Clientes.Add(new RegistroCliente(cliente));
+
+        Llamada llamada = new Llamada { Fecha = "10/11/2025", Asunto = "Recibida: Reclamo técnico" };
+        bool resultado = usuario.RegistrarLlamadaRecibida(7, llamada);
+
+        Assert.That(resultado, Is.True);
+        Assert.That(usuario.Clientes[0].Llamadas.Recibidos, Contains.Item(llamada));
+    }
+
+    [Test]
     public void ActualizarCliente_ConPrecio()
     {
         Usuario usuario = new Usuario();
         Cliente cliente = new Cliente("Carlos", "Gomez", "097654321", "carlos@mail.com") { Id = 3 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Precio precio = new Precio { Fecha = "2025-11-08", Descripcion = "Cotización básica", Costo = 1500 };
+        Precio precio = new Precio { Fecha = "03/08/2025", Descripcion = "Cotización básica", Costo = 1500 };
         bool resultado = usuario.ActualizarCliente(3, precio);
 
         Assert.That(resultado, Is.True);
@@ -99,7 +127,7 @@ public class UsuarioTests
         Cliente cliente = new Cliente("Sofia", "Fernandez", "096543210", "sofia@mail.com") { Id = 4 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Reunion reunion = new Reunion { Fecha = "2025-11-10", Lugar = "Oficina Central", Asunto = "Presentación de producto" };
+        Reunion reunion = new Reunion { Fecha = "02/12/2025", Lugar = "Oficina Central", Asunto = "Presentación de producto" };
         bool resultado = usuario.ActualizarCliente(4, reunion);
 
         Assert.That(resultado, Is.True);
@@ -113,11 +141,104 @@ public class UsuarioTests
         Cliente cliente = new Cliente("Lucia", "Rodriguez", "095432109", "lucia@mail.com") { Id = 5 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Venta venta = new Venta { Fecha = "2025-11-08", Descripcion = "Servicio Premium", Precio = 2500 };
+        Venta venta = new Venta { Fecha = "18/01/2025", Descripcion = "Servicio Premium", Precio = 2500 };
         bool resultado = usuario.ActualizarCliente(5, venta);
 
         Assert.That(resultado, Is.True);
         Assert.That(usuario.Clientes[0].Ventas.ListaVentas, Contains.Item(venta));
     }
 
+    [Test]
+    public void TotalVentasPorPeriodo()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Clara", "Mendez", "091122334", "clara@mail.com") { Id = 10 };
+        var registro = new RegistroCliente(cliente);
+        registro.Ventas.AgregarVenta(new Venta { Fecha = "01/11/2025", Descripcion = "Pack A", Precio = 1000 });
+        registro.Ventas.AgregarVenta(new Venta { Fecha = "05/11/2025", Descripcion = "Pack B", Precio = 1500 });
+        usuario.Clientes.Add(registro);
+
+        int total = usuario.TotalVentasPorPeriodo(10, new DateTime(2025, 11, 01), new DateTime(2025, 11, 06));
+
+        Assert.That(total, Is.EqualTo(2500));
+    }
+    
+    [Test]
+    public void AgregarEtiqueta()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Mario", "Bros", "091234567", "mario@mail.com") { Id = 9 };
+        usuario.Clientes.Add(new RegistroCliente(cliente));
+
+        bool resultado = usuario.AgregarEtiqueta(9, "Fidelizado");
+
+        Assert.That(resultado, Is.True);
+        Assert.That(usuario.Clientes[0].Cliente.Etiqueta, Is.EqualTo("Fidelizado"));
+    }
+    
+    [Test]
+    public void AgregarDescripcionALlamada()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Laura", "Torres", "098765432", "laura@mail.com") { Id = 11 };
+        var llamada = new Llamada { Fecha = "10/11/2025", Asunto = "Consulta técnica" };
+        var registro = new RegistroCliente(cliente);
+        registro.Llamadas.AgregarEnviados(llamada);
+        usuario.Clientes.Add(registro);
+
+        bool resultado = usuario.AgregarDescripcionALlamada(11, llamada, "Cliente tenía dudas sobre el servicio premium");
+
+        Assert.That(resultado, Is.True);
+        Assert.That(llamada.Descripcion, Is.EqualTo("Cliente tenía dudas sobre el servicio premium"));
+    }
+
+    [Test]
+    public void AgregarDescripcionAMensaje()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Diego", "Silva", "097654321", "diego@mail.com") { Id = 12 };
+        var mensaje = new Mensaje { Fecha = "09/11/2025", Texto = "Consulta por producto" };
+        var registro = new RegistroCliente(cliente);
+        registro.Mensajes.AgregarEnviados(mensaje);
+        usuario.Clientes.Add(registro);
+
+        bool resultado = usuario.AgregarDescripcionAMensaje(12, mensaje, "Mensaje relacionado a cotización");
+
+        Assert.That(resultado, Is.True);
+        Assert.That(mensaje.Texto, Does.Contain("Mensaje relacionado a cotización"));
+    }
+    
+    [Test]
+    public void AgregarDescripcionAReunion()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Sofia", "Fernandez", "096543210", "sofia@mail.com") { Id = 13 };
+        var reunion = new Reunion { Fecha = "02/12/2025", Lugar = "Oficina Central", Asunto = "Presentación de producto" };
+        var registro = new RegistroCliente(cliente);
+        registro.Reunion = reunion;
+        usuario.Clientes.Add(registro);
+
+        bool resultado = usuario.AgregarDescripcionAReunion(13, reunion, "Se presentó el nuevo catálogo de productos");
+
+        Assert.That(resultado, Is.True);
+        Assert.That(reunion.Descripcion, Is.EqualTo("Se presentó el nuevo catálogo de productos"));
+    }
+    
+    [Test]
+    public void AgregarDescripcionAEmail()
+    {
+        Usuario usuario = new Usuario();
+        Cliente cliente = new Cliente("Clara", "Mendez", "091122334", "clara@mail.com") { Id = 14 };
+        var email = new Email { Fecha = "05/11/2025", Texto = "Cotización enviada" };
+        var registro = new RegistroCliente(cliente);
+        registro.Emails.AgregarEnviados(email);
+        usuario.Clientes.Add(registro);
+
+        bool resultado = usuario.AgregarDescripcionAEmail(14, email, "Incluye detalles del paquete premium");
+
+        Assert.That(resultado, Is.True);
+        Assert.That(email.Descripcion, Is.EqualTo("Incluye detalles del paquete premium"));
+    }
+
+    
 }

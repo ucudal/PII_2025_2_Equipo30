@@ -51,6 +51,11 @@ public class Usuario
         }
         return false; //false si no se encontró al cliente
     }
+    
+    public bool AgregarEtiqueta(int clienteId, string etiqueta)
+    {
+        return ModificarCliente(clienteId, nuevaEtiqueta: etiqueta);
+    }
 
     /// <summary>
     /// Elimina a un cliente de la lista <see cref="Clientes"/>
@@ -148,27 +153,181 @@ public class Usuario
         switch (dato)
         {
             case Mensaje mensaje:
+            {
                 registro.Mensajes.AgregarEnviados(mensaje);
                 return true;
+            }
 
             case Llamada llamada:
+            {
                 registro.Llamadas.AgregarEnviados(llamada);
                 return true;
-
+            }
+            
             case Precio precio:
+            {
                 registro.RegistrarPrecio(precio);
                 return true;
+            }
 
             case Reunion reunion:
+            {
                 registro.Reunion = reunion;
                 return true;
+            }
 
             case Venta venta:
+            {
                 registro.Ventas.AgregarVenta(venta);
                 return true;
+            }
 
             default:
+            {
                 return false;
+            }
         }
     }
+    
+    public bool RegistrarMensajeRecibido(int clienteId, Mensaje mensaje)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || mensaje == null) return false;
+
+        registro.Mensajes.AgregarRecibidos(mensaje, mensaje.Fecha);
+        return true;
+    }
+    
+    public bool RegistrarLlamadaRecibida(int clienteId, Llamada llamada)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || llamada == null) return false;
+
+        registro.Llamadas.AgregarRecibidos(llamada);
+        return true;
+    }
+    
+    public int TotalVentasPorPeriodo(int clienteId, DateTime desde, DateTime hasta)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null)
+            return 0;
+
+        int total = 0;
+
+        foreach (var venta in registro.Ventas.ListaVentas)
+        {
+            DateTime fechaVenta;
+
+            // Intentamos convertir la fecha de la venta a DateTime
+            bool conversionExitosa = DateTime.TryParse(venta.Fecha, out fechaVenta);
+
+            if (conversionExitosa)
+            {
+                if (fechaVenta >= desde && fechaVenta <= hasta)
+                {
+                    total += venta.Precio;
+                }
+            }
+            // Si la conversión falla, simplemente ignoramos esa venta
+        }
+
+        return total;
+    }
+
+    
+    public List<Cliente> BuscarClientes(string nombre = null, string apellido = null, string telefono = null, string email = null)
+    {
+        List<Cliente> resultados = new List<Cliente>();
+
+        foreach (var registro in Clientes)
+        {
+            Cliente cliente = registro.Cliente;
+            bool coincide = true;
+
+            if (nombre != null && !cliente.Nombre.ToLower().Contains(nombre.ToLower()))
+            {
+                coincide = false;
+            }
+
+            if (apellido != null && !cliente.Apellido.ToLower().Contains(apellido.ToLower()))
+            {
+                coincide = false;
+            }
+
+            if (telefono != null && !cliente.Telefono.Contains(telefono))
+            {
+                coincide = false;
+            }
+
+            if (email != null && !cliente.Email.ToLower().Contains(email.ToLower()))
+            {
+                coincide = false;
+            }
+
+            if (coincide)
+            {
+                resultados.Add(cliente);
+            }
+        }
+
+        return resultados;
+    }
+    
+    public bool AgregarDescripcionALlamada(int clienteId, Llamada llamada, string descripcion)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || llamada == null || string.IsNullOrWhiteSpace(descripcion)) return false;
+
+        if (registro.Llamadas.Enviados.Contains(llamada) || registro.Llamadas.Recibidos.Contains(llamada))
+        {
+            llamada.Descripcion = descripcion;
+            return true;
+        }
+
+        return false;
+    }
+    
+    public bool AgregarDescripcionAMensaje(int clienteId, Mensaje mensaje, string descripcion)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || mensaje == null || string.IsNullOrWhiteSpace(descripcion)) return false;
+
+        if (registro.Mensajes.mensajesEnviados.Contains(mensaje) || registro.Mensajes.mensajesRecibidos.Contains(mensaje))
+        {
+            mensaje.Texto += " - " + descripcion;
+            return true;
+        }
+
+        return false;
+    }
+    
+    public bool AgregarDescripcionAReunion(int clienteId, Reunion reunion, string descripcion)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || reunion == null || string.IsNullOrWhiteSpace(descripcion)) return false;
+
+        if (registro.Reunion == reunion)
+        {
+            reunion.Descripcion = descripcion;
+            return true;
+        }
+
+        return false;
+    }
+    
+    public bool AgregarDescripcionAEmail(int clienteId, Email email, string descripcion)
+    {
+        var registro = BuscarClientePorId(clienteId);
+        if (registro == null || email == null || string.IsNullOrWhiteSpace(descripcion)) return false;
+
+        if (registro.Emails.Enviados.Contains(email) || registro.Emails.Recibidos.Contains(email))
+        {
+            email.Descripcion = descripcion;
+            return true;
+        }
+
+        return false;
+    }
+
 }

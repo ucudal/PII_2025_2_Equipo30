@@ -64,7 +64,7 @@ public class VendedorTests
         Cliente cliente = new Cliente("Lucia", "Rodriguez", "095432109", "lucia@mail.com") { Id = 5 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Venta venta = new Venta { Fecha = "2025-11-08", Descripcion = "Servicio Premium", Precio = 2500 };
+        Venta venta = new Venta { Fecha = "09/05/2025", Descripcion = "Servicio Premium", Precio = 2500 };
         bool resultado = usuario.ActualizarCliente(5, venta);
 
         Assert.That(resultado, Is.True);
@@ -91,7 +91,7 @@ public class VendedorTests
         Cliente cliente = new Cliente("Sofia", "Fernandez", "096543210", "sofia@mail.com") { Id = 4 };
         usuario.Clientes.Add(new RegistroCliente(cliente));
 
-        Reunion reunion = new Reunion { Fecha = "2025-11-10", Lugar = "Oficina Central", Asunto = "Presentación de producto" };
+        Reunion reunion = new Reunion { Fecha = "09/07/2025", Lugar = "Oficina Central", Asunto = "Presentación de producto" };
         bool resultado = usuario.ActualizarCliente(4, reunion);
 
         Assert.That(resultado, Is.True);

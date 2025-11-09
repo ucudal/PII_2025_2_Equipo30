@@ -62,12 +62,14 @@ namespace Library.Fachadas
         /// <remarks>
         /// Este metodo crea el <c>RegistroCliente</c> con el <c>Cliente</c> dentro y ya lo almacena en el <c>Usuario</c>.
         /// </remarks>
-        public Cliente CrearCliente(Usuario usuario, string nombre, string apellido, string telefono, string email)
+        public bool CrearCliente(Usuario usuario, string nombre, string apellido, string telefono, string email)
         {
+            if (usuario == null) return false;
+            
             var cliente = new Cliente(nombre, apellido, telefono, email);
             var registro = new RegistroCliente(cliente);
             usuario.Clientes.Add(registro);
-            return cliente;
+            return true;
         }
 
         /// <summary>
@@ -107,5 +109,18 @@ namespace Library.Fachadas
         {
             return usuario.EliminarCliente(cliente);
         }
+        
+        public int ObtenerTotalVentasPorPeriodo(Usuario usuario, int clienteId, DateTime desde, DateTime hasta)
+        {
+            if (usuario == null) return 0;
+            return usuario.TotalVentasPorPeriodo(clienteId, desde, hasta);
+        }
+
+        public List<Cliente> BuscarClientes(Usuario usuario, string nombre = null, string apellido = null, string telefono = null, string email = null)
+        {
+            if (usuario == null) return new List<Cliente>();
+            return usuario.BuscarClientes(nombre, apellido, telefono, email);
+        }
+
     }
 }

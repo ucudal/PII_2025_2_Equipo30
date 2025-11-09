@@ -12,4 +12,12 @@ public class Email
     /// Contenido o texto del mensaje.
     /// </summary>
     public string Texto { get; set; }
+    
+    public string Descripcion { get; set; }
+
+    public void AgregarDescripcion(string descripcion)
+    {
+        this.Descripcion = descripcion;
+    }
+
 }

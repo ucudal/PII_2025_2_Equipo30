@@ -18,4 +18,11 @@ public class Reunion
     /// </summary>
     public string Asunto { get; set; }
     
+    public string Descripcion { get; set; }
+
+    public void AgregarDescripcion(string descripcion)
+    {
+        this.Descripcion = descripcion;
+    }
+
 }
