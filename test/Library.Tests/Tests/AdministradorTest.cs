@@ -10,7 +10,7 @@ public class AdministradorTest
     }
 
     [Test]
-    public void CrearUsuario_DeberiaAgregarUsuarioALaLista()
+    public void CrearUsuario()
     {
         Administrador administrador = new Administrador("admin", "1234");
         Usuario usuario = administrador.CrearUsuario("tiendaropa", "constraseña");
@@ -19,7 +19,7 @@ public class AdministradorTest
     }
 
     [Test]
-    public void EliminarUsuario_DeberiaEliminarUsuarioExistente()
+    public void EliminarUsuario()
     {
         Administrador administrador=new Administrador("admin", "1234");
         administrador.CrearUsuario("Jorge", "ElMejorProfe");
@@ -30,7 +30,7 @@ public class AdministradorTest
     }
 
     [Test]
-    public void EliminarUsuario_DeberiaRetornarFalseSiNoExiste()
+    public void EliminarUsuario_SiNoExiste()
     {
         Administrador administrador = new Administrador("elpapu", "password");
         bool eliminado = administrador.EliminarUsuario("Momo Benavidez");

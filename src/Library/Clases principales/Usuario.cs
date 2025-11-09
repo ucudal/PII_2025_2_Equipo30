@@ -44,7 +44,7 @@ public class Usuario
                 if (nuevoTelefono != null) cliente.Cliente.Telefono = nuevoTelefono;
                 if (nuevoEmail != null) cliente.Cliente.Email = nuevoEmail;
                 if (nuevoGenero != null) cliente.Cliente.Genero = nuevoGenero;
-                if (nuevoCumple != null) cliente.Cliente.fechaNacimiento = nuevoCumple;
+                if (nuevoCumple != null) cliente.Cliente.FechaNacimiento = nuevoCumple;
                 if (nuevaEtiqueta != null) cliente.Cliente.Etiqueta = nuevaEtiqueta;
                 return true; //true si se encontro al cliente y se pudo modificar
             }

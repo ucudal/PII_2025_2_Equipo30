@@ -11,7 +11,7 @@ public class RegistroClientesTests
     }
 
     [Test]
-    public void RegistrarGenero_DeberiaActualizarGeneroDelCliente()
+    public void RegistrarGenero()
     {
         Cliente cliente = new Cliente("Joe", "Doe", "999999999", "JoeDoe@mail.com");
         RegistroCliente registro = new RegistroCliente(cliente);
@@ -23,7 +23,7 @@ public class RegistroClientesTests
     }
 
     [Test]
-    public void RegistrarNacimiento_NoDebeAceptarFechaVacia()
+    public void RegistrarNacimiento()
     {
         Cliente cliente = new Cliente("Juan", "Perez", "099888888", "juan@mail.com");
         RegistroCliente registro = new RegistroCliente(cliente);
@@ -34,7 +34,7 @@ public class RegistroClientesTests
     }
     
     [Test]
-    public void RegistrarPrecio_DeberiaAsignarPrecioCorrectamente()
+    public void RegistrarPrecio()
     {
         Cliente cliente = new Cliente("Nicolas", "Diaz", "092002027", "nosesumail@mail.com");
         RegistroCliente registro = new RegistroCliente(cliente);

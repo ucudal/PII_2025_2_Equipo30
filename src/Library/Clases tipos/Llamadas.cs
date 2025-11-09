@@ -7,11 +7,11 @@ public class Llamadas
     /// <summary>
     /// Lista de llamadas realizadas (enviadas).
     /// </summary>
-    public List<Llamada> Enviados {get; set;}
+    public List<Llamada> Enviados {get; set;} = new List<Llamada>();
     /// <summary>
     /// Lista de llamadas recibidas.
     /// </summary>
-    public List<Llamada> Recibidos {get; set;}
+    public List<Llamada> Recibidos {get; set;} = new List<Llamada>();
     /// <summary>
     /// Descripción o resumen general de las llamadas.
     /// </summary>

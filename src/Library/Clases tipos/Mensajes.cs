@@ -8,11 +8,11 @@ public class Mensajes
     /// <summary>
     /// Lista de mensajes enviados.
     /// </summary>
-    public List<Mensaje> mensajesEnviados { get; set; }
+    public List<Mensaje> mensajesEnviados { get; set; } = new List<Mensaje>();
     /// <summary>
     /// Lista de mensajes recibidos.
     /// </summary>
-    public List<Mensaje> mensajesRecibidos { get; set; }
+    public List<Mensaje> mensajesRecibidos { get; set; } = new List<Mensaje>();
     /// <summary>
     /// Asunto general de los mensajes.
     /// </summary>

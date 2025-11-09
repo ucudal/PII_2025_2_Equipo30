@@ -21,17 +21,17 @@ public class RegistroCliente
     /// <summary>
     /// Modifica el atributo fechaNacimiento de <see cref="Cliente"/>.
     /// </summary>
-    /// <param name="fechaNacimiento">Fecha de nacimiento a registrar.</param>
+    /// <param name="FechaNacimiento">Fecha de nacimiento a registrar.</param>
     /// <returns>
     /// <c>true</c> si el parametro fechaNacimiento no está vacío y se pudo registrar correctamente.
     /// <c>false</c> si el parametro fechaNacimiento está vacío o no se pudo registrar correctamente.
     /// </returns>
-    public bool RegistrarNacimiento(string fechaNacimiento)
+    public bool RegistrarNacimiento(string FechaNacimiento)
     {
-        if (string.IsNullOrEmpty(fechaNacimiento))
+        if (string.IsNullOrEmpty(FechaNacimiento))
             return false;
 
-        Cliente.fechaNacimiento = fechaNacimiento;
+        Cliente.FechaNacimiento = FechaNacimiento;
         return true;
     }
     
