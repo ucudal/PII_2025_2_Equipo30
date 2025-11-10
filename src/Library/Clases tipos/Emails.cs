@@ -6,8 +6,8 @@ namespace Library.Clases_tipos;
 /// </summary>
 public class Emails
 {
-    public List<Email> Enviados { get; set; }
-    public List<Email> Recibidos { get; set; }
+    public List<Email> Enviados { get; set; } = new List<Email>();
+    public List<Email> Recibidos { get; set; } = new List<Email>();
     
     /// <summary>
     /// Asunto general del intercambio de correos.

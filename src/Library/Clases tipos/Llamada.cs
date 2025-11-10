@@ -12,4 +12,11 @@ public class Llamada
     /// Asunto o tema principal de la llamada.
     /// </summary>
     public string Asunto { get; set; }
+    
+    public string Descripcion { get; set; }
+
+    public void AgregarDescripcion(string descripcion)
+    {
+        this.Descripcion = descripcion;
+    }
 }

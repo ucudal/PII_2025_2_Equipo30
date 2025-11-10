@@ -13,7 +13,7 @@ public class Cliente
     public string Telefono {get; set;}
     public string Email { get; set; }
     public string Genero { get; set; }
-    public string fechaNacimiento { get; set; }
+    public string FechaNacimiento { get; set; }
     public string Etiqueta {get; set;}
 
     public void Contactar()
@@ -28,8 +28,11 @@ public class Cliente
     /// <param name="Apellido">Apellido del cliente.</param>
     /// <param name="Telefono">Telefono del cliente.</param>
     /// <param name="Email">Email del cliente.</param>
+
+    private static int contadorId = 1;
     public Cliente(string Nombre, string Apellido, string Telefono, string Email)
     {
+        this.Id = contadorId++;
         this.Nombre = Nombre;
         this.Apellido = Apellido;
         this.Telefono = Telefono;
