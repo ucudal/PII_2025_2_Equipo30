@@ -13,6 +13,20 @@ public class Vendedor
     /// </summary>
     public List<Cliente> Clientes { get; set; }
     
+    public bool ValidarCredenciales(string nombre, string clave)
+    {
+        return this.Nombre == nombre && this.Clave == clave;
+    }
+    
+    ///<summary>
+    /// Agrega un nuevo cliente a la lista de clientes del vendedor.
+    /// </summary>
+    public void AgregarCliente(Cliente cliente)
+    {
+        if (cliente != null)
+            Clientes.Add(cliente);
+    }
+    
     /// <summary>
     /// Asigna un cliente de este vendedor a otro vendedor.
     /// </summary>

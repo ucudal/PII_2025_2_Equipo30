@@ -13,6 +13,12 @@ namespace Library.Fachadas
         /// y ofrece métodos de alto nivel para crear, modificar, listar y eliminar usuarios y clientes.
         /// </remarks>
         private Administrador _admin;
+
+        
+        /// <summary>
+        /// Lista de vendedores, almacena <see cref="Vendedor"/>
+        /// </summary>
+        private List<Vendedor> _vendedores = new List<Vendedor>();
         
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="FachadaRegistro"/>
@@ -23,6 +29,23 @@ namespace Library.Fachadas
             _admin = new Administrador("admin", "admin");
         }
 
+        public Administrador LoginAdministrador(string nombre, string clave)
+        {
+            if (_admin.Nombre == nombre && _admin.Clave == clave)
+                return _admin;
+            return null;
+        }
+
+        public Usuario LoginUsuario(string nombre, string clave)
+        {
+            return _admin.Usuarios.FirstOrDefault(u => u.Nombre == nombre && u.Clave == clave); //LINQ para buscar usuario
+        }
+
+        public Vendedor LoginVendedor(string nombre, string clave)
+        {
+            return _vendedores.FirstOrDefault(v => v.Nombre == nombre && v.Clave == clave); //LINQ para buscar vendedor
+        }
+        
         // --- Historias de usuario ---
 
         /// <summary>
