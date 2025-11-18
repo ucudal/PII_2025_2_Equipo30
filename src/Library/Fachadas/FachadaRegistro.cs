@@ -129,10 +129,31 @@ namespace Library.Fachadas
         /// <returns>
         /// <c>true</c> si la modificación se realizó correctamente; <c>false</c> si no se encontró el cliente.
         /// </returns>
-        public bool ModificarCliente(Usuario usuario, int id, string nuevoNombre = null, string nuevoEmail = null)
+        public bool ModificarCliente(
+            Usuario usuario,
+            int id,
+            string nuevoNombre = null,
+            string nuevoApellido = null,
+            string nuevoTelefono = null,
+            string nuevoEmail = null,
+            string nuevoGenero = null,
+            string nuevoCumple = null,
+            string nuevaEtiqueta = null)
         {
-            return usuario.ModificarCliente(id, nuevoNombre, null, null, nuevoEmail);
+            if (usuario == null) return false;
+
+            return usuario.ModificarCliente(
+                id,
+                nuevoNombre,
+                nuevoApellido,
+                nuevoTelefono,
+                nuevoEmail,
+                nuevoGenero,
+                nuevoCumple,
+                nuevaEtiqueta
+            );
         }
+
 
         /// <summary>
         /// Obtiene una lista de todos los clientes asociados al usuario.

@@ -36,7 +36,7 @@ public class ListarClientesCommand : IBotCommand
 
             contexto.EnviarMensaje("👥 Lista de clientes:");
             foreach (var c in clientes)
-                contexto.EnviarMensaje($"- {c.Nombre} {c.Apellido} ({c.Email})");
+                contexto.EnviarMensaje($"- {c.Nombre} {c.Apellido} ({c.Email} {c.Id})");
             return true;
         }
 
