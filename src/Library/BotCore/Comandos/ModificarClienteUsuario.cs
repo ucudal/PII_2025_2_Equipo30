@@ -4,19 +4,32 @@ using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
 
+/// <summary>
+/// Modifica los datos de un cliente a partir de su id.
+/// </summary>
 public class ModificarClienteUsuario : IBotCommand
 {
     public string Nombre { get; set; } = "Modificar datos de un cliente";
-    public string Descripcion { get; }
+    public string Descripcion { get; } = "Modificar datos de un cliente a partir de su id";
     private readonly BotCore _bot;
     private readonly FachadaRegistro _fachada;
 
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="fachada">Instancia FachadaRegistro.</param>
+    /// <param name="bot">Instancia BotCore.</param>
     public ModificarClienteUsuario(FachadaRegistro fachada, BotCore bot)
     {
         _fachada = fachada;
         _bot = bot;
     }
 
+    /// <summary>
+    /// Ejecuta el intento de modificar los datos de un cliente a partir de su id.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
@@ -30,6 +43,7 @@ public class ModificarClienteUsuario : IBotCommand
         {
             int idcliente = int.Parse(contexto.EsperarRespuesta());
 
+            // Se usa is Usuario usuario para poder referenciar la instancia del usuario logueado en los comandos de fachada.
             if (_bot.Sesion.UsuarioActual is Usuario usuario)
             {
                 if (usuario.BuscarClientePorId(idcliente) != null)

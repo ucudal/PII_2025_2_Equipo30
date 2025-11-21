@@ -72,7 +72,7 @@ public class Usuario
             if (Clientes[i].Cliente.Id == cliente.Id)
             {
                 Clientes.RemoveAt(i);
-                return true; //devuelve true si pudo eliminar al usuario
+                return true; //devuelve true si pudo eliminar al cliente
             }
         }
         return false; //devuelve false si no pudo eliminar al cliente

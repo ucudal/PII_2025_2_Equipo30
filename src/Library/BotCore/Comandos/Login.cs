@@ -18,8 +18,8 @@ public class LoginCommand : IBotCommand
     /// <summary>
     /// Constructor.
     /// </summary>
-    /// <param name="bot">Instancia de bot.</param>
-    /// <param name="fachada">Fachada de registro.</param>
+    /// <param name="bot">Instancia de BotCore.</param>
+    /// <param name="fachada">Fachada de FachadaRegistro.</param>
     public LoginCommand(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
