@@ -5,11 +5,11 @@ using Library.Fachadas;
 namespace Library.BotCore.Comandos;
 
 /// <summary>
-/// Modifica los datos de un cliente a partir de su id.
+/// Modifica o registra los datos de un cliente a partir de su id.
 /// </summary>
 public class ModificarClienteUsuario : IBotCommand
 {
-    public string Nombre { get; set; } = "Modificar datos de un cliente";
+    public string Nombre { get; } = "Modificar datos de un cliente";
     public string Descripcion { get; } = "Modificar datos de un cliente a partir de su id";
     private readonly BotCore _bot;
     private readonly FachadaRegistro _fachada;
@@ -26,7 +26,7 @@ public class ModificarClienteUsuario : IBotCommand
     }
 
     /// <summary>
-    /// Ejecuta el intento de modificar los datos de un cliente a partir de su id.
+    /// Ejecuta el intento de modificar o regsitrar los datos de un cliente a partir de su id.
     /// </summary>
     /// <param name="contexto"></param>
     /// <returns></returns>
@@ -49,7 +49,7 @@ public class ModificarClienteUsuario : IBotCommand
                 if (usuario.BuscarClientePorId(idcliente) != null)
                 {
                     contexto.EnviarMensaje(
-                        "¡Cliente encontrado! A continuación, ingrese el numero correspondiente al dato que desea modificar: \n" +
+                        "¡Cliente encontrado! A continuación, ingrese el numero correspondiente al dato que desea modificar o registrar: \n" +
                         "1 - Nombre.\n" +
                         "2 - Apellido. \n" +
                         "3 - Telefono. \n" +

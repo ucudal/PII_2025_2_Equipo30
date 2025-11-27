@@ -14,12 +14,22 @@ public class AgregarEtiquetaClienteUsuario : IBotCommand
     private BotCore _bot;
     private FachadaRegistro _fachada;
 
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="bot"></param>
+    /// <param name="fachada"></param>
     public AgregarEtiquetaClienteUsuario(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
     
+    /// <summary>
+    /// Lista las etiquetas disponibles, pide un id de cliente al usuario y una etiqueta a asignar para asignarla al cliente.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
@@ -28,6 +38,7 @@ public class AgregarEtiquetaClienteUsuario : IBotCommand
             return false;
         }
 
+        // Se usa is Usuario usuario para poder referenciar la instancia del usuario logueado en los comandos de fachada.
         if (_bot.Sesion.UsuarioActual is Usuario usuario)
         {
             try
@@ -58,7 +69,7 @@ public class AgregarEtiquetaClienteUsuario : IBotCommand
                 }
                 else
                 {
-                    contexto.EnviarMensaje("Error, no se encontró al cliente, puede buscarlo con el comando Buscar Cliente.");
+                    contexto.EnviarMensaje("Error, no se encontró al cliente, puede buscarlo con el comando Buscar Cliente o Listar Clientes.");
                     return false;
                 }
             }

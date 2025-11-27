@@ -10,7 +10,7 @@ namespace Library.BotCore.Comandos;
 public class ListarClientesCommand : IBotCommand
 {
     public string Nombre { get; set; } = "Listar clientes";
-    public string Descripcion { get; } 
+    public string Descripcion { get; }
     private readonly BotCore _bot;
     private readonly FachadaRegistro _fachada;
 
