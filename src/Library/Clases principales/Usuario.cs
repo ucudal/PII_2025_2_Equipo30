@@ -14,6 +14,11 @@ public class Usuario
     /// Lista de <see cref="RegistroCliente"/> que contiene al <see cref="Cliente"/> y sus interacciones.
     /// </summary>
     public List<RegistroCliente> Clientes = new List<RegistroCliente>();
+
+    /// <summary>
+    /// Lista de etiquetas creadas por el usuario.
+    /// </summary>
+    public Dictionary<int,string> Etiquetas = new Dictionary<int, string>();
     
     /// <summary>
     /// Modifica uno o más datos de un cliente en <see cref="Clientes"/>
