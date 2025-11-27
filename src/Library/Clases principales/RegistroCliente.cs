@@ -1,3 +1,4 @@
+using System.Globalization;
 using Library.Clases_tipos;
 
 namespace Library.Clases_principales;
@@ -17,7 +18,7 @@ public class RegistroCliente
     public Reunion Reunion { get; set; }
     public Ventas Ventas { get; set; }
     public Precio Precio { get; set; }
-    
+
     /// <summary>
     /// Modifica el atributo fechaNacimiento de <see cref="Cliente"/>.
     /// </summary>
@@ -34,8 +35,123 @@ public class RegistroCliente
         Cliente.FechaNacimiento = FechaNacimiento;
         return true;
     }
-    
+
     /// <summary>
+    /// Devuelve un DateTime con la fecha de la ultima interacción.
+    /// </summary>
+    /// <returns>DateTime</returns>
+    public DateTime UltimaInteraccion()
+{
+    DateTime ultima = DateTime.MinValue;
+    DateTime fechaActual;
+    
+    if (this.Mensajes.mensajesEnviados != null)
+    {
+        foreach (var m in this.Mensajes.mensajesEnviados)
+        {
+            if (DateTime.TryParseExact(m.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (this.Mensajes.mensajesRecibidos != null)
+    {
+        foreach (var m in this.Mensajes.mensajesRecibidos)
+        {
+            if (DateTime.TryParseExact(m.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (this.Emails.Enviados != null)
+    {
+        foreach (var e in this.Emails.Enviados)
+        {
+            if (DateTime.TryParseExact(e.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (this.Emails.Recibidos != null)
+    {
+        foreach (var e in this.Emails.Recibidos)
+        {
+            if (DateTime.TryParseExact(e.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (this.Llamadas.Enviados != null)
+    {
+        foreach (var l in this.Llamadas.Enviados)
+        {
+            if (DateTime.TryParseExact(l.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (this.Llamadas.Recibidos != null)
+    {
+        foreach (var l in this.Llamadas.Recibidos)
+        {
+            if (DateTime.TryParseExact(l.Fecha, "dd/MM/yy", null,
+                DateTimeStyles.None, out fechaActual))
+            {
+                if (fechaActual > ultima)
+                {
+                    ultima = fechaActual;
+                }
+            }
+        }
+    }
+    
+    if (!string.IsNullOrEmpty(this.Reunion.Fecha))
+    {
+        if (DateTime.TryParseExact(this.Reunion.Fecha, "dd/MM/yy", null,
+            DateTimeStyles.None, out fechaActual))
+        {
+            if (fechaActual > ultima)
+            {
+                ultima = fechaActual;
+            }
+        }
+    }
+
+    return ultima;
+}
+
+
+/// <summary>
     /// Modifica el atributo Genero de <see cref="Cliente"/>.
     /// </summary>
     /// <param name="genero">Genero a registrar.</param>
