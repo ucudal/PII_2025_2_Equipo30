@@ -8,6 +8,8 @@ public class Vendedor
     public string Nombre { get; set; }
     public string Clave { get; set; }
     
+    public int Id { get; set; }
+    
     /// <summary>
     /// Lista de <see cref="Cliente"/> asociados a este vendedor.
     /// </summary>
@@ -76,6 +78,20 @@ public class Vendedor
 
         return true;
     }
+
+    public Cliente BuscarClientePorId(int id)
+    {
+        foreach (var cliente in Clientes)
+        {
+            if (cliente.Id == id)
+            {
+                return cliente;
+            }
+        }
+        return null;
+    }
+
+    private static int ContadorId = 1;
     
     /// <summary>
     /// Constructor de <see cref="Vendedor"/>
@@ -87,5 +103,6 @@ public class Vendedor
         this.Clientes = new List<Cliente>();
         this.Nombre = nombre;
         this.Clave = clave;
+        this.Id = ContadorId++;
     }
 }
