@@ -190,6 +190,15 @@ namespace Library.Fachadas
             return usuario.EliminarCliente(cliente);
         }
         
+        public bool EliminarUsuarioPorId(int id)
+        {
+            var usuario = _admin.Usuarios.FirstOrDefault(u => u.Id == id);
+            if (usuario == null) return false;
+
+            _admin.Usuarios.Remove(usuario);
+            return true;
+        }
+
         public int ObtenerTotalVentasPorPeriodo(Usuario usuario, int clienteId, DateTime desde, DateTime hasta)
         {
             if (usuario == null) return 0;
