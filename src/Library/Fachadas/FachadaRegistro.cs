@@ -43,6 +43,18 @@ namespace Library.Fachadas
         /// Lista de vendedores, almacena <see cref="Vendedor"/>
         /// </summary>
         public List<Vendedor> Vendedores = new List<Vendedor>();
+
+        public bool CrearVendedor(string nombre, string clave)
+        {
+            //verifica que no haya otro vendedor con ese nombre.
+            if (Vendedores.Any(v => v.Nombre == nombre))
+            {
+                return false;
+            }
+            Vendedor vendedor = new Vendedor(nombre, clave);
+            Vendedores.Add(vendedor);
+            return true;
+        }
         
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="FachadaRegistro"/>

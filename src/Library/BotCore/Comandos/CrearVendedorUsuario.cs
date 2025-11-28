@@ -24,7 +24,20 @@ public class CrearVendedorUsuario : IBotCommand
         
         if (_bot.Sesion.UsuarioActual is Usuario usuario)
         {
-            //TODO 
+            contexto.EnviarMensaje("Ingrese el nombre del vendedor:");
+            string nombre = contexto.EsperarRespuesta();
+            contexto.EnviarMensaje("Ingrese la clave del vendedor:");
+            string clave = contexto.EsperarRespuesta();
+            if (_fachada.CrearVendedor(nombre, clave))
+            {
+                contexto.EnviarMensaje("Vendedor creado correctamente.");
+                return true;
+            }
+            else
+            {
+                contexto.EnviarMensaje("ERROR: Ya existe un vendedor con ese nombre.");
+                return false;
+            }
         }
         contexto.EnviarMensaje("Hubo algún error.");
         return false;
