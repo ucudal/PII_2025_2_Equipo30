@@ -220,5 +220,11 @@ namespace Library.Fachadas
             return true;
         }
 
+        public PanelResumen ObtenerPanelResumen(Usuario usuario)
+        {
+            if (usuario == null) return null;
+            return usuario.ObtenerPanelResumen();
+        }
+
     }
 }

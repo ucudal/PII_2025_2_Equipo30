@@ -336,5 +336,46 @@ public class Usuario
 
         return false;
     }
+    
+    public PanelResumen ObtenerPanelResumen()
+    {
+        var panel = new PanelResumen();
+
+        // Total de clientes
+        panel.TotalClientes = Clientes.Count;
+
+        // Interacciones recientes (últimos 5 mensajes/llamadas/ventas)
+        foreach (var registro in Clientes)
+        {
+            // Mensajes enviados
+            foreach (var mensaje in registro.Mensajes.mensajesEnviados.TakeLast(2))
+            {
+                panel.InteraccionesRecientes.Add($"Mensaje: {mensaje.Texto} ({mensaje.Fecha})");
+            }
+
+            // Llamadas realizadas
+            foreach (var llamada in registro.Llamadas.Enviados.TakeLast(2))
+            {
+                panel.InteraccionesRecientes.Add($"Llamada: {llamada.Asunto} ({llamada.Fecha})");
+            }
+
+            // Ventas
+            foreach (var venta in registro.Ventas.ListaVentas.TakeLast(2))
+            {
+                panel.InteraccionesRecientes.Add($"Venta: {venta.Descripcion} - ${venta.Precio} ({venta.Fecha})");
+            }
+
+            // Reuniones próximas (filtramos por fecha futura)
+            if (registro.Reunion != null && DateTime.TryParse(registro.Reunion.Fecha, out DateTime fechaReunion))
+            {
+                if (fechaReunion >= DateTime.Now)
+                {
+                    panel.ReunionesProximas.Add(registro.Reunion);
+                }
+            }
+        }
+
+        return panel;
+    }
 
 }
