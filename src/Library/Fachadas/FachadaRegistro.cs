@@ -42,7 +42,7 @@ namespace Library.Fachadas
         /// <summary>
         /// Lista de vendedores, almacena <see cref="Vendedor"/>
         /// </summary>
-        private List<Vendedor> _vendedores = new List<Vendedor>();
+        public List<Vendedor> Vendedores = new List<Vendedor>();
         
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="FachadaRegistro"/>
@@ -67,7 +67,7 @@ namespace Library.Fachadas
 
         public Vendedor LoginVendedor(string nombre, string clave)
         {
-            return _vendedores.FirstOrDefault(v => v.Nombre == nombre && v.Clave == clave); //LINQ para buscar vendedor
+            return Vendedores.FirstOrDefault(v => v.Nombre == nombre && v.Clave == clave); //LINQ para buscar vendedor
         }
         
         // --- Historias de usuario ---

@@ -6,7 +6,7 @@
     public class Sesion
     {
         /// <summary>
-        /// Representa el tipo de usuario actual.
+        /// Representa el tipo de entidad actual (Admin, Usuario, Vendedor).
         /// </summary>
         public object UsuarioActual { get; private set; }
         /// <summary>
