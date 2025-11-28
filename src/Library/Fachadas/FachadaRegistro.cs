@@ -201,6 +201,15 @@ namespace Library.Fachadas
             if (usuario == null) return new List<Cliente>();
             return usuario.BuscarClientes(nombre, apellido, telefono, email);
         }
+        
+        public bool SuspenderUsuario(int id)
+        {
+            var usuario = _admin.Usuarios.FirstOrDefault(u => u.Id == id);
+            if (usuario == null) return false;
+
+            usuario.Suspendido = true; // Necesitas agregar esta propiedad en Usuario
+            return true;
+        }
 
     }
 }
