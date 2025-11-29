@@ -15,6 +15,12 @@ public class Vendedor
     /// </summary>
     public List<Cliente> Clientes { get; set; }
     
+    /// <summary>
+    /// Metodo para asistir con el logeo.
+    /// </summary>
+    /// <param name="nombre"></param>
+    /// <param name="clave"></param>
+    /// <returns>True si credenciales coinciden, False si no.</returns>
     public bool ValidarCredenciales(string nombre, string clave)
     {
         return this.Nombre == nombre && this.Clave == clave;
@@ -79,6 +85,11 @@ public class Vendedor
         return true;
     }
 
+    /// <summary>
+    /// Busca un <see cref="Cliente"/> por Id
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns><see cref="Cliente"/> si se encontró, null si no."/></returns>
     public Cliente BuscarClientePorId(int id)
     {
         foreach (var cliente in Clientes)

@@ -24,6 +24,12 @@ namespace Library.Fachadas
         /// </summary>
         public List<Vendedor> Vendedores = new List<Vendedor>();
 
+        /// <summary>
+        /// Crea un nuevo vendedor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="clave"></param>
+        /// <returns>True si se pudo crear al vendedor, False si no.</returns>
         public bool CrearVendedor(string nombre, string clave)
         {
             //verifica que no haya otro vendedor con ese nombre.
@@ -45,6 +51,12 @@ namespace Library.Fachadas
             _admin = new Administrador("admin", "admin");
         }
 
+        /// <summary>
+        /// Metodo para loguear a un administrador.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="clave"></param>
+        /// <returns>Instancia de administrador si se pudo logear o Null si no.</returns>
         public Administrador LoginAdministrador(string nombre, string clave)
         {
             if (_admin.Nombre == nombre && _admin.Clave == clave)
@@ -52,11 +64,23 @@ namespace Library.Fachadas
             return null;
         }
 
+        /// <summary>
+        /// Metodo para loguear a un usuario.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="clave"></param>
+        /// <returns>Instancia usuario si se pudo logear o Null si no.</returns>
         public Usuario LoginUsuario(string nombre, string clave)
         {
             return _admin.Usuarios.FirstOrDefault(u => u.Nombre == nombre && u.Clave == clave); //LINQ para buscar usuario
         }
 
+        /// <summary>
+        /// Metodo para loguear a un vendedor.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="clave"></param>
+        /// <returns>Instancia de vendedor si se pudo logear o Null si no.</returns>
         public Vendedor LoginVendedor(string nombre, string clave)
         {
             return Vendedores.FirstOrDefault(v => v.Nombre == nombre && v.Clave == clave); //LINQ para buscar vendedor
@@ -170,6 +194,11 @@ namespace Library.Fachadas
             return usuario.EliminarCliente(cliente);
         }
         
+        /// <summary>
+        /// Elimina a un usuario por Id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>True si se eliminó, False si no.</returns>
         public bool EliminarUsuarioPorId(int id)
         {
             var usuario = _admin.Usuarios.FirstOrDefault(u => u.Id == id);
@@ -179,18 +208,40 @@ namespace Library.Fachadas
             return true;
         }
 
+        /// <summary>
+        /// Obtiene un total de ventas en un periodo dado.
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <param name="clienteId"></param>
+        /// <param name="desde"></param>
+        /// <param name="hasta"></param>
+        /// <returns>int total de ventas.</returns>
         public int ObtenerTotalVentasPorPeriodo(Usuario usuario, int clienteId, DateTime desde, DateTime hasta)
         {
             if (usuario == null) return 0;
             return usuario.TotalVentasPorPeriodo(clienteId, desde, hasta);
         }
 
+        /// <summary>
+        /// Busca a un cliente por nombre, apellido, telefono o email.
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="telefono"></param>
+        /// <param name="email"></param>
+        /// <returns>Lista de clientes que coinciden.</returns>
         public List<Cliente> BuscarClientes(Usuario usuario, string nombre = null, string apellido = null, string telefono = null, string email = null)
         {
             if (usuario == null) return new List<Cliente>();
             return usuario.BuscarClientes(nombre, apellido, telefono, email);
         }
         
+        /// <summary>
+        /// Suspende a un usuario.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>True si se suspendió, False si no.</returns>
         public bool SuspenderUsuario(int id)
         {
             var usuario = _admin.Usuarios.FirstOrDefault(u => u.Id == id);
@@ -200,6 +251,11 @@ namespace Library.Fachadas
             return true;
         }
 
+        /// <summary>
+        /// Obtiene un panel resumen de un usuario.
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <returns>Panel resumen.</returns>
         public PanelResumen ObtenerPanelResumen(Usuario usuario)
         {
             if (usuario == null) return null;
