@@ -5,11 +5,22 @@ namespace Library.Tests;
 
 public class VendedorTests
 {
+    /// <summary>
+    /// Configuración previa a cada test.
+    /// Actualmente no realiza ninguna acción.
+    /// </summary>
     [SetUp]
     public void Setup()
     {
     }
 
+    /// <summary>
+    /// Prueba que un cliente pueda ser reasignado correctamente desde un vendedor a otro.
+    /// Verifica que:
+    /// - El método devuelva true.
+    /// - El cliente sea removido del primer vendedor.
+    /// - El cliente sea agregado al segundo vendedor.
+    /// </summary>
     [Test]
     public void AsignarClienteAotroVendedor()
     {
@@ -27,6 +38,11 @@ public class VendedorTests
         Assert.That(vendedor2.Clientes, Contains.Item(cliente));
     }
 
+    /// <summary>
+    /// Prueba que no se pueda reasignar un cliente que no pertenece al vendedor original.
+    /// Verifica que:
+    /// - El método devuelva false.
+    /// </summary>
     [Test]
     public void AsignarClienteAotroVendedor_SiNoExiste()
     {
@@ -39,7 +55,13 @@ public class VendedorTests
 
         Assert.That(resultado.Equals(false));
     }
-    
+
+    /// <summary>
+    /// Prueba la funcionalidad de listar clientes en un usuario.
+    /// Verifica que:
+    /// - La lista devuelta contenga la cantidad correcta.
+    /// - Estén los clientes correspondientes.
+    /// </summary>
     [Test]
     public void ListarClientes()
     {
@@ -56,7 +78,13 @@ public class VendedorTests
         Assert.That(lista, Contains.Item(cliente1));
         Assert.That(lista, Contains.Item(cliente2));
     }
-    
+
+    /// <summary>
+    /// Prueba actualizar un cliente agregándole una venta.
+    /// Verifica que:
+    /// - El método devuelva true.
+    /// - La venta quede registrada correctamente en el cliente.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConVenta()
     {
@@ -70,7 +98,13 @@ public class VendedorTests
         Assert.That(resultado, Is.True);
         Assert.That(usuario.Clientes[0].Ventas.ListaVentas, Contains.Item(venta));
     }
-    
+
+    /// <summary>
+    /// Prueba modificar la etiqueta de un cliente según su ID.
+    /// Verifica que:
+    /// - El método devuelva true.
+    /// - La etiqueta haya sido cambiada correctamente.
+    /// </summary>
     [Test]
     public void ModificarCliente_Etiqueta()
     {
@@ -83,7 +117,13 @@ public class VendedorTests
         Assert.That(resultado, Is.True);
         Assert.That(usuario.Clientes[0].Cliente.Etiqueta, Is.EqualTo("VIP"));
     }
-    
+
+    /// <summary>
+    /// Prueba actualizar un cliente agregándole una reunión.
+    /// Verifica que:
+    /// - El método devuelva true.
+    /// - La reunión quede registrada correctamente en el cliente.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConReunion()
     {
@@ -97,7 +137,4 @@ public class VendedorTests
         Assert.That(resultado, Is.True);
         Assert.That(usuario.Clientes[0].Reunion, Is.EqualTo(reunion));
     }
-    
-    
 }
-

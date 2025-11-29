@@ -378,4 +378,10 @@ public class Usuario
         return panel;
     }
 
+    private static int ContadorId = 1;
+    public Usuario()
+    {
+        this.Id = ContadorId++;
+    }
+
 }
