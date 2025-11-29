@@ -18,13 +18,21 @@ namespace Library.BotCore.Comandos
 
         private readonly BotCore _bot;
         private readonly FachadaRegistro _fachada;
-
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="fachada">Instancia FachadaRegistro.</param>
+        /// <param name="bot">Instancia BotCore.</param>
         public RegistroComunicacionUsuario(BotCore bot, FachadaRegistro fachada)
         {
             _bot = bot;
             _fachada = fachada;
         }
-
+        /// <summary>
+        /// Ejecuta el comando de comunicacion y utilisa los tipos de comunicacion como Llamada etc.
+        /// </summary>
+        /// <param name="contexto"></param>
+        /// <returns></returns>
         public bool Ejecutar(IMessageContext contexto)
         {
             // Validación de sesión y rol

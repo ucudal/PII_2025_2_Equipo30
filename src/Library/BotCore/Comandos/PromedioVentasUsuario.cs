@@ -4,19 +4,30 @@ using Library.Clases_principales;
 using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
-
+/// <summary>
+/// Genera el Promedio de Ventas de un Usuario.
+/// </summary>
 public class PromedioVentasUsuario : IBotCommand
 {
     public string Nombre { get; }
     public string Descripcion { get; }
     private BotCore _bot;
     private FachadaRegistro _fachada;
-
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="fachada">Instancia FachadaRegistro.</param>
+    /// <param name="bot">Instancia BotCore.</param>
     public PromedioVentasUsuario(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
+    /// <summary>
+    /// Ejecuta el generador de promedios.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
@@ -31,11 +42,11 @@ public class PromedioVentasUsuario : IBotCommand
             DateTime promedioFin;
             //Solicitar fechas
             contexto.EnviarMensaje($"Ingrese la fecha de inicio para calcular el periodo de ventas (DD/MM/AA):");
-            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
+            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
                     out promedioInicio))
             {
                 contexto.EnviarMensaje($"Ingrese la fecha de fin para calcular el periodo de ventas (DD/MM/AA):");
-                if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
+                if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
                         out promedioFin))
                 {
                     int ventasTotales = 0;

@@ -12,13 +12,21 @@ public class SuspenderUsuarioAdmin : IBotCommand
     public string Descripcion { get; } = "Permite suspender un usuario siendo administrador.";
     private readonly BotCore _bot;
     private readonly FachadaRegistro _fachada;
-
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="bot"></param>
+    /// <param name="fachada"></param>
     public SuspenderUsuarioAdmin(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
-
+    /// <summary>
+    /// Ejecuta el comando que suspende el usuario por Id.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Administrador")

@@ -3,20 +3,31 @@ using Library.Clases_principales;
 using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
-
+/// <summary>
+/// Lista todos los clientes del vendedor con sus datos.
+/// </summary>
 public class ListarVendedoresVendedorUsuario : IBotCommand
 {
     public string Nombre { get; } = "Listar clientes del vendedor.";
     public string Descripcion { get; } = "Lista todos los clientes del vendedor con sus datos e id";
     private BotCore _bot;
     private FachadaRegistro _fachada;
-
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="bot"></param>
+    /// <param name="fachada"></param>
     public ListarVendedoresVendedorUsuario(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
-
+    
+    /// <summary>
+    /// Ejecuta el comando que Lista los Vendedores.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Vendedor" || _bot.Sesion.Rol != "Usuario")
