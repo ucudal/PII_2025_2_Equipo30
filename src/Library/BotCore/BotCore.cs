@@ -1,4 +1,5 @@
-﻿using Library.BotCore.Interfaces;
+﻿using System.Runtime.CompilerServices;
+using Library.BotCore.Interfaces;
 
 namespace Library.BotCore;
 
@@ -49,30 +50,7 @@ public class BotCore
         }
         return texto;
     }
-
-
-    /// <summary>
-    /// Metodo para pasar un texto a numero.
-    /// </summary>
-    /// <param name="textoNumerico"></param>
-    /// <returns>
-    /// <c>int</c> si el texto númerico se pudo pasar a integer.
-    /// <c>null</c> si no se pudo transformar el texto númerico a integer.
-    /// </returns>
-    public int? TextoaNumero(string textoNumerico)
-    {
-        int numero = 0;
-        try
-        {
-            numero = int.Parse(textoNumerico);
-            return numero;
-        }
-        catch (Exception exception)
-        {
-            return null;
-        }
-    }
-
+    
     /// <summary>
     /// Procesa el número recibido por el tipo de usuario e intenta ejecutar el tipo de comando correspondiente.
     /// </summary>
@@ -84,22 +62,26 @@ public class BotCore
     /// </returns>
     public bool ProcesarOpcion(string texto, IMessageContext contexto)
     {
-        int? numeroOpcion = TextoaNumero(texto);
-
-        if (!numeroOpcion.HasValue)
+        int opcion;
+        IBotCommand comando;
+        if (int.TryParse(texto, out opcion))
         {
-            contexto.EnviarMensaje("⚠️ Opción no válida. Debes ingresar un número para ejecutar un comando.");
-            return false;
-        }
-
-        if (_comandos.TryGetValue(numeroOpcion.Value, out IBotCommand comando))
-        {
-            comando.Ejecutar(contexto); // ejecuta el comando
-            return true;
+            if (_comandos.TryGetValue(opcion, out comando))
+            {
+                comando.Ejecutar(contexto);
+                return true;
+            }
+            else
+            {
+                contexto.EnviarMensaje("El comando seleccionado no existe.");
+                contexto.EnviarMensaje(MostrarComandos());
+                return false;
+            }
         }
         else
         {
-            contexto.EnviarMensaje("❌ No existe un comando con ese número."); 
+            contexto.EnviarMensaje("El formato es incorrecto, porfavor, indique el comando con un numero.");
+            contexto.EnviarMensaje(MostrarComandos());
             return false;
         }
     }
