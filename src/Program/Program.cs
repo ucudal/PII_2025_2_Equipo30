@@ -44,7 +44,7 @@ class Program
         // Inicializar el puente
         new BotDiscordBridge(client, botCore);
 
-        await client.LoginAsync(TokenType.Bot, "MTQzNzkxNjcwNDgxMzYxNzQxMw.GRHtTY.KTonfCNx7ExCxMqjqQBwQ1xRLXIVfIbIFJZYLE");
+        await client.LoginAsync(TokenType.Bot, "PONE LA TOKEN DEL BOT ACA PAPURRI");
         await client.StartAsync();
 
         await Task.Delay(-1);
