@@ -6,11 +6,21 @@ namespace Library.Tests;
 
 public class UsuarioTests
 {
+    /// <summary>
+    /// Método ejecutado antes de cada prueba.
+    /// Actualmente no realiza ninguna inicialización específica.
+    /// </summary>
     [SetUp]
     public void Setup()
     {
     }
 
+    /// <summary>
+    /// Prueba la modificación de los datos de un cliente existente.
+    /// Verifica que:
+    /// - El método retorne true.
+    /// - El nombre del cliente sea actualizado correctamente.
+    /// </summary>
     [Test]
     public void ModificarCliente()
     {
@@ -24,6 +34,12 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Cliente.Nombre.Equals("Juana"));
     }
     
+    /// <summary>
+    /// Prueba la búsqueda de un cliente por su ID.
+    /// Verifica que:
+    /// - Se encuentre el cliente.
+    /// - El ID coincida con el esperado.
+    /// </summary>
     [Test]
     public void BuscarClientePorId()
     {
@@ -37,6 +53,12 @@ public class UsuarioTests
         Assert.That(5.Equals(resultado.Cliente.Id));
     }
 
+    /// <summary>
+    /// Prueba eliminar un cliente de la lista del usuario.
+    /// Verifica que:
+    /// - El método retorne true.
+    /// - La lista quede vacía.
+    /// </summary>
     [Test]
     public void EliminarCliente()
     {
@@ -50,6 +72,10 @@ public class UsuarioTests
         Assert.That(usuario.Clientes, Is.Empty );
     }
     
+    /// <summary>
+    /// Prueba actualizar un cliente agregando un mensaje enviado.
+    /// Verifica que quede registrado correctamente.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConMensaje()
     {
@@ -64,6 +90,10 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Mensajes.mensajesEnviados, Contains.Item(mensaje));
     }
     
+    /// <summary>
+    /// Prueba registrar un mensaje recibido para un cliente.
+    /// Verifica que se agregue correctamente a la lista de mensajes recibidos.
+    /// </summary>
     [Test]
     public void RegistrarMensajeRecibido()
     {
@@ -78,6 +108,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Mensajes.mensajesRecibidos, Contains.Item(mensaje));
     }
 
+    /// <summary>
+    /// Prueba actualizar un cliente agregando una llamada enviada.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConLlamada()
     {
@@ -92,6 +125,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Llamadas.Enviados, Contains.Item(llamada));
     }
     
+    /// <summary>
+    /// Prueba registrar una llamada recibida por un cliente.
+    /// </summary>
     [Test]
     public void RegistrarLlamadaRecibida()
     {
@@ -106,6 +142,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Llamadas.Recibidos, Contains.Item(llamada));
     }
 
+    /// <summary>
+    /// Prueba actualizar un cliente agregando un precio/cotización.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConPrecio()
     {
@@ -120,6 +159,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Precio, Is.EqualTo(precio));
     }
 
+    /// <summary>
+    /// Prueba actualizar un cliente agregando una reunión.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConReunion()
     {
@@ -134,6 +176,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Reunion, Is.EqualTo(reunion));
     }
 
+    /// <summary>
+    /// Prueba actualizar un cliente agregando una venta.
+    /// </summary>
     [Test]
     public void ActualizarCliente_ConVenta()
     {
@@ -148,6 +193,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Ventas.ListaVentas, Contains.Item(venta));
     }
 
+    /// <summary>
+    /// Prueba calcular el total de ventas de un cliente dentro de un período de tiempo.
+    /// </summary>
     [Test]
     public void TotalVentasPorPeriodo()
     {
@@ -163,6 +211,9 @@ public class UsuarioTests
         Assert.That(total, Is.EqualTo(2500));
     }
     
+    /// <summary>
+    /// Prueba agregar una etiqueta personalizada a un cliente.
+    /// </summary>
     [Test]
     public void AgregarEtiqueta()
     {
@@ -176,6 +227,9 @@ public class UsuarioTests
         Assert.That(usuario.Clientes[0].Cliente.Etiqueta, Is.EqualTo("Fidelizado"));
     }
     
+    /// <summary>
+    /// Prueba agregar una descripción adicional a una llamada enviada.
+    /// </summary>
     [Test]
     public void AgregarDescripcionALlamada()
     {
@@ -192,6 +246,9 @@ public class UsuarioTests
         Assert.That(llamada.Descripcion, Is.EqualTo("Cliente tenía dudas sobre el servicio premium"));
     }
 
+    /// <summary>
+    /// Prueba agregar una descripción adicional a un mensaje ya existente.
+    /// </summary>
     [Test]
     public void AgregarDescripcionAMensaje()
     {
@@ -208,6 +265,9 @@ public class UsuarioTests
         Assert.That(mensaje.Texto, Does.Contain("Mensaje relacionado a cotización"));
     }
     
+    /// <summary>
+    /// Prueba agregar una descripción adicional a una reunión.
+    /// </summary>
     [Test]
     public void AgregarDescripcionAReunion()
     {
@@ -224,6 +284,9 @@ public class UsuarioTests
         Assert.That(reunion.Descripcion, Is.EqualTo("Se presentó el nuevo catálogo de productos"));
     }
     
+    /// <summary>
+    /// Prueba agregar una descripción adicional a un email enviado.
+    /// </summary>
     [Test]
     public void AgregarDescripcionAEmail()
     {
@@ -240,5 +303,4 @@ public class UsuarioTests
         Assert.That(email.Descripcion, Is.EqualTo("Incluye detalles del paquete premium"));
     }
 
-    
 }
