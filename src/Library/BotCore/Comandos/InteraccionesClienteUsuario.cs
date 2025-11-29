@@ -36,7 +36,7 @@ public class InteraccionesClienteUsuario : IBotCommand
 
         if (_bot.Sesion.UsuarioActual is Usuario usuario)
         {
-            contexto.EnviarMensaje("Ingrese el id del cliente al cual va a asignar la cotización.");
+            contexto.EnviarMensaje("Ingrese el id del cliente para ver todas las interacciones.");
             try
             {
                 int id = int.Parse(contexto.EsperarRespuesta());

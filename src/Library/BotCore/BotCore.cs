@@ -84,5 +84,11 @@ public class BotCore
             contexto.EnviarMensaje(MostrarComandos());
             return false;
         }
+        contexto.EnviarMensaje(MostrarComandos());
+    }
+
+    public void EnviarMensaje(string texto, IMessageContext contexto)
+    {
+        contexto.EnviarMensaje(texto);
     }
 }

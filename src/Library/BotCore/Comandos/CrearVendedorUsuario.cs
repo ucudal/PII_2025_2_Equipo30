@@ -13,6 +13,12 @@ public class CrearVendedorUsuario : IBotCommand
     public string Descripcion { get; }
     private BotCore _bot;
     private FachadaRegistro _fachada;
+
+    public CrearVendedorUsuario(BotCore bot, FachadaRegistro fachada)
+    {
+        _bot = bot;
+        _fachada = fachada;
+    }
     
     public bool Ejecutar(IMessageContext contexto)
     {

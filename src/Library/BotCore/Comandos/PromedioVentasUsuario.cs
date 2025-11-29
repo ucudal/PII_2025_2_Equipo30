@@ -7,7 +7,7 @@ namespace Library.BotCore.Comandos;
 
 public class PromedioVentasUsuario : IBotCommand
 {
-    public string Nombre { get; }
+    public string Nombre { get; } = "Promedio de Ventas";
     public string Descripcion { get; }
     private BotCore _bot;
     private FachadaRegistro _fachada;
