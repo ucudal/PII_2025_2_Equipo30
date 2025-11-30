@@ -66,7 +66,7 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 
 ## Reflexión Final del Proyecto
 
-> **Por último, este tipo de proyecto no solo nos ayudó a mejorar nuestras habilidades técnicas, sino también a tener la posibilidad de trabajar en grupo y fortalecer habilidades blandas, como por ejemplo la comunicación, teniendo en cuenta que es una de las más importantes a la hora de trabajar: _si algo no se comunica, no se entiende, no se integra y no avanza_. Por otro lado, también nos permitió mejorar la organización, el orden y el respeto a lo largo de todo el proceso de este proyecto.**
+ **Por último, este tipo de proyecto no solo nos ayudó a mejorar nuestras habilidades técnicas, sino también a tener la posibilidad de trabajar en grupo y fortalecer habilidades blandas, como por ejemplo la comunicación, teniendo en cuenta que es una de las más importantes a la hora de trabajar: _si algo no se comunica, no se entiende, no se integra y no avanza_. Por otro lado, también nos permitió mejorar la organización, el orden y el respeto a lo largo de todo el proceso de este proyecto.**
 
 ---
 
