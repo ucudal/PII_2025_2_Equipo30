@@ -60,15 +60,32 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
   Realizar un sistema de recepción y envios de mensajes escalable y extensible para futuramente implementar con la API fue un verdadero desafío pues al desconocer a ciencia cierta
                                      el funcionamiento de las APIs tener que diseñar el botcore a "ciegas" no fue nada facil, afortunadamente aplicando ciertas caracteristicas del patrón SOLID se pudo lograr un diseño prometedor.**  
  
+## Reflexión Final del Proyecto
+
+ **Por último, este tipo de proyecto no solo nos ayudó a mejorar nuestras habilidades técnicas, sino también a tener la posibilidad de trabajar en grupo y fortalecer habilidades blandas, como por ejemplo la comunicación, teniendo en cuenta que es una de las más importantes a la hora de trabajar: "_si algo no se comunica, no se entiende, no se integra y no avanza_". Por otro lado, también nos permitió mejorar la organización, el orden y el respeto a lo largo de todo el proceso de este proyecto.**
+
+---
+
+## Agradecimientos
+
+Queremos expresar nuestro agradecimiento a:
+
+- Nuestro profesor **Jorge Martínez**
+- Nuestra ayudante **Juana López** 
+- **Nuestras familias**, por su apoyo, comprensión y acompañamiento durante todo este proceso.
+
 
 ---
 
 ## Tecnologías utilizadas
 
 - Lenguaje principal: C#  
-- Frameworks o librerías:  
+- Frameworks o librerías: Discord.NET  
 - Herramientas de control de versiones: Git y GitHub
 - Herramienta de gestión de proyecto: Trello
+- Api: Discord API
+- Herramientas generales: Canva, Doxygen, ClipChamp, Microsoft Word
+- IDE: Jetbrains Rider
 
 ---
 
