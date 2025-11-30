@@ -38,14 +38,15 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 - [**Informe & Tarjetas CRC**](https://docs.google.com/document/d/1IcK2Qds76VBsQNn_tbTL15GHuroAupoT/edit?usp=drive_link&ouid=114373684461076415920&rtpof=true&sd=true)
 - [**Historias De Usuario BOT CORE**](https://docs.google.com/document/d/1gokicN-E-mH8XW8sk8x3_lTA2epfpu3lMCv_7lvzzlI/edit?tab=t.0)
 - [**Flujo de la lógica**](https://docs.google.com/document/d/1RTaWC1s5vCUZR3403XroSm7rdRrt_VOOXBJ4RUGmzsE/edit?tab=t.0)
-- [**Video BOT CORE**]()
+- [**Video BOT CORE**](https://www.youtube.com/watch?v=doZsXBkPkL8)
 ## Notas de reflexión del equipo
 
 - **Desafíos más difíciles:
   Para nosotros, los desafíos más difíciles fueron entender correctamente la consigna, ya que en algunos casos, al momento de tomar decisiones, la redacción generaba confusiones o redundancias.
                             Además, comprender la parte del Bot Core y determinar hasta qué punto avanzar correctamente también representó una dificultad.
                             Aun así, fue una muy buena experiencia, ya que pudimos practicar la aplicación de patrones de diseño y reflexionar sobre si estábamos utilizando los principios SOLID y GRASP de forma adecuada.
-                            Otro de los desafíos fue ordenar el código existente. Nos llevó tiempo aplicar los comentarios, generar la documentación con Doxygen y mantener una estructura clara y organizada del proyecto.**  
+                            Otro de los desafíos fue ordenar el código existente. Nos llevó tiempo aplicar los comentarios, generar la documentación con Doxygen y mantener una estructura clara y organizada del proyecto.
+                            Otro desafío fue poder implementar el bot de discord ya que no teníamos idea de como funcinaba la librería Discord.NET**  
 
 - **Aprendizajes extra-clase:
   Trabajamos en mejorar la calidad de nuestras historias de usuario, buscando que fueran más profesionales.
@@ -81,7 +82,7 @@ Queremos expresar nuestro agradecimiento a:
 ## Tecnologías utilizadas
 
 - Lenguaje principal: C#  
-- Frameworks o librerías: Discord.NET  
+- Frameworks o librerías: Discord.NET 
 - Herramientas de control de versiones: Git y GitHub
 - Herramienta de gestión de proyecto: Trello
 - Api: Discord API
