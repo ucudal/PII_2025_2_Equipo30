@@ -75,7 +75,7 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 Queremos expresar nuestro agradecimiento a:
 
 - Nuestro profesor **Jorge Martínez**
-- Nuestra asistente **Juana López** 
+- Nuestra ayudante **Juana López** 
 - **Nuestras familias**, por su apoyo, comprensión y acompañamiento durante todo este proceso.
 
 
