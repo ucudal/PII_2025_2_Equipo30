@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['sesion_0',['Sesion',['../class_library_1_1_bot_core_1_1_sesion.html',1,'Library.BotCore.Sesion'],['../class_library_1_1_bot_core_1_1_bot_core.html#ae55a562eedbc93f5f6b3f7f5705e60ae',1,'Library.BotCore.BotCore.Sesion']]],
+  ['sesion_2ecs_1',['Sesion.cs',['../_sesion_8cs.html',1,'']]],
+  ['setup_2',['Setup',['../class_library_1_1_tests_1_1_administrador_test.html#ad9954e1349322c3eb86a5b8c9bd4a025',1,'Library.Tests.AdministradorTest.Setup()'],['../class_library_1_1_tests_1_1_bot_core_test.html#a42dfb0584c4a81a658ce6176b59b3afe',1,'Library.Tests.BotCoreTest.Setup()'],['../class_library_1_1_tests_1_1_comandos_bot_test.html#a1919c37436f0facd82afc94d5b36897a',1,'Library.Tests.ComandosBotTest.Setup()'],['../class_library_1_1_tests_1_1_fachada_registro_test.html#a3f8b1692898a9b1eb05afd615e3d6b8c',1,'Library.Tests.FachadaRegistroTest.Setup()'],['../class_library_1_1_tests_1_1_registro_clientes_tests.html#a144fe2aa8c9f6643f2b706e6091f7dde',1,'Library.Tests.RegistroClientesTests.Setup()'],['../class_library_1_1_tests_1_1_tests.html#a71b86714c60ce7dcdb9113ac705b41a9',1,'Library.Tests.Tests.Setup()'],['../class_library_1_1_tests_1_1_usuario_tests.html#a515ffff10aa511cb84608aa4edba34ec',1,'Library.Tests.UsuarioTests.Setup()'],['../class_library_1_1_tests_1_1_vendedor_tests.html#a563d04bc2f7f1b939dda34203f26bad5',1,'Library.Tests.VendedorTests.Setup()']]],
+  ['singleton_2d1_2dg_3',['Singleton-1-g',['../class_library_1_1_fachadas_1_1_singleton-1-g.html',1,'Library::Fachadas']]],
+  ['singleton_2ecs_4',['Singleton.cs',['../_singleton_8cs.html',1,'']]],
+  ['suspenderusuario_5',['SuspenderUsuario',['../class_library_1_1_fachadas_1_1_fachada_registro.html#a9fd6fdb78887fee52f535127da43548b',1,'Library::Fachadas::FachadaRegistro']]],
+  ['suspenderusuario_5fdeberiamarcarusuariocomosuspendido_6',['SuspenderUsuario_DeberiaMarcarUsuarioComoSuspendido',['../class_library_1_1_tests_1_1_comandos_bot_test.html#a9f372145065abea625615a22e1620561',1,'Library::Tests::ComandosBotTest']]],
+  ['suspenderusuarioadmin_7',['SuspenderUsuarioAdmin',['../class_library_1_1_bot_core_1_1_comandos_1_1_suspender_usuario_admin.html',1,'Library.BotCore.Comandos.SuspenderUsuarioAdmin'],['../class_library_1_1_bot_core_1_1_comandos_1_1_suspender_usuario_admin.html#a5b99b022018308bf5818560a45e98cc9',1,'Library.BotCore.Comandos.SuspenderUsuarioAdmin.SuspenderUsuarioAdmin()']]],
+  ['suspenderusuarioadmin_2ecs_8',['SuspenderUsuarioAdmin.cs',['../_suspender_usuario_admin_8cs.html',1,'']]],
+  ['suspendido_9',['Suspendido',['../class_library_1_1_clases__principales_1_1_usuario.html#a68a3edf11ef8947091d24321d90d2a6c',1,'Library::Clases_principales::Usuario']]]
+];

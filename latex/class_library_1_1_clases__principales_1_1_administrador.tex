@@ -1,0 +1,131 @@
+\doxysection{Library.\+Clases\+\_\+principales.\+Administrador Class Reference}
+\hypertarget{class_library_1_1_clases__principales_1_1_administrador}{}\label{class_library_1_1_clases__principales_1_1_administrador}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+
+
+Administra y almacena una lista de \doxylink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}} \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_ae749745377d65f856f4faa36be74438a}{Crear\+Usuario}} (string nombre, string clave)
+\begin{DoxyCompactList}\small\item\em Crea un usuario y lo agrega a la lista de usuarios. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_a52cc875b7327c053b7b37ce443429740}{Eliminar\+Usuario}} (string nombre)
+\begin{DoxyCompactList}\small\item\em Elimina el usuario de la lista de usuarios. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_ac60b9fefe51945465814a4589361e365}{Administrador}} (string nombre, string clave)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_a3fba5098c8ab7d1ca7ddc8dd81848c14}{Nombre}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_a584524fb7d0671d98a24a48e33af2b7f}{Clave}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}} $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_administrador_ab25f362a13ac6be1fb72484c01bcfe0b}{Usuarios}} = new List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Lista de usuarios que administra. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Administra y almacena una lista de \doxylink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}. 
+
+Esta clase puede crear y eliminar usuarios. 
+
+\label{doc-constructors}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_ac60b9fefe51945465814a4589361e365}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!Administrador@{Administrador}}
+\index{Administrador@{Administrador}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{Administrador()}{Administrador()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_ac60b9fefe51945465814a4589361e365} 
+Library.\+Clases\+\_\+principales.\+Administrador.\+Administrador (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{clave}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del administrador.\\
+\hline
+{\em clave} & Clave del administrador.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_ae749745377d65f856f4faa36be74438a}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!CrearUsuario@{CrearUsuario}}
+\index{CrearUsuario@{CrearUsuario}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{CrearUsuario()}{CrearUsuario()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_ae749745377d65f856f4faa36be74438a} 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}} Library.\+Clases\+\_\+principales.\+Administrador.\+Crear\+Usuario (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{clave}{}\end{DoxyParamCaption})}
+
+
+
+Crea un usuario y lo agrega a la lista de usuarios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del usuario a crear.\\
+\hline
+{\em clave} & Clave de acceso del usuario.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily \doxylink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}} si el usuario fue creado correctamente. {\ttfamily Null} si ya existe un \doxylink{class_library_1_1_clases__principales_1_1_usuario}{Usuario} con el mismo nombre. 
+\end{DoxyReturn}
+
+
+El método verifica primero si ya existe un usuario con el nombre indicado. Si el nombre ya está en uso, no se crea un nuevo usuario y se devuelve {\ttfamily Null}. \Hypertarget{class_library_1_1_clases__principales_1_1_administrador_a52cc875b7327c053b7b37ce443429740}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!EliminarUsuario@{EliminarUsuario}}
+\index{EliminarUsuario@{EliminarUsuario}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{EliminarUsuario()}{EliminarUsuario()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_a52cc875b7327c053b7b37ce443429740} 
+bool Library.\+Clases\+\_\+principales.\+Administrador.\+Eliminar\+Usuario (\begin{DoxyParamCaption}\item[{string}]{nombre}{}\end{DoxyParamCaption})}
+
+
+
+Elimina el usuario de la lista de usuarios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del usuario a eliminar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}Si se encontró un usuario con el mismo nombre y se eliminó. {\ttfamily false}Si no se encontró a un usuario con ese nombre. 
+\end{DoxyReturn}
+
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_a584524fb7d0671d98a24a48e33af2b7f}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!Clave@{Clave}}
+\index{Clave@{Clave}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{Clave}{Clave}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_a584524fb7d0671d98a24a48e33af2b7f} 
+string Library.\+Clases\+\_\+principales.\+Administrador.\+Clave\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_a3fba5098c8ab7d1ca7ddc8dd81848c14}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!Nombre@{Nombre}}
+\index{Nombre@{Nombre}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{Nombre}{Nombre}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_a3fba5098c8ab7d1ca7ddc8dd81848c14} 
+string Library.\+Clases\+\_\+principales.\+Administrador.\+Nombre\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_administrador_ab25f362a13ac6be1fb72484c01bcfe0b}\index{Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}!Usuarios@{Usuarios}}
+\index{Usuarios@{Usuarios}!Library.Clases\_principales.Administrador@{Library.Clases\_principales.Administrador}}
+\doxysubsubsection{\texorpdfstring{Usuarios}{Usuarios}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_administrador_ab25f362a13ac6be1fb72484c01bcfe0b} 
+List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}}$>$ Library.\+Clases\+\_\+principales.\+Administrador.\+Usuarios = new List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario}{Usuario}}$>$()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Lista de usuarios que administra. 
+
+Contiene \doxylink{class_library_1_1_clases__principales_1_1_usuario}{Usuario} 
+
+La lista no puede contener dos usuarios con el mismo nombre.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Clases principales/\mbox{\hyperlink{_administrador_8cs}{Administrador.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,462 @@
+\doxysection{Library.\+Clases\+\_\+principales.\+Usuario Class Reference}
+\hypertarget{class_library_1_1_clases__principales_1_1_usuario}{}\label{class_library_1_1_clases__principales_1_1_usuario}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+
+
+Administra y almacena una lista de \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a3bfd29febb70cccc93effd70c6b9670d}{Modificar\+Cliente}} (int id, string nuevo\+Nombre=null, string nuevo\+Apellido=null, string nuevo\+Telefono=null, string nuevo\+Email=null, string nuevo\+Genero=null, string nuevo\+Cumple=null, string nueva\+Etiqueta=null)
+\begin{DoxyCompactList}\small\item\em Modifica uno o más datos de un cliente en \doxylink{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}{Clientes}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a74435b525f5caa980def30cd13bb33d9}{Agregar\+Etiqueta}} (int cliente\+Id, string etiqueta)
+\begin{DoxyCompactList}\small\item\em Agrega una etiqueta a un cliente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a1ebd800051972b28662c8e8a2e36c4ca}{Eliminar\+Cliente}} (\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} cliente)
+\begin{DoxyCompactList}\small\item\em Elimina a un cliente de la lista \doxylink{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}{Clientes}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}} \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a69feac9920f2353e1c76dadfc361b919}{Buscar\+Cliente\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Busca a un cliente por id. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a20024cfbd2918b4f176c742b30ef232d}{Listar\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene una lista de todos los clientes registrados. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a1ab88c5cc95530a5ec7bf2bfdcd9a4a3}{Actualizar\+Cliente}} (int cliente\+Id, object dato)
+\begin{DoxyCompactList}\small\item\em Actualiza la información del {\ttfamily registro\+Cliente} de un cliente identificado por su ID, agregando o modificando datos según el tipo del objeto proporcionado. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a7c9835fff54af98c3d84650a8527148e}{Registrar\+Mensaje\+Recibido}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje}} mensaje)
+\begin{DoxyCompactList}\small\item\em Registra un mensaje recibido por un cliente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a1ae50717a72b76dfaf5be12ca6fa20ca}{Registrar\+Llamada\+Recibida}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada}} llamada)
+\begin{DoxyCompactList}\small\item\em Registra una llamada recibida por un cliente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a863afa93bd8c7266f91fd56fe34f3431}{Total\+Ventas\+Por\+Periodo}} (int cliente\+Id, Date\+Time desde, Date\+Time hasta)
+\begin{DoxyCompactList}\small\item\em Devuelve un total de ventas por periodo. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_ae7137aa6d3671d036391c65155024fa7}{Buscar\+Clientes}} (string nombre=null, string apellido=null, string telefono=null, string email=null)
+\begin{DoxyCompactList}\small\item\em Busca un cliente por nombre, apellido, telefono o email. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a6bc80b4ef48a0ab22d19d614469baff2}{Agregar\+Descripcion\+ALlamada}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada}} llamada, string descripcion)
+\begin{DoxyCompactList}\small\item\em Agrega una descripción a una llamada. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a8a4e54fb7ac6101893f3b4fb779c5bf0}{Agregar\+Descripcion\+AMensaje}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje}} mensaje, string descripcion)
+\begin{DoxyCompactList}\small\item\em Agrega una descripción a un mensaje. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_af96b35811d5ca8a5d7b7f9a9a9caee80}{Agregar\+Descripcion\+AReunion}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_reunion}{Reunion}} reunion, string descripcion)
+\begin{DoxyCompactList}\small\item\em Agrega una descripción a una reunion. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a792d2cce51efbe1a36e873c87c23c078}{Agregar\+Descripcion\+AEmail}} (int cliente\+Id, \mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_email}{Email}} email, string descripcion)
+\begin{DoxyCompactList}\small\item\em Agrega una descripción a un \doxylink{class_library_1_1_clases__tipos_1_1_email}{Email}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_panel_resumen}{Panel\+Resumen}} \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a03f0a16f4653603464e69b788f8a6342}{Obtener\+Panel\+Resumen}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve un \doxylink{class_library_1_1_clases__principales_1_1_panel_resumen}{Panel\+Resumen} con toda la información resumida. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_aba13ab6430e5e149325d840c736b7c91}{Usuario}} ()
+\begin{DoxyCompactList}\small\item\em Constructor (asigna id automaticamente). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}} $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}{Clientes}} = new List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}}$>$()
+\begin{DoxyCompactList}\small\item\em Lista de \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente} que contiene al \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} y sus interacciones. \end{DoxyCompactList}\item 
+Dictionary$<$ int, string $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a1af4e41bd862e65e77997d967bf33366}{Etiquetas}} = new Dictionary$<$int, string$>$()
+\begin{DoxyCompactList}\small\item\em Lista de etiquetas creadas por el usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_abc0b9498762e172ec601368dde6a127b}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a9ca51773455ab1dd9a1a00e1b731ef5a}{Nombre}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_aba454dd01dcbefaf40b3a4dd8eddf269}{Clave}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_usuario_a68a3edf11ef8947091d24321d90d2a6c}{Suspendido}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Administra y almacena una lista de \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}. 
+
+\label{doc-constructors}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_aba13ab6430e5e149325d840c736b7c91}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_aba13ab6430e5e149325d840c736b7c91} 
+Library.\+Clases\+\_\+principales.\+Usuario.\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructor (asigna id automaticamente). 
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a1ab88c5cc95530a5ec7bf2bfdcd9a4a3}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!ActualizarCliente@{ActualizarCliente}}
+\index{ActualizarCliente@{ActualizarCliente}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{ActualizarCliente()}{ActualizarCliente()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a1ab88c5cc95530a5ec7bf2bfdcd9a4a3} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Actualizar\+Cliente (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{object}]{dato}{}\end{DoxyParamCaption})}
+
+
+
+Actualiza la información del {\ttfamily registro\+Cliente} de un cliente identificado por su ID, agregando o modificando datos según el tipo del objeto proporcionado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & Identificador único del cliente a actualizar.\\
+\hline
+{\em dato} & Objeto que contiene la información a actualizar. Puede ser una instancia de \doxylink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje}, \doxylink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada}, \doxylink{class_library_1_1_clases__tipos_1_1_precio}{Precio}, \doxylink{class_library_1_1_clases__tipos_1_1_reunion}{Reunion} o \doxylink{class_library_1_1_clases__tipos_1_1_venta}{Venta}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} si el cliente fue encontrado y la actualización se realizó correctamente; ~\newline
+ {\ttfamily false} si no se encontró el cliente o el tipo de dato no es válido. 
+\end{DoxyReturn}
+
+
+Este método busca el cliente por su identificador mediante {\ttfamily Buscar\+Cliente\+Por\+Id}. Dependiendo del tipo del objeto {\itshape dato} , actualiza diferentes colecciones o propiedades dentro del registro del cliente\+: 
+\begin{DoxyItemize}
+\item \doxylink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje} → Se agrega a la lista de mensajes enviados. 
+\item \doxylink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada} → Se agrega a la lista de llamadas realizadas. 
+\item \doxylink{class_library_1_1_clases__tipos_1_1_precio}{Precio} → Se registra el nuevo precio asociado. 
+\item \doxylink{class_library_1_1_clases__tipos_1_1_reunion}{Reunion} → Se asigna la reunión actual del cliente. 
+\item \doxylink{class_library_1_1_clases__tipos_1_1_venta}{Venta} → Se agrega a la lista de ventas realizadas. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a792d2cce51efbe1a36e873c87c23c078}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!AgregarDescripcionAEmail@{AgregarDescripcionAEmail}}
+\index{AgregarDescripcionAEmail@{AgregarDescripcionAEmail}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{AgregarDescripcionAEmail()}{AgregarDescripcionAEmail()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a792d2cce51efbe1a36e873c87c23c078} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Agregar\+Descripcion\+AEmail (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_email}{Email}}}]{email}{, }\item[{string}]{descripcion}{}\end{DoxyParamCaption})}
+
+
+
+Agrega una descripción a un \doxylink{class_library_1_1_clases__tipos_1_1_email}{Email}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & \\
+\hline
+{\em email} & \\
+\hline
+{\em descripcion} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a6bc80b4ef48a0ab22d19d614469baff2}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!AgregarDescripcionALlamada@{AgregarDescripcionALlamada}}
+\index{AgregarDescripcionALlamada@{AgregarDescripcionALlamada}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{AgregarDescripcionALlamada()}{AgregarDescripcionALlamada()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a6bc80b4ef48a0ab22d19d614469baff2} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Agregar\+Descripcion\+ALlamada (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada}}}]{llamada}{, }\item[{string}]{descripcion}{}\end{DoxyParamCaption})}
+
+
+
+Agrega una descripción a una llamada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & \\
+\hline
+{\em llamada} & \\
+\hline
+{\em descripcion} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a8a4e54fb7ac6101893f3b4fb779c5bf0}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!AgregarDescripcionAMensaje@{AgregarDescripcionAMensaje}}
+\index{AgregarDescripcionAMensaje@{AgregarDescripcionAMensaje}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{AgregarDescripcionAMensaje()}{AgregarDescripcionAMensaje()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a8a4e54fb7ac6101893f3b4fb779c5bf0} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Agregar\+Descripcion\+AMensaje (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje}}}]{mensaje}{, }\item[{string}]{descripcion}{}\end{DoxyParamCaption})}
+
+
+
+Agrega una descripción a un mensaje. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & \\
+\hline
+{\em mensaje} & \\
+\hline
+{\em descripcion} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_af96b35811d5ca8a5d7b7f9a9a9caee80}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!AgregarDescripcionAReunion@{AgregarDescripcionAReunion}}
+\index{AgregarDescripcionAReunion@{AgregarDescripcionAReunion}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{AgregarDescripcionAReunion()}{AgregarDescripcionAReunion()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_af96b35811d5ca8a5d7b7f9a9a9caee80} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Agregar\+Descripcion\+AReunion (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_reunion}{Reunion}}}]{reunion}{, }\item[{string}]{descripcion}{}\end{DoxyParamCaption})}
+
+
+
+Agrega una descripción a una reunion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & \\
+\hline
+{\em reunion} & \\
+\hline
+{\em descripcion} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a74435b525f5caa980def30cd13bb33d9}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!AgregarEtiqueta@{AgregarEtiqueta}}
+\index{AgregarEtiqueta@{AgregarEtiqueta}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{AgregarEtiqueta()}{AgregarEtiqueta()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a74435b525f5caa980def30cd13bb33d9} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Agregar\+Etiqueta (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{string}]{etiqueta}{}\end{DoxyParamCaption})}
+
+
+
+Agrega una etiqueta a un cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & Id del cliente.\\
+\hline
+{\em etiqueta} & Etiqueta existente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a69feac9920f2353e1c76dadfc361b919}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!BuscarClientePorId@{BuscarClientePorId}}
+\index{BuscarClientePorId@{BuscarClientePorId}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{BuscarClientePorId()}{BuscarClientePorId()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a69feac9920f2353e1c76dadfc361b919} 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}} Library.\+Clases\+\_\+principales.\+Usuario.\+Buscar\+Cliente\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Busca a un cliente por id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id del cliente a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}} si se encontró al cliente. {\ttfamily Null} si no se encontró al cliente. 
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_ae7137aa6d3671d036391c65155024fa7}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!BuscarClientes@{BuscarClientes}}
+\index{BuscarClientes@{BuscarClientes}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{BuscarClientes()}{BuscarClientes()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_ae7137aa6d3671d036391c65155024fa7} 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} $>$ Library.\+Clases\+\_\+principales.\+Usuario.\+Buscar\+Clientes (\begin{DoxyParamCaption}\item[{string}]{nombre}{ = {\ttfamily null}, }\item[{string}]{apellido}{ = {\ttfamily null}, }\item[{string}]{telefono}{ = {\ttfamily null}, }\item[{string}]{email}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Busca un cliente por nombre, apellido, telefono o email. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & \\
+\hline
+{\em apellido} & \\
+\hline
+{\em telefono} & \\
+\hline
+{\em email} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Una lista con clientes que coinciden con la busqueda.
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a1ebd800051972b28662c8e8a2e36c4ca}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!EliminarCliente@{EliminarCliente}}
+\index{EliminarCliente@{EliminarCliente}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{EliminarCliente()}{EliminarCliente()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a1ebd800051972b28662c8e8a2e36c4ca} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Eliminar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}}}]{cliente}{}\end{DoxyParamCaption})}
+
+
+
+Elimina a un cliente de la lista \doxylink{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}{Clientes}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} a eliminar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} Si se encontro y eliminó al cliente. {\ttfamily false} Si no se encontó o no se eliminó al cliente. 
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a20024cfbd2918b4f176c742b30ef232d}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!ListarClientes@{ListarClientes}}
+\index{ListarClientes@{ListarClientes}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{ListarClientes()}{ListarClientes()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a20024cfbd2918b4f176c742b30ef232d} 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} $>$ Library.\+Clases\+\_\+principales.\+Usuario.\+Listar\+Clientes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene una lista de todos los clientes registrados. 
+
+\begin{DoxyReturn}{Returns}
+Una lista de \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} que representan todos los clientes actualmente registrados. 
+\end{DoxyReturn}
+
+
+Este método recorre la colección interna {\ttfamily Clientes} y extrae cada objeto \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} asociado, devolviendo una nueva lista. \Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a3bfd29febb70cccc93effd70c6b9670d}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!ModificarCliente@{ModificarCliente}}
+\index{ModificarCliente@{ModificarCliente}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{ModificarCliente()}{ModificarCliente()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a3bfd29febb70cccc93effd70c6b9670d} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Modificar\+Cliente (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{string}]{nuevo\+Nombre}{ = {\ttfamily null}, }\item[{string}]{nuevo\+Apellido}{ = {\ttfamily null}, }\item[{string}]{nuevo\+Telefono}{ = {\ttfamily null}, }\item[{string}]{nuevo\+Email}{ = {\ttfamily null}, }\item[{string}]{nuevo\+Genero}{ = {\ttfamily null}, }\item[{string}]{nuevo\+Cumple}{ = {\ttfamily null}, }\item[{string}]{nueva\+Etiqueta}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Modifica uno o más datos de un cliente en \doxylink{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}{Clientes}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id del cliente que se quiere modificar.\\
+\hline
+{\em nuevo\+Nombre} & Nuevo nombre del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}.\\
+\hline
+{\em nuevo\+Apellido} & Nuevo apellido del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em nuevo\+Telefono} & Nuevo telefono del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em nuevo\+Email} & Nuevo \doxylink{class_library_1_1_clases__tipos_1_1_email}{Email} del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em nuevo\+Genero} & Nuevo Genero del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em nuevo\+Cumple} & Nueva fecha de nacimiento del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em nueva\+Etiqueta} & Nueva etiqueta del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} Si se encontró el campo a modificar y se modificó. {\ttfamily false} Si no se encontró al cliente. 
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a03f0a16f4653603464e69b788f8a6342}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!ObtenerPanelResumen@{ObtenerPanelResumen}}
+\index{ObtenerPanelResumen@{ObtenerPanelResumen}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{ObtenerPanelResumen()}{ObtenerPanelResumen()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a03f0a16f4653603464e69b788f8a6342} 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_panel_resumen}{Panel\+Resumen}} Library.\+Clases\+\_\+principales.\+Usuario.\+Obtener\+Panel\+Resumen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Devuelve un \doxylink{class_library_1_1_clases__principales_1_1_panel_resumen}{Panel\+Resumen} con toda la información resumida. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a1ae50717a72b76dfaf5be12ca6fa20ca}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!RegistrarLlamadaRecibida@{RegistrarLlamadaRecibida}}
+\index{RegistrarLlamadaRecibida@{RegistrarLlamadaRecibida}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{RegistrarLlamadaRecibida()}{RegistrarLlamadaRecibida()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a1ae50717a72b76dfaf5be12ca6fa20ca} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Registrar\+Llamada\+Recibida (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada}}}]{llamada}{}\end{DoxyParamCaption})}
+
+
+
+Registra una llamada recibida por un cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & Id del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}\\
+\hline
+{\em llamada} & \doxylink{class_library_1_1_clases__tipos_1_1_llamada}{Llamada} recibida.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a7c9835fff54af98c3d84650a8527148e}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!RegistrarMensajeRecibido@{RegistrarMensajeRecibido}}
+\index{RegistrarMensajeRecibido@{RegistrarMensajeRecibido}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{RegistrarMensajeRecibido()}{RegistrarMensajeRecibido()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a7c9835fff54af98c3d84650a8527148e} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Registrar\+Mensaje\+Recibido (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje}}}]{mensaje}{}\end{DoxyParamCaption})}
+
+
+
+Registra un mensaje recibido por un cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & Id del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}.\\
+\hline
+{\em mensaje} & \doxylink{class_library_1_1_clases__tipos_1_1_mensaje}{Mensaje} recibido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a863afa93bd8c7266f91fd56fe34f3431}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!TotalVentasPorPeriodo@{TotalVentasPorPeriodo}}
+\index{TotalVentasPorPeriodo@{TotalVentasPorPeriodo}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{TotalVentasPorPeriodo()}{TotalVentasPorPeriodo()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a863afa93bd8c7266f91fd56fe34f3431} 
+int Library.\+Clases\+\_\+principales.\+Usuario.\+Total\+Ventas\+Por\+Periodo (\begin{DoxyParamCaption}\item[{int}]{cliente\+Id}{, }\item[{Date\+Time}]{desde}{, }\item[{Date\+Time}]{hasta}{}\end{DoxyParamCaption})}
+
+
+
+Devuelve un total de ventas por periodo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente\+Id} & \\
+\hline
+{\em desde} & \\
+\hline
+{\em hasta} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer de total de ventas.
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Clientes@{Clientes}}
+\index{Clientes@{Clientes}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Clientes}{Clientes}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_ae41cdcf22c65dab7fbaa00b34142462e} 
+List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}}$>$ Library.\+Clases\+\_\+principales.\+Usuario.\+Clientes = new List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}}$>$()}
+
+
+
+Lista de \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente} que contiene al \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} y sus interacciones. 
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a1af4e41bd862e65e77997d967bf33366}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Etiquetas@{Etiquetas}}
+\index{Etiquetas@{Etiquetas}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Etiquetas}{Etiquetas}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a1af4e41bd862e65e77997d967bf33366} 
+Dictionary$<$int,string$>$ Library.\+Clases\+\_\+principales.\+Usuario.\+Etiquetas = new Dictionary$<$int, string$>$()}
+
+
+
+Lista de etiquetas creadas por el usuario. 
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_aba454dd01dcbefaf40b3a4dd8eddf269}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Clave@{Clave}}
+\index{Clave@{Clave}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Clave}{Clave}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_aba454dd01dcbefaf40b3a4dd8eddf269} 
+string Library.\+Clases\+\_\+principales.\+Usuario.\+Clave\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_abc0b9498762e172ec601368dde6a127b}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Id@{Id}}
+\index{Id@{Id}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_abc0b9498762e172ec601368dde6a127b} 
+int Library.\+Clases\+\_\+principales.\+Usuario.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a9ca51773455ab1dd9a1a00e1b731ef5a}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Nombre@{Nombre}}
+\index{Nombre@{Nombre}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Nombre}{Nombre}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a9ca51773455ab1dd9a1a00e1b731ef5a} 
+string Library.\+Clases\+\_\+principales.\+Usuario.\+Nombre\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_usuario_a68a3edf11ef8947091d24321d90d2a6c}\index{Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}!Suspendido@{Suspendido}}
+\index{Suspendido@{Suspendido}!Library.Clases\_principales.Usuario@{Library.Clases\_principales.Usuario}}
+\doxysubsubsection{\texorpdfstring{Suspendido}{Suspendido}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_usuario_a68a3edf11ef8947091d24321d90d2a6c} 
+bool Library.\+Clases\+\_\+principales.\+Usuario.\+Suspendido = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Clases principales/\mbox{\hyperlink{_usuario_8cs}{Usuario.\+cs}}\end{DoxyCompactItemize}

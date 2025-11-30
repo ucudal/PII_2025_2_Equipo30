@@ -1,0 +1,676 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}PII\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Proyecto -\/ Programación 2 }{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Acerca del equipo}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Descripción del proyecto}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Documentacion}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Notas de reflexión del equipo}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Reflexión Final del Proyecto}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Agradecimientos}{2}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Tecnologías utilizadas}{2}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Cómo ejecutar el proyecto}{3}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Directory Hierarchy}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Directories}{5}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Namespace Index}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Package List}{11}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Hierarchical Index}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class Hierarchy}{13}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Index}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Class List}{15}{section.5.1}%
+\contentsline {chapter}{\numberline {6}File Index}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}File List}{19}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Directory Documentation}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core Directory Reference}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales Directory Reference}{21}{section.7.2}%
+\contentsline {section}{\numberline {7.3}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos Directory Reference}{21}{section.7.3}%
+\contentsline {section}{\numberline {7.4}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos Directory Reference}{22}{section.7.4}%
+\contentsline {section}{\numberline {7.5}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug Directory Reference}{22}{section.7.5}%
+\contentsline {section}{\numberline {7.6}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug Directory Reference}{22}{section.7.6}%
+\contentsline {section}{\numberline {7.7}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug Directory Reference}{22}{section.7.7}%
+\contentsline {section}{\numberline {7.8}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas Directory Reference}{22}{section.7.8}%
+\contentsline {section}{\numberline {7.9}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces Directory Reference}{23}{section.7.9}%
+\contentsline {section}{\numberline {7.10}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library Directory Reference}{23}{section.7.10}%
+\contentsline {section}{\numberline {7.11}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests Directory Reference}{23}{section.7.11}%
+\contentsline {section}{\numberline {7.12}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0 Directory Reference}{23}{section.7.12}%
+\contentsline {section}{\numberline {7.13}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0 Directory Reference}{23}{section.7.13}%
+\contentsline {section}{\numberline {7.14}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0 Directory Reference}{23}{section.7.14}%
+\contentsline {section}{\numberline {7.15}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj Directory Reference}{23}{section.7.15}%
+\contentsline {section}{\numberline {7.16}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj Directory Reference}{24}{section.7.16}%
+\contentsline {section}{\numberline {7.17}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj Directory Reference}{24}{section.7.17}%
+\contentsline {section}{\numberline {7.18}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program Directory Reference}{24}{section.7.18}%
+\contentsline {section}{\numberline {7.19}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord Directory Reference}{24}{section.7.19}%
+\contentsline {section}{\numberline {7.20}src Directory Reference}{24}{section.7.20}%
+\contentsline {section}{\numberline {7.21}test Directory Reference}{24}{section.7.21}%
+\contentsline {section}{\numberline {7.22}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Directory Reference}{24}{section.7.22}%
+\contentsline {chapter}{\numberline {8}Namespace Documentation}{25}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Library Namespace Reference}{25}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core Namespace Reference}{25}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos Namespace Reference}{25}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces Namespace Reference}{26}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales Namespace Reference}{27}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos Namespace Reference}{27}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas Namespace Reference}{27}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord Namespace Reference}{28}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Namespace Reference}{28}{section.8.9}%
+\contentsline {chapter}{\numberline {9}Class Documentation}{29}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Administrador Class Reference}{29}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Detailed Description}{29}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Constructor \& Destructor Documentation}{29}{subsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.1}Administrador()}{29}{subsubsection.9.1.2.1}%
+\contentsline {subsection}{\numberline {9.1.3}Member Function Documentation}{30}{subsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.1}CrearUsuario()}{30}{subsubsection.9.1.3.1}%
+\contentsline {subsubsection}{\numberline {9.1.3.2}EliminarUsuario()}{30}{subsubsection.9.1.3.2}%
+\contentsline {subsection}{\numberline {9.1.4}Property Documentation}{30}{subsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.4.1}Clave}{30}{subsubsection.9.1.4.1}%
+\contentsline {subsubsection}{\numberline {9.1.4.2}Nombre}{30}{subsubsection.9.1.4.2}%
+\contentsline {subsubsection}{\numberline {9.1.4.3}Usuarios}{30}{subsubsection.9.1.4.3}%
+\contentsline {section}{\numberline {9.2}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Administrador\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{31}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Detailed Description}{31}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Member Function Documentation}{31}{subsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}CrearUsuario()}{31}{subsubsection.9.2.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2.2}EliminarUsuario()}{31}{subsubsection.9.2.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.3}EliminarUsuario\_SiNoExiste()}{31}{subsubsection.9.2.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.2.4}Setup()}{31}{subsubsection.9.2.2.4}%
+\contentsline {section}{\numberline {9.3}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Agregar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Etiqueta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{31}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Detailed Description}{32}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Constructor \& Destructor Documentation}{32}{subsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.2.1}AgregarEtiquetaClienteUsuario()}{32}{subsubsection.9.3.2.1}%
+\contentsline {subsection}{\numberline {9.3.3}Member Function Documentation}{32}{subsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.3.1}Ejecutar()}{32}{subsubsection.9.3.3.1}%
+\contentsline {subsection}{\numberline {9.3.4}Property Documentation}{33}{subsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.4.1}Descripcion}{33}{subsubsection.9.3.4.1}%
+\contentsline {subsubsection}{\numberline {9.3.4.2}Nombre}{33}{subsubsection.9.3.4.2}%
+\contentsline {section}{\numberline {9.4}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asignar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor Class Reference}{33}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Detailed Description}{33}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Constructor \& Destructor Documentation}{34}{subsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.2.1}AsignarClienteVendedor()}{34}{subsubsection.9.4.2.1}%
+\contentsline {subsection}{\numberline {9.4.3}Member Function Documentation}{34}{subsection.9.4.3}%
+\contentsline {subsubsection}{\numberline {9.4.3.1}Ejecutar()}{34}{subsubsection.9.4.3.1}%
+\contentsline {subsection}{\numberline {9.4.4}Property Documentation}{34}{subsection.9.4.4}%
+\contentsline {subsubsection}{\numberline {9.4.4.1}Descripcion}{34}{subsubsection.9.4.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.4.2}Nombre}{34}{subsubsection.9.4.4.2}%
+\contentsline {section}{\numberline {9.5}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core Class Reference}{34}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Detailed Description}{35}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Member Function Documentation}{35}{subsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {9.5.2.1}EnviarMensaje()}{35}{subsubsection.9.5.2.1}%
+\contentsline {subsubsection}{\numberline {9.5.2.2}MostrarComandos()}{35}{subsubsection.9.5.2.2}%
+\contentsline {subsubsection}{\numberline {9.5.2.3}ProcesarOpcion()}{35}{subsubsection.9.5.2.3}%
+\contentsline {subsubsection}{\numberline {9.5.2.4}RegistrarComando()}{36}{subsubsection.9.5.2.4}%
+\contentsline {subsection}{\numberline {9.5.3}Property Documentation}{37}{subsection.9.5.3}%
+\contentsline {subsubsection}{\numberline {9.5.3.1}Sesion}{37}{subsubsection.9.5.3.1}%
+\contentsline {section}{\numberline {9.6}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{37}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Detailed Description}{37}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}Member Function Documentation}{37}{subsection.9.6.2}%
+\contentsline {subsubsection}{\numberline {9.6.2.1}ProcesarOpcion\_FormatoIncorrecto()}{37}{subsubsection.9.6.2.1}%
+\contentsline {subsubsection}{\numberline {9.6.2.2}ProcesarOpcion\_Inexistente()}{37}{subsubsection.9.6.2.2}%
+\contentsline {subsubsection}{\numberline {9.6.2.3}ProcesarOpcion\_Valida()}{37}{subsubsection.9.6.2.3}%
+\contentsline {subsubsection}{\numberline {9.6.2.4}RegistrarComando()}{37}{subsubsection.9.6.2.4}%
+\contentsline {subsubsection}{\numberline {9.6.2.5}Setup()}{38}{subsubsection.9.6.2.5}%
+\contentsline {section}{\numberline {9.7}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bridge Class Reference}{38}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Detailed Description}{38}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Constructor \& Destructor Documentation}{38}{subsection.9.7.2}%
+\contentsline {subsubsection}{\numberline {9.7.2.1}BotDiscordBridge()}{38}{subsubsection.9.7.2.1}%
+\contentsline {section}{\numberline {9.8}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buscar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{38}{section.9.8}%
+\contentsline {subsection}{\numberline {9.8.1}Detailed Description}{39}{subsection.9.8.1}%
+\contentsline {subsection}{\numberline {9.8.2}Constructor \& Destructor Documentation}{39}{subsection.9.8.2}%
+\contentsline {subsubsection}{\numberline {9.8.2.1}BuscarClienteUsuario()}{39}{subsubsection.9.8.2.1}%
+\contentsline {subsection}{\numberline {9.8.3}Member Function Documentation}{39}{subsection.9.8.3}%
+\contentsline {subsubsection}{\numberline {9.8.3.1}Ejecutar()}{39}{subsubsection.9.8.3.1}%
+\contentsline {subsection}{\numberline {9.8.4}Property Documentation}{39}{subsection.9.8.4}%
+\contentsline {subsubsection}{\numberline {9.8.4.1}Descripcion}{39}{subsubsection.9.8.4.1}%
+\contentsline {subsubsection}{\numberline {9.8.4.2}Nombre}{40}{subsubsection.9.8.4.2}%
+\contentsline {section}{\numberline {9.9}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente Class Reference}{40}{section.9.9}%
+\contentsline {subsection}{\numberline {9.9.1}Detailed Description}{40}{subsection.9.9.1}%
+\contentsline {subsection}{\numberline {9.9.2}Constructor \& Destructor Documentation}{40}{subsection.9.9.2}%
+\contentsline {subsubsection}{\numberline {9.9.2.1}Cliente()}{40}{subsubsection.9.9.2.1}%
+\contentsline {subsection}{\numberline {9.9.3}Member Function Documentation}{40}{subsection.9.9.3}%
+\contentsline {subsubsection}{\numberline {9.9.3.1}Contactar()}{40}{subsubsection.9.9.3.1}%
+\contentsline {subsection}{\numberline {9.9.4}Property Documentation}{40}{subsection.9.9.4}%
+\contentsline {subsubsection}{\numberline {9.9.4.1}Apellido}{40}{subsubsection.9.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.9.4.2}Email}{40}{subsubsection.9.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.9.4.3}Etiqueta}{41}{subsubsection.9.9.4.3}%
+\contentsline {subsubsection}{\numberline {9.9.4.4}FechaNacimiento}{41}{subsubsection.9.9.4.4}%
+\contentsline {subsubsection}{\numberline {9.9.4.5}Genero}{41}{subsubsection.9.9.4.5}%
+\contentsline {subsubsection}{\numberline {9.9.4.6}Id}{41}{subsubsection.9.9.4.6}%
+\contentsline {subsubsection}{\numberline {9.9.4.7}Nombre}{41}{subsubsection.9.9.4.7}%
+\contentsline {subsubsection}{\numberline {9.9.4.8}Telefono}{41}{subsubsection.9.9.4.8}%
+\contentsline {section}{\numberline {9.10}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{41}{section.9.10}%
+\contentsline {subsection}{\numberline {9.10.1}Detailed Description}{41}{subsection.9.10.1}%
+\contentsline {subsection}{\numberline {9.10.2}Member Function Documentation}{41}{subsection.9.10.2}%
+\contentsline {subsubsection}{\numberline {9.10.2.1}CrearCliente\_DeberiaAgregarClienteAlUsuario()}{41}{subsubsection.9.10.2.1}%
+\contentsline {subsubsection}{\numberline {9.10.2.2}CrearUsuario\_DeberiaAgregarUsuarioALaLista()}{42}{subsubsection.9.10.2.2}%
+\contentsline {subsubsection}{\numberline {9.10.2.3}EliminarUsuarioPorId\_DeberiaEliminarUsuarioExistente()}{42}{subsubsection.9.10.2.3}%
+\contentsline {subsubsection}{\numberline {9.10.2.4}LoginAdministrador\_DeberiaRetornarAdminCorrecto()}{42}{subsubsection.9.10.2.4}%
+\contentsline {subsubsection}{\numberline {9.10.2.5}Setup()}{42}{subsubsection.9.10.2.5}%
+\contentsline {subsubsection}{\numberline {9.10.2.6}SuspenderUsuario\_DeberiaMarcarUsuarioComoSuspendido()}{42}{subsubsection.9.10.2.6}%
+\contentsline {section}{\numberline {9.11}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Contacto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pendiente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{42}{section.9.11}%
+\contentsline {subsection}{\numberline {9.11.1}Detailed Description}{43}{subsection.9.11.1}%
+\contentsline {subsection}{\numberline {9.11.2}Constructor \& Destructor Documentation}{43}{subsection.9.11.2}%
+\contentsline {subsubsection}{\numberline {9.11.2.1}ContactoPendienteClienteUsuario()}{43}{subsubsection.9.11.2.1}%
+\contentsline {subsection}{\numberline {9.11.3}Member Function Documentation}{43}{subsection.9.11.3}%
+\contentsline {subsubsection}{\numberline {9.11.3.1}Ejecutar()}{43}{subsubsection.9.11.3.1}%
+\contentsline {subsection}{\numberline {9.11.4}Property Documentation}{43}{subsection.9.11.4}%
+\contentsline {subsubsection}{\numberline {9.11.4.1}Descripcion}{43}{subsubsection.9.11.4.1}%
+\contentsline {subsubsection}{\numberline {9.11.4.2}Nombre}{43}{subsubsection.9.11.4.2}%
+\contentsline {section}{\numberline {9.12}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{44}{section.9.12}%
+\contentsline {subsection}{\numberline {9.12.1}Detailed Description}{44}{subsection.9.12.1}%
+\contentsline {subsection}{\numberline {9.12.2}Constructor \& Destructor Documentation}{44}{subsection.9.12.2}%
+\contentsline {subsubsection}{\numberline {9.12.2.1}CrearClienteUsuario()}{44}{subsubsection.9.12.2.1}%
+\contentsline {subsection}{\numberline {9.12.3}Member Function Documentation}{44}{subsection.9.12.3}%
+\contentsline {subsubsection}{\numberline {9.12.3.1}Ejecutar()}{44}{subsubsection.9.12.3.1}%
+\contentsline {subsection}{\numberline {9.12.4}Property Documentation}{45}{subsection.9.12.4}%
+\contentsline {subsubsection}{\numberline {9.12.4.1}Descripcion}{45}{subsubsection.9.12.4.1}%
+\contentsline {subsubsection}{\numberline {9.12.4.2}Nombre}{45}{subsubsection.9.12.4.2}%
+\contentsline {section}{\numberline {9.13}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Etiqueta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{45}{section.9.13}%
+\contentsline {subsection}{\numberline {9.13.1}Detailed Description}{45}{subsection.9.13.1}%
+\contentsline {subsection}{\numberline {9.13.2}Constructor \& Destructor Documentation}{46}{subsection.9.13.2}%
+\contentsline {subsubsection}{\numberline {9.13.2.1}CrearEtiquetaUsuario()}{46}{subsubsection.9.13.2.1}%
+\contentsline {subsection}{\numberline {9.13.3}Member Function Documentation}{46}{subsection.9.13.3}%
+\contentsline {subsubsection}{\numberline {9.13.3.1}Ejecutar()}{46}{subsubsection.9.13.3.1}%
+\contentsline {subsection}{\numberline {9.13.4}Property Documentation}{46}{subsection.9.13.4}%
+\contentsline {subsubsection}{\numberline {9.13.4.1}Descripcion}{46}{subsubsection.9.13.4.1}%
+\contentsline {subsubsection}{\numberline {9.13.4.2}Nombre}{46}{subsubsection.9.13.4.2}%
+\contentsline {section}{\numberline {9.14}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{46}{section.9.14}%
+\contentsline {subsection}{\numberline {9.14.1}Detailed Description}{47}{subsection.9.14.1}%
+\contentsline {subsection}{\numberline {9.14.2}Constructor \& Destructor Documentation}{47}{subsection.9.14.2}%
+\contentsline {subsubsection}{\numberline {9.14.2.1}CrearUsuarioAdmin()}{47}{subsubsection.9.14.2.1}%
+\contentsline {subsection}{\numberline {9.14.3}Member Function Documentation}{47}{subsection.9.14.3}%
+\contentsline {subsubsection}{\numberline {9.14.3.1}Ejecutar()}{47}{subsubsection.9.14.3.1}%
+\contentsline {subsection}{\numberline {9.14.4}Property Documentation}{48}{subsection.9.14.4}%
+\contentsline {subsubsection}{\numberline {9.14.4.1}Descripcion}{48}{subsubsection.9.14.4.1}%
+\contentsline {subsubsection}{\numberline {9.14.4.2}Nombre}{48}{subsubsection.9.14.4.2}%
+\contentsline {section}{\numberline {9.15}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{48}{section.9.15}%
+\contentsline {subsection}{\numberline {9.15.1}Detailed Description}{48}{subsection.9.15.1}%
+\contentsline {subsection}{\numberline {9.15.2}Constructor \& Destructor Documentation}{48}{subsection.9.15.2}%
+\contentsline {subsubsection}{\numberline {9.15.2.1}CrearVendedorUsuario()}{48}{subsubsection.9.15.2.1}%
+\contentsline {subsection}{\numberline {9.15.3}Member Function Documentation}{49}{subsection.9.15.3}%
+\contentsline {subsubsection}{\numberline {9.15.3.1}Ejecutar()}{49}{subsubsection.9.15.3.1}%
+\contentsline {subsection}{\numberline {9.15.4}Property Documentation}{49}{subsection.9.15.4}%
+\contentsline {subsubsection}{\numberline {9.15.4.1}Descripcion}{49}{subsubsection.9.15.4.1}%
+\contentsline {subsubsection}{\numberline {9.15.4.2}Nombre}{49}{subsubsection.9.15.4.2}%
+\contentsline {section}{\numberline {9.16}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Message\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context Class Reference}{49}{section.9.16}%
+\contentsline {subsection}{\numberline {9.16.1}Detailed Description}{50}{subsection.9.16.1}%
+\contentsline {subsection}{\numberline {9.16.2}Constructor \& Destructor Documentation}{50}{subsection.9.16.2}%
+\contentsline {subsubsection}{\numberline {9.16.2.1}DiscordMessageContext()}{50}{subsubsection.9.16.2.1}%
+\contentsline {subsection}{\numberline {9.16.3}Member Function Documentation}{50}{subsection.9.16.3}%
+\contentsline {subsubsection}{\numberline {9.16.3.1}EnviarMensaje()}{50}{subsubsection.9.16.3.1}%
+\contentsline {subsubsection}{\numberline {9.16.3.2}EsperarRespuesta()}{50}{subsubsection.9.16.3.2}%
+\contentsline {subsubsection}{\numberline {9.16.3.3}RecibirMensaje()}{51}{subsubsection.9.16.3.3}%
+\contentsline {subsection}{\numberline {9.16.4}Property Documentation}{51}{subsection.9.16.4}%
+\contentsline {subsubsection}{\numberline {9.16.4.1}UserId}{51}{subsubsection.9.16.4.1}%
+\contentsline {subsubsection}{\numberline {9.16.4.2}UsuarioId}{51}{subsubsection.9.16.4.2}%
+\contentsline {subsubsection}{\numberline {9.16.4.3}UsuarioNombre}{51}{subsubsection.9.16.4.3}%
+\contentsline {section}{\numberline {9.17}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eliminar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{51}{section.9.17}%
+\contentsline {subsection}{\numberline {9.17.1}Detailed Description}{52}{subsection.9.17.1}%
+\contentsline {subsection}{\numberline {9.17.2}Constructor \& Destructor Documentation}{52}{subsection.9.17.2}%
+\contentsline {subsubsection}{\numberline {9.17.2.1}EliminarClienteUsuario()}{52}{subsubsection.9.17.2.1}%
+\contentsline {subsection}{\numberline {9.17.3}Member Function Documentation}{52}{subsection.9.17.3}%
+\contentsline {subsubsection}{\numberline {9.17.3.1}Ejecutar()}{52}{subsubsection.9.17.3.1}%
+\contentsline {subsection}{\numberline {9.17.4}Property Documentation}{52}{subsection.9.17.4}%
+\contentsline {subsubsection}{\numberline {9.17.4.1}Descripcion}{52}{subsubsection.9.17.4.1}%
+\contentsline {subsubsection}{\numberline {9.17.4.2}Nombre}{52}{subsubsection.9.17.4.2}%
+\contentsline {section}{\numberline {9.18}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eliminar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{53}{section.9.18}%
+\contentsline {subsection}{\numberline {9.18.1}Detailed Description}{53}{subsection.9.18.1}%
+\contentsline {subsection}{\numberline {9.18.2}Constructor \& Destructor Documentation}{53}{subsection.9.18.2}%
+\contentsline {subsubsection}{\numberline {9.18.2.1}EliminarUsuarioAdmin()}{53}{subsubsection.9.18.2.1}%
+\contentsline {subsection}{\numberline {9.18.3}Member Function Documentation}{53}{subsection.9.18.3}%
+\contentsline {subsubsection}{\numberline {9.18.3.1}Ejecutar()}{53}{subsubsection.9.18.3.1}%
+\contentsline {subsection}{\numberline {9.18.4}Property Documentation}{54}{subsection.9.18.4}%
+\contentsline {subsubsection}{\numberline {9.18.4.1}Descripcion}{54}{subsubsection.9.18.4.1}%
+\contentsline {subsubsection}{\numberline {9.18.4.2}Nombre}{54}{subsubsection.9.18.4.2}%
+\contentsline {section}{\numberline {9.19}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Email Class Reference}{54}{section.9.19}%
+\contentsline {subsection}{\numberline {9.19.1}Detailed Description}{54}{subsection.9.19.1}%
+\contentsline {subsection}{\numberline {9.19.2}Member Function Documentation}{54}{subsection.9.19.2}%
+\contentsline {subsubsection}{\numberline {9.19.2.1}AgregarDescripcion()}{54}{subsubsection.9.19.2.1}%
+\contentsline {subsection}{\numberline {9.19.3}Property Documentation}{54}{subsection.9.19.3}%
+\contentsline {subsubsection}{\numberline {9.19.3.1}Descripcion}{54}{subsubsection.9.19.3.1}%
+\contentsline {subsubsection}{\numberline {9.19.3.2}Fecha}{54}{subsubsection.9.19.3.2}%
+\contentsline {subsubsection}{\numberline {9.19.3.3}Texto}{55}{subsubsection.9.19.3.3}%
+\contentsline {section}{\numberline {9.20}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Emails Class Reference}{55}{section.9.20}%
+\contentsline {subsection}{\numberline {9.20.1}Detailed Description}{55}{subsection.9.20.1}%
+\contentsline {subsection}{\numberline {9.20.2}Member Function Documentation}{55}{subsection.9.20.2}%
+\contentsline {subsubsection}{\numberline {9.20.2.1}AgregarAsunto()}{55}{subsubsection.9.20.2.1}%
+\contentsline {subsubsection}{\numberline {9.20.2.2}AgregarDescripcion()}{55}{subsubsection.9.20.2.2}%
+\contentsline {subsubsection}{\numberline {9.20.2.3}AgregarEnviados()}{56}{subsubsection.9.20.2.3}%
+\contentsline {subsubsection}{\numberline {9.20.2.4}AgregarRecibidos()}{57}{subsubsection.9.20.2.4}%
+\contentsline {subsection}{\numberline {9.20.3}Property Documentation}{57}{subsection.9.20.3}%
+\contentsline {subsubsection}{\numberline {9.20.3.1}Asunto}{57}{subsubsection.9.20.3.1}%
+\contentsline {subsubsection}{\numberline {9.20.3.2}Descripcion}{57}{subsubsection.9.20.3.2}%
+\contentsline {subsubsection}{\numberline {9.20.3.3}Enviados}{57}{subsubsection.9.20.3.3}%
+\contentsline {subsubsection}{\numberline {9.20.3.4}Recibidos}{57}{subsubsection.9.20.3.4}%
+\contentsline {section}{\numberline {9.21}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada Class Reference}{57}{section.9.21}%
+\contentsline {subsection}{\numberline {9.21.1}Detailed Description}{57}{subsection.9.21.1}%
+\contentsline {section}{\numberline {9.22}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro Class Reference}{57}{section.9.22}%
+\contentsline {subsection}{\numberline {9.22.1}Constructor \& Destructor Documentation}{58}{subsection.9.22.1}%
+\contentsline {subsubsection}{\numberline {9.22.1.1}FachadaRegistro()}{58}{subsubsection.9.22.1.1}%
+\contentsline {subsection}{\numberline {9.22.2}Member Function Documentation}{58}{subsection.9.22.2}%
+\contentsline {subsubsection}{\numberline {9.22.2.1}BuscarClientes()}{58}{subsubsection.9.22.2.1}%
+\contentsline {subsubsection}{\numberline {9.22.2.2}CrearCliente()}{60}{subsubsection.9.22.2.2}%
+\contentsline {subsubsection}{\numberline {9.22.2.3}CrearUsuario()}{60}{subsubsection.9.22.2.3}%
+\contentsline {subsubsection}{\numberline {9.22.2.4}CrearVendedor()}{61}{subsubsection.9.22.2.4}%
+\contentsline {subsubsection}{\numberline {9.22.2.5}EliminarCliente()}{61}{subsubsection.9.22.2.5}%
+\contentsline {subsubsection}{\numberline {9.22.2.6}EliminarUsuario()}{61}{subsubsection.9.22.2.6}%
+\contentsline {subsubsection}{\numberline {9.22.2.7}EliminarUsuarioPorId()}{61}{subsubsection.9.22.2.7}%
+\contentsline {subsubsection}{\numberline {9.22.2.8}ListarClientes()}{62}{subsubsection.9.22.2.8}%
+\contentsline {subsubsection}{\numberline {9.22.2.9}LoginAdministrador()}{62}{subsubsection.9.22.2.9}%
+\contentsline {subsubsection}{\numberline {9.22.2.10}LoginUsuario()}{62}{subsubsection.9.22.2.10}%
+\contentsline {subsubsection}{\numberline {9.22.2.11}LoginVendedor()}{63}{subsubsection.9.22.2.11}%
+\contentsline {subsubsection}{\numberline {9.22.2.12}ModificarCliente()}{63}{subsubsection.9.22.2.12}%
+\contentsline {subsubsection}{\numberline {9.22.2.13}ObtenerPanelResumen()}{63}{subsubsection.9.22.2.13}%
+\contentsline {subsubsection}{\numberline {9.22.2.14}ObtenerTotalVentasPorPeriodo()}{64}{subsubsection.9.22.2.14}%
+\contentsline {subsubsection}{\numberline {9.22.2.15}SuspenderUsuario()}{64}{subsubsection.9.22.2.15}%
+\contentsline {subsection}{\numberline {9.22.3}Member Data Documentation}{64}{subsection.9.22.3}%
+\contentsline {subsubsection}{\numberline {9.22.3.1}Vendedores}{64}{subsubsection.9.22.3.1}%
+\contentsline {section}{\numberline {9.23}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{64}{section.9.23}%
+\contentsline {subsection}{\numberline {9.23.1}Detailed Description}{65}{subsection.9.23.1}%
+\contentsline {subsection}{\numberline {9.23.2}Member Function Documentation}{65}{subsection.9.23.2}%
+\contentsline {subsubsection}{\numberline {9.23.2.1}CrearCliente\_DesdeFachada()}{65}{subsubsection.9.23.2.1}%
+\contentsline {subsubsection}{\numberline {9.23.2.2}CrearUsuario()}{65}{subsubsection.9.23.2.2}%
+\contentsline {subsubsection}{\numberline {9.23.2.3}EliminarUsuario()}{65}{subsubsection.9.23.2.3}%
+\contentsline {subsubsection}{\numberline {9.23.2.4}EliminarUsuario\_SiNoExiste()}{65}{subsubsection.9.23.2.4}%
+\contentsline {subsubsection}{\numberline {9.23.2.5}ObtenerTotalVentasPorPeriodo\_DesdeFachada()}{66}{subsubsection.9.23.2.5}%
+\contentsline {subsubsection}{\numberline {9.23.2.6}Setup()}{66}{subsubsection.9.23.2.6}%
+\contentsline {section}{\numberline {9.24}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IBot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Command Interface Reference}{66}{section.9.24}%
+\contentsline {subsection}{\numberline {9.24.1}Detailed Description}{67}{subsection.9.24.1}%
+\contentsline {subsection}{\numberline {9.24.2}Member Function Documentation}{67}{subsection.9.24.2}%
+\contentsline {subsubsection}{\numberline {9.24.2.1}Ejecutar()}{67}{subsubsection.9.24.2.1}%
+\contentsline {subsection}{\numberline {9.24.3}Property Documentation}{67}{subsection.9.24.3}%
+\contentsline {subsubsection}{\numberline {9.24.3.1}Descripcion}{67}{subsubsection.9.24.3.1}%
+\contentsline {subsubsection}{\numberline {9.24.3.2}Nombre}{68}{subsubsection.9.24.3.2}%
+\contentsline {section}{\numberline {9.25}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IMessage\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context Interface Reference}{68}{section.9.25}%
+\contentsline {subsection}{\numberline {9.25.1}Detailed Description}{68}{subsection.9.25.1}%
+\contentsline {subsection}{\numberline {9.25.2}Member Function Documentation}{68}{subsection.9.25.2}%
+\contentsline {subsubsection}{\numberline {9.25.2.1}EnviarMensaje()}{68}{subsubsection.9.25.2.1}%
+\contentsline {subsubsection}{\numberline {9.25.2.2}EsperarRespuesta()}{69}{subsubsection.9.25.2.2}%
+\contentsline {subsection}{\numberline {9.25.3}Property Documentation}{69}{subsection.9.25.3}%
+\contentsline {subsubsection}{\numberline {9.25.3.1}UsuarioId}{69}{subsubsection.9.25.3.1}%
+\contentsline {subsubsection}{\numberline {9.25.3.2}UsuarioNombre}{69}{subsubsection.9.25.3.2}%
+\contentsline {section}{\numberline {9.26}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interacciones\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{69}{section.9.26}%
+\contentsline {subsection}{\numberline {9.26.1}Detailed Description}{69}{subsection.9.26.1}%
+\contentsline {subsection}{\numberline {9.26.2}Constructor \& Destructor Documentation}{70}{subsection.9.26.2}%
+\contentsline {subsubsection}{\numberline {9.26.2.1}InteraccionesClienteUsuario()}{70}{subsubsection.9.26.2.1}%
+\contentsline {subsection}{\numberline {9.26.3}Member Function Documentation}{70}{subsection.9.26.3}%
+\contentsline {subsubsection}{\numberline {9.26.3.1}Ejecutar()}{70}{subsubsection.9.26.3.1}%
+\contentsline {subsection}{\numberline {9.26.4}Property Documentation}{70}{subsection.9.26.4}%
+\contentsline {subsubsection}{\numberline {9.26.4.1}Descripcion}{70}{subsubsection.9.26.4.1}%
+\contentsline {subsubsection}{\numberline {9.26.4.2}Nombre}{70}{subsubsection.9.26.4.2}%
+\contentsline {section}{\numberline {9.27}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Command Class Reference}{70}{section.9.27}%
+\contentsline {subsection}{\numberline {9.27.1}Detailed Description}{71}{subsection.9.27.1}%
+\contentsline {subsection}{\numberline {9.27.2}Constructor \& Destructor Documentation}{71}{subsection.9.27.2}%
+\contentsline {subsubsection}{\numberline {9.27.2.1}ListarClientesCommand()}{71}{subsubsection.9.27.2.1}%
+\contentsline {subsection}{\numberline {9.27.3}Member Function Documentation}{71}{subsection.9.27.3}%
+\contentsline {subsubsection}{\numberline {9.27.3.1}Ejecutar()}{71}{subsubsection.9.27.3.1}%
+\contentsline {subsection}{\numberline {9.27.4}Property Documentation}{72}{subsection.9.27.4}%
+\contentsline {subsubsection}{\numberline {9.27.4.1}Descripcion}{72}{subsubsection.9.27.4.1}%
+\contentsline {subsubsection}{\numberline {9.27.4.2}Nombre}{72}{subsubsection.9.27.4.2}%
+\contentsline {section}{\numberline {9.28}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor Class Reference}{72}{section.9.28}%
+\contentsline {subsection}{\numberline {9.28.1}Detailed Description}{72}{subsection.9.28.1}%
+\contentsline {subsection}{\numberline {9.28.2}Constructor \& Destructor Documentation}{72}{subsection.9.28.2}%
+\contentsline {subsubsection}{\numberline {9.28.2.1}ListarClientesVendedor()}{72}{subsubsection.9.28.2.1}%
+\contentsline {subsection}{\numberline {9.28.3}Member Function Documentation}{73}{subsection.9.28.3}%
+\contentsline {subsubsection}{\numberline {9.28.3.1}Ejecutar()}{73}{subsubsection.9.28.3.1}%
+\contentsline {subsection}{\numberline {9.28.4}Property Documentation}{73}{subsection.9.28.4}%
+\contentsline {subsubsection}{\numberline {9.28.4.1}Descripcion}{73}{subsubsection.9.28.4.1}%
+\contentsline {subsubsection}{\numberline {9.28.4.2}Nombre}{73}{subsubsection.9.28.4.2}%
+\contentsline {section}{\numberline {9.29}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedores\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{73}{section.9.29}%
+\contentsline {subsection}{\numberline {9.29.1}Detailed Description}{74}{subsection.9.29.1}%
+\contentsline {subsection}{\numberline {9.29.2}Constructor \& Destructor Documentation}{74}{subsection.9.29.2}%
+\contentsline {subsubsection}{\numberline {9.29.2.1}ListarVendedoresVendedorUsuario()}{74}{subsubsection.9.29.2.1}%
+\contentsline {subsection}{\numberline {9.29.3}Member Function Documentation}{74}{subsection.9.29.3}%
+\contentsline {subsubsection}{\numberline {9.29.3.1}Ejecutar()}{74}{subsubsection.9.29.3.1}%
+\contentsline {subsection}{\numberline {9.29.4}Property Documentation}{74}{subsection.9.29.4}%
+\contentsline {subsubsection}{\numberline {9.29.4.1}Descripcion}{74}{subsubsection.9.29.4.1}%
+\contentsline {subsubsection}{\numberline {9.29.4.2}Nombre}{75}{subsubsection.9.29.4.2}%
+\contentsline {section}{\numberline {9.30}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Llamada Class Reference}{75}{section.9.30}%
+\contentsline {subsection}{\numberline {9.30.1}Detailed Description}{75}{subsection.9.30.1}%
+\contentsline {subsection}{\numberline {9.30.2}Member Function Documentation}{75}{subsection.9.30.2}%
+\contentsline {subsubsection}{\numberline {9.30.2.1}AgregarDescripcion()}{75}{subsubsection.9.30.2.1}%
+\contentsline {subsection}{\numberline {9.30.3}Property Documentation}{75}{subsection.9.30.3}%
+\contentsline {subsubsection}{\numberline {9.30.3.1}Asunto}{75}{subsubsection.9.30.3.1}%
+\contentsline {subsubsection}{\numberline {9.30.3.2}Descripcion}{75}{subsubsection.9.30.3.2}%
+\contentsline {subsubsection}{\numberline {9.30.3.3}Fecha}{75}{subsubsection.9.30.3.3}%
+\contentsline {section}{\numberline {9.31}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Llamadas Class Reference}{75}{section.9.31}%
+\contentsline {subsection}{\numberline {9.31.1}Detailed Description}{76}{subsection.9.31.1}%
+\contentsline {subsection}{\numberline {9.31.2}Member Function Documentation}{76}{subsection.9.31.2}%
+\contentsline {subsubsection}{\numberline {9.31.2.1}AgregarDescripcion()}{76}{subsubsection.9.31.2.1}%
+\contentsline {subsubsection}{\numberline {9.31.2.2}AgregarEnviados()}{76}{subsubsection.9.31.2.2}%
+\contentsline {subsubsection}{\numberline {9.31.2.3}AgregarRecibidos()}{76}{subsubsection.9.31.2.3}%
+\contentsline {subsection}{\numberline {9.31.3}Property Documentation}{77}{subsection.9.31.3}%
+\contentsline {subsubsection}{\numberline {9.31.3.1}Descripcion}{77}{subsubsection.9.31.3.1}%
+\contentsline {subsubsection}{\numberline {9.31.3.2}Enviados}{77}{subsubsection.9.31.3.2}%
+\contentsline {subsubsection}{\numberline {9.31.3.3}Recibidos}{77}{subsubsection.9.31.3.3}%
+\contentsline {section}{\numberline {9.32}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Login\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Command Class Reference}{77}{section.9.32}%
+\contentsline {subsection}{\numberline {9.32.1}Detailed Description}{77}{subsection.9.32.1}%
+\contentsline {subsection}{\numberline {9.32.2}Constructor \& Destructor Documentation}{77}{subsection.9.32.2}%
+\contentsline {subsubsection}{\numberline {9.32.2.1}LoginCommand()}{77}{subsubsection.9.32.2.1}%
+\contentsline {subsection}{\numberline {9.32.3}Member Function Documentation}{78}{subsection.9.32.3}%
+\contentsline {subsubsection}{\numberline {9.32.3.1}Ejecutar()}{78}{subsubsection.9.32.3.1}%
+\contentsline {subsection}{\numberline {9.32.4}Property Documentation}{78}{subsection.9.32.4}%
+\contentsline {subsubsection}{\numberline {9.32.4.1}Descripcion}{78}{subsubsection.9.32.4.1}%
+\contentsline {subsubsection}{\numberline {9.32.4.2}Nombre}{78}{subsubsection.9.32.4.2}%
+\contentsline {section}{\numberline {9.33}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logout\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Command Class Reference}{78}{section.9.33}%
+\contentsline {subsection}{\numberline {9.33.1}Detailed Description}{79}{subsection.9.33.1}%
+\contentsline {subsection}{\numberline {9.33.2}Constructor \& Destructor Documentation}{79}{subsection.9.33.2}%
+\contentsline {subsubsection}{\numberline {9.33.2.1}LogoutCommand()}{79}{subsubsection.9.33.2.1}%
+\contentsline {subsection}{\numberline {9.33.3}Member Function Documentation}{79}{subsection.9.33.3}%
+\contentsline {subsubsection}{\numberline {9.33.3.1}Ejecutar()}{79}{subsubsection.9.33.3.1}%
+\contentsline {subsection}{\numberline {9.33.4}Property Documentation}{79}{subsection.9.33.4}%
+\contentsline {subsubsection}{\numberline {9.33.4.1}Descripcion}{79}{subsubsection.9.33.4.1}%
+\contentsline {subsubsection}{\numberline {9.33.4.2}Nombre}{80}{subsubsection.9.33.4.2}%
+\contentsline {section}{\numberline {9.34}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensaje Class Reference}{80}{section.9.34}%
+\contentsline {subsection}{\numberline {9.34.1}Detailed Description}{80}{subsection.9.34.1}%
+\contentsline {subsection}{\numberline {9.34.2}Member Function Documentation}{80}{subsection.9.34.2}%
+\contentsline {subsubsection}{\numberline {9.34.2.1}AgregarDescripcion()}{80}{subsubsection.9.34.2.1}%
+\contentsline {subsection}{\numberline {9.34.3}Property Documentation}{80}{subsection.9.34.3}%
+\contentsline {subsubsection}{\numberline {9.34.3.1}Descripcion}{80}{subsubsection.9.34.3.1}%
+\contentsline {subsubsection}{\numberline {9.34.3.2}Fecha}{80}{subsubsection.9.34.3.2}%
+\contentsline {subsubsection}{\numberline {9.34.3.3}Texto}{80}{subsubsection.9.34.3.3}%
+\contentsline {section}{\numberline {9.35}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensaje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Consola Class Reference}{81}{section.9.35}%
+\contentsline {subsection}{\numberline {9.35.1}Detailed Description}{81}{subsection.9.35.1}%
+\contentsline {subsection}{\numberline {9.35.2}Member Function Documentation}{81}{subsection.9.35.2}%
+\contentsline {subsubsection}{\numberline {9.35.2.1}EnviarMensaje()}{81}{subsubsection.9.35.2.1}%
+\contentsline {subsubsection}{\numberline {9.35.2.2}EsperarRespuesta()}{81}{subsubsection.9.35.2.2}%
+\contentsline {subsection}{\numberline {9.35.3}Property Documentation}{81}{subsection.9.35.3}%
+\contentsline {subsubsection}{\numberline {9.35.3.1}UsuarioId}{81}{subsubsection.9.35.3.1}%
+\contentsline {subsubsection}{\numberline {9.35.3.2}UsuarioNombre}{82}{subsubsection.9.35.3.2}%
+\contentsline {section}{\numberline {9.36}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensajes Class Reference}{82}{section.9.36}%
+\contentsline {subsection}{\numberline {9.36.1}Detailed Description}{82}{subsection.9.36.1}%
+\contentsline {subsection}{\numberline {9.36.2}Member Function Documentation}{82}{subsection.9.36.2}%
+\contentsline {subsubsection}{\numberline {9.36.2.1}AgregarAsunto()}{82}{subsubsection.9.36.2.1}%
+\contentsline {subsubsection}{\numberline {9.36.2.2}AgregarDescripcion()}{83}{subsubsection.9.36.2.2}%
+\contentsline {subsubsection}{\numberline {9.36.2.3}AgregarEnviados()}{84}{subsubsection.9.36.2.3}%
+\contentsline {subsubsection}{\numberline {9.36.2.4}AgregarRecibidos()}{84}{subsubsection.9.36.2.4}%
+\contentsline {subsection}{\numberline {9.36.3}Property Documentation}{84}{subsection.9.36.3}%
+\contentsline {subsubsection}{\numberline {9.36.3.1}Asunto}{84}{subsubsection.9.36.3.1}%
+\contentsline {subsubsection}{\numberline {9.36.3.2}Descripcion}{84}{subsubsection.9.36.3.2}%
+\contentsline {subsubsection}{\numberline {9.36.3.3}mensajesEnviados}{84}{subsubsection.9.36.3.3}%
+\contentsline {subsubsection}{\numberline {9.36.3.4}mensajesRecibidos}{84}{subsubsection.9.36.3.4}%
+\contentsline {section}{\numberline {9.37}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modificar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{85}{section.9.37}%
+\contentsline {subsection}{\numberline {9.37.1}Detailed Description}{85}{subsection.9.37.1}%
+\contentsline {subsection}{\numberline {9.37.2}Constructor \& Destructor Documentation}{85}{subsection.9.37.2}%
+\contentsline {subsubsection}{\numberline {9.37.2.1}ModificarClienteUsuario()}{85}{subsubsection.9.37.2.1}%
+\contentsline {subsection}{\numberline {9.37.3}Member Function Documentation}{85}{subsection.9.37.3}%
+\contentsline {subsubsection}{\numberline {9.37.3.1}Ejecutar()}{85}{subsubsection.9.37.3.1}%
+\contentsline {subsection}{\numberline {9.37.4}Property Documentation}{86}{subsection.9.37.4}%
+\contentsline {subsubsection}{\numberline {9.37.4.1}Descripcion}{86}{subsubsection.9.37.4.1}%
+\contentsline {subsubsection}{\numberline {9.37.4.2}Nombre}{86}{subsubsection.9.37.4.2}%
+\contentsline {section}{\numberline {9.38}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resumen Class Reference}{86}{section.9.38}%
+\contentsline {subsection}{\numberline {9.38.1}Detailed Description}{86}{subsection.9.38.1}%
+\contentsline {subsection}{\numberline {9.38.2}Property Documentation}{86}{subsection.9.38.2}%
+\contentsline {subsubsection}{\numberline {9.38.2.1}InteraccionesRecientes}{86}{subsubsection.9.38.2.1}%
+\contentsline {subsubsection}{\numberline {9.38.2.2}ReunionesProximas}{86}{subsubsection.9.38.2.2}%
+\contentsline {subsubsection}{\numberline {9.38.2.3}TotalClientes}{87}{subsubsection.9.38.2.3}%
+\contentsline {section}{\numberline {9.39}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Precio Class Reference}{87}{section.9.39}%
+\contentsline {subsection}{\numberline {9.39.1}Detailed Description}{87}{subsection.9.39.1}%
+\contentsline {subsection}{\numberline {9.39.2}Property Documentation}{87}{subsection.9.39.2}%
+\contentsline {subsubsection}{\numberline {9.39.2.1}Costo}{87}{subsubsection.9.39.2.1}%
+\contentsline {subsubsection}{\numberline {9.39.2.2}Descripcion}{87}{subsubsection.9.39.2.2}%
+\contentsline {subsubsection}{\numberline {9.39.2.3}Fecha}{87}{subsubsection.9.39.2.3}%
+\contentsline {section}{\numberline {9.40}Program Class Reference}{87}{section.9.40}%
+\contentsline {section}{\numberline {9.41}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Promedio\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ventas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{87}{section.9.41}%
+\contentsline {subsection}{\numberline {9.41.1}Detailed Description}{88}{subsection.9.41.1}%
+\contentsline {subsection}{\numberline {9.41.2}Constructor \& Destructor Documentation}{88}{subsection.9.41.2}%
+\contentsline {subsubsection}{\numberline {9.41.2.1}PromedioVentasUsuario()}{88}{subsubsection.9.41.2.1}%
+\contentsline {subsection}{\numberline {9.41.3}Member Function Documentation}{88}{subsection.9.41.3}%
+\contentsline {subsubsection}{\numberline {9.41.3.1}Ejecutar()}{88}{subsubsection.9.41.3.1}%
+\contentsline {subsection}{\numberline {9.41.4}Property Documentation}{89}{subsection.9.41.4}%
+\contentsline {subsubsection}{\numberline {9.41.4.1}Descripcion}{89}{subsubsection.9.41.4.1}%
+\contentsline {subsubsection}{\numberline {9.41.4.2}Nombre}{89}{subsubsection.9.41.4.2}%
+\contentsline {section}{\numberline {9.42}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cotizacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{89}{section.9.42}%
+\contentsline {subsection}{\numberline {9.42.1}Detailed Description}{89}{subsection.9.42.1}%
+\contentsline {subsection}{\numberline {9.42.2}Constructor \& Destructor Documentation}{89}{subsection.9.42.2}%
+\contentsline {subsubsection}{\numberline {9.42.2.1}RegistrarCotizacionClienteUsuario()}{89}{subsubsection.9.42.2.1}%
+\contentsline {subsection}{\numberline {9.42.3}Member Function Documentation}{90}{subsection.9.42.3}%
+\contentsline {subsubsection}{\numberline {9.42.3.1}Ejecutar()}{90}{subsubsection.9.42.3.1}%
+\contentsline {subsection}{\numberline {9.42.4}Property Documentation}{90}{subsection.9.42.4}%
+\contentsline {subsubsection}{\numberline {9.42.4.1}Descripcion}{90}{subsubsection.9.42.4.1}%
+\contentsline {subsubsection}{\numberline {9.42.4.2}Nombre}{90}{subsubsection.9.42.4.2}%
+\contentsline {section}{\numberline {9.43}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Venta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{90}{section.9.43}%
+\contentsline {subsection}{\numberline {9.43.1}Detailed Description}{91}{subsection.9.43.1}%
+\contentsline {subsection}{\numberline {9.43.2}Constructor \& Destructor Documentation}{91}{subsection.9.43.2}%
+\contentsline {subsubsection}{\numberline {9.43.2.1}RegistrarVentaClienteUsuario()}{91}{subsubsection.9.43.2.1}%
+\contentsline {subsection}{\numberline {9.43.3}Member Function Documentation}{91}{subsection.9.43.3}%
+\contentsline {subsubsection}{\numberline {9.43.3.1}Ejecutar()}{91}{subsubsection.9.43.3.1}%
+\contentsline {subsection}{\numberline {9.43.4}Property Documentation}{91}{subsection.9.43.4}%
+\contentsline {subsubsection}{\numberline {9.43.4.1}Descripcion}{91}{subsubsection.9.43.4.1}%
+\contentsline {subsubsection}{\numberline {9.43.4.2}Nombre}{92}{subsubsection.9.43.4.2}%
+\contentsline {section}{\numberline {9.44}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente Class Reference}{92}{section.9.44}%
+\contentsline {subsection}{\numberline {9.44.1}Detailed Description}{92}{subsection.9.44.1}%
+\contentsline {subsection}{\numberline {9.44.2}Constructor \& Destructor Documentation}{92}{subsection.9.44.2}%
+\contentsline {subsubsection}{\numberline {9.44.2.1}RegistroCliente()}{92}{subsubsection.9.44.2.1}%
+\contentsline {subsection}{\numberline {9.44.3}Member Function Documentation}{93}{subsection.9.44.3}%
+\contentsline {subsubsection}{\numberline {9.44.3.1}RegistrarGenero()}{93}{subsubsection.9.44.3.1}%
+\contentsline {subsubsection}{\numberline {9.44.3.2}RegistrarNacimiento()}{93}{subsubsection.9.44.3.2}%
+\contentsline {subsubsection}{\numberline {9.44.3.3}RegistrarPrecio()}{93}{subsubsection.9.44.3.3}%
+\contentsline {subsubsection}{\numberline {9.44.3.4}UltimaInteraccion()}{93}{subsubsection.9.44.3.4}%
+\contentsline {subsection}{\numberline {9.44.4}Property Documentation}{94}{subsection.9.44.4}%
+\contentsline {subsubsection}{\numberline {9.44.4.1}Cliente}{94}{subsubsection.9.44.4.1}%
+\contentsline {subsubsection}{\numberline {9.44.4.2}Emails}{94}{subsubsection.9.44.4.2}%
+\contentsline {subsubsection}{\numberline {9.44.4.3}Llamadas}{94}{subsubsection.9.44.4.3}%
+\contentsline {subsubsection}{\numberline {9.44.4.4}Mensajes}{94}{subsubsection.9.44.4.4}%
+\contentsline {subsubsection}{\numberline {9.44.4.5}Precio}{94}{subsubsection.9.44.4.5}%
+\contentsline {subsubsection}{\numberline {9.44.4.6}Reunion}{94}{subsubsection.9.44.4.6}%
+\contentsline {subsubsection}{\numberline {9.44.4.7}Ventas}{94}{subsubsection.9.44.4.7}%
+\contentsline {section}{\numberline {9.45}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Class Reference}{94}{section.9.45}%
+\contentsline {subsection}{\numberline {9.45.1}Detailed Description}{94}{subsection.9.45.1}%
+\contentsline {subsection}{\numberline {9.45.2}Member Function Documentation}{95}{subsection.9.45.2}%
+\contentsline {subsubsection}{\numberline {9.45.2.1}RegistrarGenero()}{95}{subsubsection.9.45.2.1}%
+\contentsline {subsubsection}{\numberline {9.45.2.2}RegistrarNacimiento()}{95}{subsubsection.9.45.2.2}%
+\contentsline {subsubsection}{\numberline {9.45.2.3}RegistrarPrecio()}{95}{subsubsection.9.45.2.3}%
+\contentsline {subsubsection}{\numberline {9.45.2.4}Setup()}{95}{subsubsection.9.45.2.4}%
+\contentsline {section}{\numberline {9.46}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comunicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{95}{section.9.46}%
+\contentsline {subsection}{\numberline {9.46.1}Detailed Description}{96}{subsection.9.46.1}%
+\contentsline {subsection}{\numberline {9.46.2}Constructor \& Destructor Documentation}{96}{subsection.9.46.2}%
+\contentsline {subsubsection}{\numberline {9.46.2.1}RegistroComunicacionUsuario()}{96}{subsubsection.9.46.2.1}%
+\contentsline {subsection}{\numberline {9.46.3}Member Function Documentation}{96}{subsection.9.46.3}%
+\contentsline {subsubsection}{\numberline {9.46.3.1}Ejecutar()}{96}{subsubsection.9.46.3.1}%
+\contentsline {subsection}{\numberline {9.46.4}Property Documentation}{96}{subsection.9.46.4}%
+\contentsline {subsubsection}{\numberline {9.46.4.1}Descripcion}{96}{subsubsection.9.46.4.1}%
+\contentsline {subsubsection}{\numberline {9.46.4.2}Nombre}{97}{subsubsection.9.46.4.2}%
+\contentsline {section}{\numberline {9.47}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reunion Class Reference}{97}{section.9.47}%
+\contentsline {subsection}{\numberline {9.47.1}Detailed Description}{97}{subsection.9.47.1}%
+\contentsline {subsection}{\numberline {9.47.2}Member Function Documentation}{97}{subsection.9.47.2}%
+\contentsline {subsubsection}{\numberline {9.47.2.1}AgregarDescripcion()}{97}{subsubsection.9.47.2.1}%
+\contentsline {subsection}{\numberline {9.47.3}Property Documentation}{97}{subsection.9.47.3}%
+\contentsline {subsubsection}{\numberline {9.47.3.1}Asunto}{97}{subsubsection.9.47.3.1}%
+\contentsline {subsubsection}{\numberline {9.47.3.2}Descripcion}{97}{subsubsection.9.47.3.2}%
+\contentsline {subsubsection}{\numberline {9.47.3.3}Fecha}{97}{subsubsection.9.47.3.3}%
+\contentsline {subsubsection}{\numberline {9.47.3.4}Lugar}{98}{subsubsection.9.47.3.4}%
+\contentsline {section}{\numberline {9.48}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sesion Class Reference}{98}{section.9.48}%
+\contentsline {subsection}{\numberline {9.48.1}Detailed Description}{98}{subsection.9.48.1}%
+\contentsline {subsection}{\numberline {9.48.2}Member Function Documentation}{98}{subsection.9.48.2}%
+\contentsline {subsubsection}{\numberline {9.48.2.1}CerrarSesion()}{98}{subsubsection.9.48.2.1}%
+\contentsline {subsubsection}{\numberline {9.48.2.2}IniciarSesion()}{98}{subsubsection.9.48.2.2}%
+\contentsline {subsubsection}{\numberline {9.48.2.3}ToString()}{99}{subsubsection.9.48.2.3}%
+\contentsline {subsection}{\numberline {9.48.3}Property Documentation}{99}{subsection.9.48.3}%
+\contentsline {subsubsection}{\numberline {9.48.3.1}EstaLogeado}{99}{subsubsection.9.48.3.1}%
+\contentsline {subsubsection}{\numberline {9.48.3.2}Rol}{99}{subsubsection.9.48.3.2}%
+\contentsline {subsubsection}{\numberline {9.48.3.3}UsuarioActual}{99}{subsubsection.9.48.3.3}%
+\contentsline {section}{\numberline {9.49}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Singleton$<$ T $>$ Class Template Reference}{99}{section.9.49}%
+\contentsline {subsection}{\numberline {9.49.1}Detailed Description}{99}{subsection.9.49.1}%
+\contentsline {subsection}{\numberline {9.49.2}Property Documentation}{99}{subsection.9.49.2}%
+\contentsline {subsubsection}{\numberline {9.49.2.1}Instancia}{99}{subsubsection.9.49.2.1}%
+\contentsline {section}{\numberline {9.50}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Suspender\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{100}{section.9.50}%
+\contentsline {subsection}{\numberline {9.50.1}Detailed Description}{100}{subsection.9.50.1}%
+\contentsline {subsection}{\numberline {9.50.2}Constructor \& Destructor Documentation}{100}{subsection.9.50.2}%
+\contentsline {subsubsection}{\numberline {9.50.2.1}SuspenderUsuarioAdmin()}{100}{subsubsection.9.50.2.1}%
+\contentsline {subsection}{\numberline {9.50.3}Member Function Documentation}{100}{subsection.9.50.3}%
+\contentsline {subsubsection}{\numberline {9.50.3.1}Ejecutar()}{100}{subsubsection.9.50.3.1}%
+\contentsline {subsection}{\numberline {9.50.4}Property Documentation}{101}{subsection.9.50.4}%
+\contentsline {subsubsection}{\numberline {9.50.4.1}Descripcion}{101}{subsubsection.9.50.4.1}%
+\contentsline {subsubsection}{\numberline {9.50.4.2}Nombre}{101}{subsubsection.9.50.4.2}%
+\contentsline {section}{\numberline {9.51}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Class Reference}{101}{section.9.51}%
+\contentsline {subsection}{\numberline {9.51.1}Member Function Documentation}{101}{subsection.9.51.1}%
+\contentsline {subsubsection}{\numberline {9.51.1.1}Setup()}{101}{subsubsection.9.51.1.1}%
+\contentsline {subsubsection}{\numberline {9.51.1.2}Test1()}{101}{subsubsection.9.51.1.2}%
+\contentsline {section}{\numberline {9.52}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ultima\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interaccion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{101}{section.9.52}%
+\contentsline {subsection}{\numberline {9.52.1}Detailed Description}{102}{subsection.9.52.1}%
+\contentsline {subsection}{\numberline {9.52.2}Constructor \& Destructor Documentation}{102}{subsection.9.52.2}%
+\contentsline {subsubsection}{\numberline {9.52.2.1}UltimaInteraccionClienteUsuario()}{102}{subsubsection.9.52.2.1}%
+\contentsline {subsection}{\numberline {9.52.3}Member Function Documentation}{102}{subsection.9.52.3}%
+\contentsline {subsubsection}{\numberline {9.52.3.1}Ejecutar()}{102}{subsubsection.9.52.3.1}%
+\contentsline {subsection}{\numberline {9.52.4}Property Documentation}{102}{subsection.9.52.4}%
+\contentsline {subsubsection}{\numberline {9.52.4.1}Descripcion}{102}{subsubsection.9.52.4.1}%
+\contentsline {subsubsection}{\numberline {9.52.4.2}Nombre}{103}{subsubsection.9.52.4.2}%
+\contentsline {section}{\numberline {9.53}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{103}{section.9.53}%
+\contentsline {subsection}{\numberline {9.53.1}Detailed Description}{104}{subsection.9.53.1}%
+\contentsline {subsection}{\numberline {9.53.2}Constructor \& Destructor Documentation}{104}{subsection.9.53.2}%
+\contentsline {subsubsection}{\numberline {9.53.2.1}Usuario()}{104}{subsubsection.9.53.2.1}%
+\contentsline {subsection}{\numberline {9.53.3}Member Function Documentation}{104}{subsection.9.53.3}%
+\contentsline {subsubsection}{\numberline {9.53.3.1}ActualizarCliente()}{104}{subsubsection.9.53.3.1}%
+\contentsline {subsubsection}{\numberline {9.53.3.2}AgregarDescripcionAEmail()}{105}{subsubsection.9.53.3.2}%
+\contentsline {subsubsection}{\numberline {9.53.3.3}AgregarDescripcionALlamada()}{105}{subsubsection.9.53.3.3}%
+\contentsline {subsubsection}{\numberline {9.53.3.4}AgregarDescripcionAMensaje()}{105}{subsubsection.9.53.3.4}%
+\contentsline {subsubsection}{\numberline {9.53.3.5}AgregarDescripcionAReunion()}{106}{subsubsection.9.53.3.5}%
+\contentsline {subsubsection}{\numberline {9.53.3.6}AgregarEtiqueta()}{106}{subsubsection.9.53.3.6}%
+\contentsline {subsubsection}{\numberline {9.53.3.7}BuscarClientePorId()}{106}{subsubsection.9.53.3.7}%
+\contentsline {subsubsection}{\numberline {9.53.3.8}BuscarClientes()}{107}{subsubsection.9.53.3.8}%
+\contentsline {subsubsection}{\numberline {9.53.3.9}EliminarCliente()}{107}{subsubsection.9.53.3.9}%
+\contentsline {subsubsection}{\numberline {9.53.3.10}ListarClientes()}{107}{subsubsection.9.53.3.10}%
+\contentsline {subsubsection}{\numberline {9.53.3.11}ModificarCliente()}{107}{subsubsection.9.53.3.11}%
+\contentsline {subsubsection}{\numberline {9.53.3.12}ObtenerPanelResumen()}{109}{subsubsection.9.53.3.12}%
+\contentsline {subsubsection}{\numberline {9.53.3.13}RegistrarLlamadaRecibida()}{109}{subsubsection.9.53.3.13}%
+\contentsline {subsubsection}{\numberline {9.53.3.14}RegistrarMensajeRecibido()}{109}{subsubsection.9.53.3.14}%
+\contentsline {subsubsection}{\numberline {9.53.3.15}TotalVentasPorPeriodo()}{110}{subsubsection.9.53.3.15}%
+\contentsline {subsection}{\numberline {9.53.4}Member Data Documentation}{110}{subsection.9.53.4}%
+\contentsline {subsubsection}{\numberline {9.53.4.1}Clientes}{110}{subsubsection.9.53.4.1}%
+\contentsline {subsubsection}{\numberline {9.53.4.2}Etiquetas}{110}{subsubsection.9.53.4.2}%
+\contentsline {subsection}{\numberline {9.53.5}Property Documentation}{110}{subsection.9.53.5}%
+\contentsline {subsubsection}{\numberline {9.53.5.1}Clave}{110}{subsubsection.9.53.5.1}%
+\contentsline {subsubsection}{\numberline {9.53.5.2}Id}{110}{subsubsection.9.53.5.2}%
+\contentsline {subsubsection}{\numberline {9.53.5.3}Nombre}{110}{subsubsection.9.53.5.3}%
+\contentsline {subsubsection}{\numberline {9.53.5.4}Suspendido}{110}{subsubsection.9.53.5.4}%
+\contentsline {section}{\numberline {9.54}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Class Reference}{111}{section.9.54}%
+\contentsline {subsection}{\numberline {9.54.1}Member Function Documentation}{111}{subsection.9.54.1}%
+\contentsline {subsubsection}{\numberline {9.54.1.1}ActualizarCliente\_ConLlamada()}{111}{subsubsection.9.54.1.1}%
+\contentsline {subsubsection}{\numberline {9.54.1.2}ActualizarCliente\_ConMensaje()}{111}{subsubsection.9.54.1.2}%
+\contentsline {subsubsection}{\numberline {9.54.1.3}ActualizarCliente\_ConPrecio()}{112}{subsubsection.9.54.1.3}%
+\contentsline {subsubsection}{\numberline {9.54.1.4}ActualizarCliente\_ConReunion()}{112}{subsubsection.9.54.1.4}%
+\contentsline {subsubsection}{\numberline {9.54.1.5}ActualizarCliente\_ConVenta()}{112}{subsubsection.9.54.1.5}%
+\contentsline {subsubsection}{\numberline {9.54.1.6}AgregarDescripcionAEmail()}{112}{subsubsection.9.54.1.6}%
+\contentsline {subsubsection}{\numberline {9.54.1.7}AgregarDescripcionALlamada()}{112}{subsubsection.9.54.1.7}%
+\contentsline {subsubsection}{\numberline {9.54.1.8}AgregarDescripcionAMensaje()}{112}{subsubsection.9.54.1.8}%
+\contentsline {subsubsection}{\numberline {9.54.1.9}AgregarDescripcionAReunion()}{112}{subsubsection.9.54.1.9}%
+\contentsline {subsubsection}{\numberline {9.54.1.10}AgregarEtiqueta()}{112}{subsubsection.9.54.1.10}%
+\contentsline {subsubsection}{\numberline {9.54.1.11}BuscarClientePorId()}{112}{subsubsection.9.54.1.11}%
+\contentsline {subsubsection}{\numberline {9.54.1.12}EliminarCliente()}{112}{subsubsection.9.54.1.12}%
+\contentsline {subsubsection}{\numberline {9.54.1.13}ModificarCliente()}{113}{subsubsection.9.54.1.13}%
+\contentsline {subsubsection}{\numberline {9.54.1.14}RegistrarLlamadaRecibida()}{113}{subsubsection.9.54.1.14}%
+\contentsline {subsubsection}{\numberline {9.54.1.15}RegistrarMensajeRecibido()}{113}{subsubsection.9.54.1.15}%
+\contentsline {subsubsection}{\numberline {9.54.1.16}Setup()}{113}{subsubsection.9.54.1.16}%
+\contentsline {subsubsection}{\numberline {9.54.1.17}TotalVentasPorPeriodo()}{113}{subsubsection.9.54.1.17}%
+\contentsline {section}{\numberline {9.55}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}principales.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor Class Reference}{113}{section.9.55}%
+\contentsline {subsection}{\numberline {9.55.1}Detailed Description}{114}{subsection.9.55.1}%
+\contentsline {subsection}{\numberline {9.55.2}Constructor \& Destructor Documentation}{114}{subsection.9.55.2}%
+\contentsline {subsubsection}{\numberline {9.55.2.1}Vendedor()}{114}{subsubsection.9.55.2.1}%
+\contentsline {subsection}{\numberline {9.55.3}Member Function Documentation}{114}{subsection.9.55.3}%
+\contentsline {subsubsection}{\numberline {9.55.3.1}AgregarCliente()}{114}{subsubsection.9.55.3.1}%
+\contentsline {subsubsection}{\numberline {9.55.3.2}AsignarClienteAotroVendedor()}{114}{subsubsection.9.55.3.2}%
+\contentsline {subsubsection}{\numberline {9.55.3.3}BuscarClientePorId()}{114}{subsubsection.9.55.3.3}%
+\contentsline {subsubsection}{\numberline {9.55.3.4}ValidarCredenciales()}{116}{subsubsection.9.55.3.4}%
+\contentsline {subsection}{\numberline {9.55.4}Property Documentation}{116}{subsection.9.55.4}%
+\contentsline {subsubsection}{\numberline {9.55.4.1}Clave}{116}{subsubsection.9.55.4.1}%
+\contentsline {subsubsection}{\numberline {9.55.4.2}Clientes}{116}{subsubsection.9.55.4.2}%
+\contentsline {subsubsection}{\numberline {9.55.4.3}Id}{116}{subsubsection.9.55.4.3}%
+\contentsline {subsubsection}{\numberline {9.55.4.4}Nombre}{116}{subsubsection.9.55.4.4}%
+\contentsline {section}{\numberline {9.56}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests Class Reference}{116}{section.9.56}%
+\contentsline {subsection}{\numberline {9.56.1}Member Function Documentation}{117}{subsection.9.56.1}%
+\contentsline {subsubsection}{\numberline {9.56.1.1}ActualizarCliente\_ConReunion()}{117}{subsubsection.9.56.1.1}%
+\contentsline {subsubsection}{\numberline {9.56.1.2}ActualizarCliente\_ConVenta()}{117}{subsubsection.9.56.1.2}%
+\contentsline {subsubsection}{\numberline {9.56.1.3}AsignarClienteAotroVendedor()}{117}{subsubsection.9.56.1.3}%
+\contentsline {subsubsection}{\numberline {9.56.1.4}AsignarClienteAotroVendedor\_SiNoExiste()}{117}{subsubsection.9.56.1.4}%
+\contentsline {subsubsection}{\numberline {9.56.1.5}ListarClientes()}{117}{subsubsection.9.56.1.5}%
+\contentsline {subsubsection}{\numberline {9.56.1.6}ModificarCliente\_Etiqueta()}{118}{subsubsection.9.56.1.6}%
+\contentsline {subsubsection}{\numberline {9.56.1.7}Setup()}{118}{subsubsection.9.56.1.7}%
+\contentsline {section}{\numberline {9.57}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Venta Class Reference}{118}{section.9.57}%
+\contentsline {subsection}{\numberline {9.57.1}Detailed Description}{118}{subsection.9.57.1}%
+\contentsline {subsection}{\numberline {9.57.2}Property Documentation}{118}{subsection.9.57.2}%
+\contentsline {subsubsection}{\numberline {9.57.2.1}Descripcion}{118}{subsubsection.9.57.2.1}%
+\contentsline {subsubsection}{\numberline {9.57.2.2}Fecha}{118}{subsubsection.9.57.2.2}%
+\contentsline {subsubsection}{\numberline {9.57.2.3}Precio}{118}{subsubsection.9.57.2.3}%
+\contentsline {section}{\numberline {9.58}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tipos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ventas Class Reference}{118}{section.9.58}%
+\contentsline {subsection}{\numberline {9.58.1}Detailed Description}{119}{subsection.9.58.1}%
+\contentsline {subsection}{\numberline {9.58.2}Member Function Documentation}{119}{subsection.9.58.2}%
+\contentsline {subsubsection}{\numberline {9.58.2.1}AgregarVenta()}{119}{subsubsection.9.58.2.1}%
+\contentsline {subsection}{\numberline {9.58.3}Property Documentation}{119}{subsection.9.58.3}%
+\contentsline {subsubsection}{\numberline {9.58.3.1}ListaVentas}{119}{subsubsection.9.58.3.1}%
+\contentsline {section}{\numberline {9.59}Library.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ver\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resumen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{119}{section.9.59}%
+\contentsline {subsection}{\numberline {9.59.1}Detailed Description}{120}{subsection.9.59.1}%
+\contentsline {subsection}{\numberline {9.59.2}Constructor \& Destructor Documentation}{120}{subsection.9.59.2}%
+\contentsline {subsubsection}{\numberline {9.59.2.1}VerPanelResumenUsuario()}{120}{subsubsection.9.59.2.1}%
+\contentsline {subsection}{\numberline {9.59.3}Member Function Documentation}{120}{subsection.9.59.3}%
+\contentsline {subsubsection}{\numberline {9.59.3.1}Ejecutar()}{120}{subsubsection.9.59.3.1}%
+\contentsline {subsection}{\numberline {9.59.4}Property Documentation}{120}{subsection.9.59.4}%
+\contentsline {subsubsection}{\numberline {9.59.4.1}Descripcion}{120}{subsubsection.9.59.4.1}%
+\contentsline {subsubsection}{\numberline {9.59.4.2}Nombre}{120}{subsubsection.9.59.4.2}%
+\contentsline {chapter}{\numberline {10}File Documentation}{121}{chapter.10}%
+\contentsline {section}{\numberline {10.1}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{121}{section.10.1}%
+\contentsline {section}{\numberline {10.2}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.cs File Reference}{121}{section.10.2}%
+\contentsline {section}{\numberline {10.3}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Agregar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Etiqueta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{121}{section.10.3}%
+\contentsline {section}{\numberline {10.4}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asignar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor.cs File Reference}{121}{section.10.4}%
+\contentsline {section}{\numberline {10.5}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buscar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{122}{section.10.5}%
+\contentsline {section}{\numberline {10.6}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Contacto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pendiente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{122}{section.10.6}%
+\contentsline {section}{\numberline {10.7}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{122}{section.10.7}%
+\contentsline {section}{\numberline {10.8}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Etiqueta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{122}{section.10.8}%
+\contentsline {section}{\numberline {10.9}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.cs File Reference}{123}{section.10.9}%
+\contentsline {section}{\numberline {10.10}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Crear\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{123}{section.10.10}%
+\contentsline {section}{\numberline {10.11}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eliminar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{123}{section.10.11}%
+\contentsline {section}{\numberline {10.12}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eliminar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.cs File Reference}{123}{section.10.12}%
+\contentsline {section}{\numberline {10.13}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interacciones\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{124}{section.10.13}%
+\contentsline {section}{\numberline {10.14}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{124}{section.10.14}%
+\contentsline {section}{\numberline {10.15}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor.cs File Reference}{124}{section.10.15}%
+\contentsline {section}{\numberline {10.16}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedores\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{124}{section.10.16}%
+\contentsline {section}{\numberline {10.17}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Login.cs File Reference}{125}{section.10.17}%
+\contentsline {section}{\numberline {10.18}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logout.cs File Reference}{125}{section.10.18}%
+\contentsline {section}{\numberline {10.19}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modificar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{125}{section.10.19}%
+\contentsline {section}{\numberline {10.20}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Promedio\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ventas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{125}{section.10.20}%
+\contentsline {section}{\numberline {10.21}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cotizacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{126}{section.10.21}%
+\contentsline {section}{\numberline {10.22}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Venta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{126}{section.10.22}%
+\contentsline {section}{\numberline {10.23}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comunicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{126}{section.10.23}%
+\contentsline {section}{\numberline {10.24}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Suspender\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.cs File Reference}{126}{section.10.24}%
+\contentsline {section}{\numberline {10.25}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ultima\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interaccion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{127}{section.10.25}%
+\contentsline {section}{\numberline {10.26}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ver\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resumen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{127}{section.10.26}%
+\contentsline {section}{\numberline {10.27}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IBot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Command.cs File Reference}{127}{section.10.27}%
+\contentsline {section}{\numberline {10.28}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IMessage\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.cs File Reference}{127}{section.10.28}%
+\contentsline {section}{\numberline {10.29}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensaje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Consola.cs File Reference}{128}{section.10.29}%
+\contentsline {section}{\numberline {10.30}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sesion.cs File Reference}{128}{section.10.30}%
+\contentsline {section}{\numberline {10.31}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Administrador.cs File Reference}{128}{section.10.31}%
+\contentsline {section}{\numberline {10.32}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente.cs File Reference}{128}{section.10.32}%
+\contentsline {section}{\numberline {10.33}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resumen.cs File Reference}{128}{section.10.33}%
+\contentsline {section}{\numberline {10.34}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente.cs File Reference}{129}{section.10.34}%
+\contentsline {section}{\numberline {10.35}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario.cs File Reference}{129}{section.10.35}%
+\contentsline {section}{\numberline {10.36}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases principales/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor.cs File Reference}{129}{section.10.36}%
+\contentsline {section}{\numberline {10.37}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Email.cs File Reference}{129}{section.10.37}%
+\contentsline {section}{\numberline {10.38}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Emails.cs File Reference}{130}{section.10.38}%
+\contentsline {section}{\numberline {10.39}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Llamada.cs File Reference}{130}{section.10.39}%
+\contentsline {section}{\numberline {10.40}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Llamadas.cs File Reference}{130}{section.10.40}%
+\contentsline {section}{\numberline {10.41}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensaje.cs File Reference}{130}{section.10.41}%
+\contentsline {section}{\numberline {10.42}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mensajes.cs File Reference}{130}{section.10.42}%
+\contentsline {section}{\numberline {10.43}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Precio.cs File Reference}{131}{section.10.43}%
+\contentsline {section}{\numberline {10.44}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reunion.cs File Reference}{131}{section.10.44}%
+\contentsline {section}{\numberline {10.45}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Venta.cs File Reference}{131}{section.10.45}%
+\contentsline {section}{\numberline {10.46}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clases tipos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ventas.cs File Reference}{131}{section.10.46}%
+\contentsline {section}{\numberline {10.47}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada.cs File Reference}{132}{section.10.47}%
+\contentsline {section}{\numberline {10.48}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro.cs File Reference}{132}{section.10.48}%
+\contentsline {section}{\numberline {10.49}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Singleton.cs File Reference}{132}{section.10.49}%
+\contentsline {section}{\numberline {10.50}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/.NETCore\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App,Version=v9.0.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{133}{section.10.50}%
+\contentsline {section}{\numberline {10.51}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/.NETCore\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App,Version=v9.0.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{133}{section.10.51}%
+\contentsline {section}{\numberline {10.52}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/.NETCore\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App,Version=v9.0.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{133}{section.10.52}%
+\contentsline {section}{\numberline {10.53}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{133}{section.10.53}%
+\contentsline {section}{\numberline {10.54}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Global\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}g.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{133}{section.10.54}%
+\contentsline {section}{\numberline {10.55}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Active\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.cs File Reference}{133}{section.10.55}%
+\contentsline {section}{\numberline {10.56}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bridge.cs File Reference}{133}{section.10.56}%
+\contentsline {section}{\numberline {10.57}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Discord\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Message\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.cs File Reference}{133}{section.10.57}%
+\contentsline {section}{\numberline {10.58}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{134}{section.10.58}%
+\contentsline {section}{\numberline {10.59}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program.Global\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}g.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{134}{section.10.59}%
+\contentsline {section}{\numberline {10.60}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program.cs File Reference}{134}{section.10.60}%
+\contentsline {section}{\numberline {10.61}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{134}{section.10.61}%
+\contentsline {section}{\numberline {10.62}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net9.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Global\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}g.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{134}{section.10.62}%
+\contentsline {section}{\numberline {10.63}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Administrador\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{134}{section.10.63}%
+\contentsline {section}{\numberline {10.64}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{134}{section.10.64}%
+\contentsline {section}{\numberline {10.65}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comandos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.cs File Reference}{134}{section.10.65}%
+\contentsline {section}{\numberline {10.66}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fachada\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{135}{section.10.66}%
+\contentsline {section}{\numberline {10.67}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clientes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{135}{section.10.67}%
+\contentsline {section}{\numberline {10.68}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{135}{section.10.68}%
+\contentsline {section}{\numberline {10.69}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{135}{section.10.69}%
+\contentsline {section}{\numberline {10.70}test/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Library.Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vendedor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cs File Reference}{135}{section.10.70}%
+\contentsline {chapter}{Index}{137}{section*.282}%

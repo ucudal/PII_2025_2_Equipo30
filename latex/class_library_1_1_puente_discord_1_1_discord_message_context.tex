@@ -1,0 +1,157 @@
+\doxysection{Library.\+Puente\+Discord.\+Discord\+Message\+Context Class Reference}
+\hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context}{}\label{class_library_1_1_puente_discord_1_1_discord_message_context}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+Inheritance diagram for Library.\+Puente\+Discord.\+Discord\+Message\+Context\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_library_1_1_puente_discord_1_1_discord_message_context}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_afa7d25356d096438bbb1f3428d60f43b}{Discord\+Message\+Context}} (IMessage\+Channel channel, ulong user\+Id)
+\begin{DoxyCompactList}\small\item\em Crea una nueva instancia del contexto de mensaje para un usuario específico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_a6c8a1599ce3f6aa39bf543cd137a0bd4}{Enviar\+Mensaje}} (string msg)
+\begin{DoxyCompactList}\small\item\em Envía un mensaje al usuario en el canal asociado a este contexto. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_ac3015522f889ec10bb8aef203ec8bcc2}{Esperar\+Respuesta}} ()
+\begin{DoxyCompactList}\small\item\em Bloquea la ejecución esperando una respuesta del usuario. Este método no debería usarse en entornos asincrónicos para evitar deadlocks. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_a64698851ed8cd6c403c95fe37b37ac26}{Recibir\+Mensaje}} (string msg)
+\begin{DoxyCompactList}\small\item\em Método llamado por el bot cuando recibe un mensaje del usuario. Libera la espera estableciendo el resultado de la tarea. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+ulong \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_aaf45d333f6f6fe63dc45f4a28c9b38ca}{User\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em ID del usuario asociado a este contexto. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_a20426519f8fa95614e43a8a65d1043a1}{Usuario\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em ID del usuario en formato string (implementación de \doxylink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}). Actualmente no está inicializada. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_af044f06a4d50d4768261e09b89b35049}{Usuario\+Nombre}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Nombre del usuario (implementación de \doxylink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}). Actualmente no está inicializada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa un contexto de interacción para un usuario en Discord, permitiendo enviar mensajes y esperar respuestas de forma asincrónica. 
+
+\label{doc-constructors}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_afa7d25356d096438bbb1f3428d60f43b}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!DiscordMessageContext@{DiscordMessageContext}}
+\index{DiscordMessageContext@{DiscordMessageContext}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{DiscordMessageContext()}{DiscordMessageContext()}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_afa7d25356d096438bbb1f3428d60f43b} 
+Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Discord\+Message\+Context (\begin{DoxyParamCaption}\item[{IMessage\+Channel}]{channel}{, }\item[{ulong}]{user\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Crea una nueva instancia del contexto de mensaje para un usuario específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & Canal de Discord donde se enviarán los mensajes.\\
+\hline
+{\em user\+Id} & ID del usuario asociado al contexto.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_a6c8a1599ce3f6aa39bf543cd137a0bd4}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!EnviarMensaje@{EnviarMensaje}}
+\index{EnviarMensaje@{EnviarMensaje}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{EnviarMensaje()}{EnviarMensaje()}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_a6c8a1599ce3f6aa39bf543cd137a0bd4} 
+void Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Enviar\+Mensaje (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})}
+
+
+
+Envía un mensaje al usuario en el canal asociado a este contexto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Contenido del mensaje a enviar.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a2cd31198ae6a0e9d0f115a7fe0d89b73}{Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context}}.
+
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_ac3015522f889ec10bb8aef203ec8bcc2}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!EsperarRespuesta@{EsperarRespuesta}}
+\index{EsperarRespuesta@{EsperarRespuesta}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{EsperarRespuesta()}{EsperarRespuesta()}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_ac3015522f889ec10bb8aef203ec8bcc2} 
+string Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Esperar\+Respuesta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Bloquea la ejecución esperando una respuesta del usuario. Este método no debería usarse en entornos asincrónicos para evitar deadlocks. 
+
+\begin{DoxyReturn}{Returns}
+El mensaje recibido del usuario.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_ae8046aa70a55721ec8560f42479d990f}{Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context}}.
+
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_a64698851ed8cd6c403c95fe37b37ac26}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!RecibirMensaje@{RecibirMensaje}}
+\index{RecibirMensaje@{RecibirMensaje}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{RecibirMensaje()}{RecibirMensaje()}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_a64698851ed8cd6c403c95fe37b37ac26} 
+void Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Recibir\+Mensaje (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})}
+
+
+
+Método llamado por el bot cuando recibe un mensaje del usuario. Libera la espera estableciendo el resultado de la tarea. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Mensaje recibido por el usuario.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_aaf45d333f6f6fe63dc45f4a28c9b38ca}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!UserId@{UserId}}
+\index{UserId@{UserId}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{UserId}{UserId}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_aaf45d333f6f6fe63dc45f4a28c9b38ca} 
+ulong Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+User\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+ID del usuario asociado a este contexto. 
+
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_a20426519f8fa95614e43a8a65d1043a1}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!UsuarioId@{UsuarioId}}
+\index{UsuarioId@{UsuarioId}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{UsuarioId}{UsuarioId}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_a20426519f8fa95614e43a8a65d1043a1} 
+string Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Usuario\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+ID del usuario en formato string (implementación de \doxylink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}). Actualmente no está inicializada. 
+
+
+
+Implements \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a04ca1829733ef161125d34e80dccb104}{Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context}}.
+
+\Hypertarget{class_library_1_1_puente_discord_1_1_discord_message_context_af044f06a4d50d4768261e09b89b35049}\index{Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}!UsuarioNombre@{UsuarioNombre}}
+\index{UsuarioNombre@{UsuarioNombre}!Library.PuenteDiscord.DiscordMessageContext@{Library.PuenteDiscord.DiscordMessageContext}}
+\doxysubsubsection{\texorpdfstring{UsuarioNombre}{UsuarioNombre}}
+{\footnotesize\ttfamily \label{class_library_1_1_puente_discord_1_1_discord_message_context_af044f06a4d50d4768261e09b89b35049} 
+string Library.\+Puente\+Discord.\+Discord\+Message\+Context.\+Usuario\+Nombre\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Nombre del usuario (implementación de \doxylink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}). Actualmente no está inicializada. 
+
+
+
+Implements \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_abf39b786ea5e3236796d4904dac749f4}{Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Puente\+Discord/\mbox{\hyperlink{_discord_message_context_8cs}{Discord\+Message\+Context.\+cs}}\end{DoxyCompactItemize}

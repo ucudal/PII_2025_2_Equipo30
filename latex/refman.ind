@@ -1,0 +1,1152 @@
+\begin{theindex}
+
+  \item {ActualizarCliente}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{104}
+  \item {ActualizarCliente\_ConLlamada}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{111}
+  \item {ActualizarCliente\_ConMensaje}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{111}
+  \item {ActualizarCliente\_ConPrecio}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{111}
+  \item {ActualizarCliente\_ConReunion}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {ActualizarCliente\_ConVenta}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {Administrador}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{29}
+  \item {AgregarAsunto}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{55}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{82}
+  \item {AgregarCliente}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{114}
+  \item {AgregarDescripcion}
+    \subitem {Library.Clases\_tipos.Email}, \hyperpage{54}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{55}
+    \subitem {Library.Clases\_tipos.Llamada}, \hyperpage{75}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{76}
+    \subitem {Library.Clases\_tipos.Mensaje}, \hyperpage{80}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{82}
+    \subitem {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+  \item {AgregarDescripcionAEmail}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{104}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {AgregarDescripcionALlamada}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{105}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {AgregarDescripcionAMensaje}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{105}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {AgregarDescripcionAReunion}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{106}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {AgregarEnviados}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{55}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{76}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+  \item {AgregarEtiqueta}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{106}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {AgregarEtiquetaClienteUsuario}
+    \subitem {Library.BotCore.Comandos.AgregarEtiquetaClienteUsuario}, 
+		\hyperpage{32}
+  \item {AgregarRecibidos}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{57}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{76}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+  \item {AgregarVenta}
+    \subitem {Library.Clases\_tipos.Ventas}, \hyperpage{119}
+  \item {Apellido}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{40}
+  \item {AsignarClienteAotroVendedor}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{114}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {AsignarClienteAotroVendedor\_SiNoExiste}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {AsignarClienteVendedor}
+    \subitem {Library.BotCore.Comandos.AsignarClienteVendedor}, 
+		\hyperpage{34}
+  \item {Asunto}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{57}
+    \subitem {Library.Clases\_tipos.Llamada}, \hyperpage{75}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+    \subitem {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+
+  \indexspace
+
+  \item {BotDiscordBridge}, \hyperpage{38}
+    \subitem {BotDiscordBridge}, \hyperpage{38}
+  \item {BuscarClientePorId}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{106}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{114}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {BuscarClientes}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{106}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{58}
+  \item {BuscarClienteUsuario}
+    \subitem {Library.BotCore.Comandos.BuscarClienteUsuario}, 
+		\hyperpage{39}
+
+  \indexspace
+
+  \item {CerrarSesion}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{98}
+  \item {Clave}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{30}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{116}
+  \item {Cliente}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{40}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {Clientes}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{116}
+  \item {Contactar}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{40}
+  \item {ContactoPendienteClienteUsuario}
+    \subitem {Library.BotCore.Comandos.ContactoPendienteClienteUsuario}, 
+		\hyperpage{43}
+  \item {Costo}
+    \subitem {Library.Clases\_tipos.Precio}, \hyperpage{87}
+  \item {CrearCliente}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{60}
+  \item {CrearCliente\_DeberiaAgregarClienteAlUsuario}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{41}
+  \item {CrearCliente\_DesdeFachada}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{65}
+  \item {CrearClienteUsuario}
+    \subitem {Library.BotCore.Comandos.CrearClienteUsuario}, 
+		\hyperpage{44}
+  \item {CrearEtiquetaUsuario}
+    \subitem {Library.BotCore.Comandos.CrearEtiquetaUsuario}, 
+		\hyperpage{46}
+  \item {CrearUsuario}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{30}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{60}
+    \subitem {Library.Tests.AdministradorTest}, \hyperpage{31}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{65}
+  \item {CrearUsuario\_DeberiaAgregarUsuarioALaLista}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{41}
+  \item {CrearUsuarioAdmin}
+    \subitem {Library.BotCore.Comandos.CrearUsuarioAdmin}, 
+		\hyperpage{47}
+  \item {CrearVendedor}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{60}
+  \item {CrearVendedorUsuario}
+    \subitem {Library.BotCore.Comandos.CrearVendedorUsuario}, 
+		\hyperpage{48}
+
+  \indexspace
+
+  \item {Descripcion}
+    \subitem {Library.BotCore.Comandos.AgregarEtiquetaClienteUsuario}, 
+		\hyperpage{33}
+    \subitem {Library.BotCore.Comandos.AsignarClienteVendedor}, 
+		\hyperpage{34}
+    \subitem {Library.BotCore.Comandos.BuscarClienteUsuario}, 
+		\hyperpage{39}
+    \subitem {Library.BotCore.Comandos.ContactoPendienteClienteUsuario}, 
+		\hyperpage{43}
+    \subitem {Library.BotCore.Comandos.CrearClienteUsuario}, 
+		\hyperpage{45}
+    \subitem {Library.BotCore.Comandos.CrearEtiquetaUsuario}, 
+		\hyperpage{46}
+    \subitem {Library.BotCore.Comandos.CrearUsuarioAdmin}, 
+		\hyperpage{48}
+    \subitem {Library.BotCore.Comandos.CrearVendedorUsuario}, 
+		\hyperpage{49}
+    \subitem {Library.BotCore.Comandos.EliminarClienteUsuario}, 
+		\hyperpage{52}
+    \subitem {Library.BotCore.Comandos.EliminarUsuarioAdmin}, 
+		\hyperpage{54}
+    \subitem {Library.BotCore.Comandos.InteraccionesClienteUsuario}, 
+		\hyperpage{70}
+    \subitem {Library.BotCore.Comandos.ListarClientesCommand}, 
+		\hyperpage{72}
+    \subitem {Library.BotCore.Comandos.ListarClientesVendedor}, 
+		\hyperpage{73}
+    \subitem {Library.BotCore.Comandos.ListarVendedoresVendedorUsuario}, 
+		\hyperpage{74}
+    \subitem {Library.BotCore.Comandos.LoginCommand}, \hyperpage{78}
+    \subitem {Library.BotCore.Comandos.LogoutCommand}, \hyperpage{79}
+    \subitem {Library.BotCore.Comandos.ModificarClienteUsuario}, 
+		\hyperpage{86}
+    \subitem {Library.BotCore.Comandos.PromedioVentasUsuario}, 
+		\hyperpage{89}
+    \subitem {Library.BotCore.Comandos.RegistrarCotizacionClienteUsuario}, 
+		\hyperpage{90}
+    \subitem {Library.BotCore.Comandos.RegistrarVentaClienteUsuario}, 
+		\hyperpage{91}
+    \subitem {Library.BotCore.Comandos.RegistroComunicacionUsuario}, 
+		\hyperpage{96}
+    \subitem {Library.BotCore.Comandos.SuspenderUsuarioAdmin}, 
+		\hyperpage{101}
+    \subitem {Library.BotCore.Comandos.UltimaInteraccionClienteUsuario}, 
+		\hyperpage{102}
+    \subitem {Library.BotCore.Comandos.VerPanelResumenUsuario}, 
+		\hyperpage{120}
+    \subitem {Library.BotCore.Interfaces.IBotCommand}, \hyperpage{67}
+    \subitem {Library.Clases\_tipos.Email}, \hyperpage{54}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{57}
+    \subitem {Library.Clases\_tipos.Llamada}, \hyperpage{75}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{77}
+    \subitem {Library.Clases\_tipos.Mensaje}, \hyperpage{80}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+    \subitem {Library.Clases\_tipos.Precio}, \hyperpage{87}
+    \subitem {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+    \subitem {Library.Clases\_tipos.Venta}, \hyperpage{118}
+  \item {DiscordMessageContext}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{50}
+
+  \indexspace
+
+  \item {Ejecutar}
+    \subitem {Library.BotCore.Comandos.AgregarEtiquetaClienteUsuario}, 
+		\hyperpage{32}
+    \subitem {Library.BotCore.Comandos.AsignarClienteVendedor}, 
+		\hyperpage{34}
+    \subitem {Library.BotCore.Comandos.BuscarClienteUsuario}, 
+		\hyperpage{39}
+    \subitem {Library.BotCore.Comandos.ContactoPendienteClienteUsuario}, 
+		\hyperpage{43}
+    \subitem {Library.BotCore.Comandos.CrearClienteUsuario}, 
+		\hyperpage{44}
+    \subitem {Library.BotCore.Comandos.CrearEtiquetaUsuario}, 
+		\hyperpage{46}
+    \subitem {Library.BotCore.Comandos.CrearUsuarioAdmin}, 
+		\hyperpage{47}
+    \subitem {Library.BotCore.Comandos.CrearVendedorUsuario}, 
+		\hyperpage{49}
+    \subitem {Library.BotCore.Comandos.EliminarClienteUsuario}, 
+		\hyperpage{52}
+    \subitem {Library.BotCore.Comandos.EliminarUsuarioAdmin}, 
+		\hyperpage{53}
+    \subitem {Library.BotCore.Comandos.InteraccionesClienteUsuario}, 
+		\hyperpage{70}
+    \subitem {Library.BotCore.Comandos.ListarClientesCommand}, 
+		\hyperpage{71}
+    \subitem {Library.BotCore.Comandos.ListarClientesVendedor}, 
+		\hyperpage{73}
+    \subitem {Library.BotCore.Comandos.ListarVendedoresVendedorUsuario}, 
+		\hyperpage{74}
+    \subitem {Library.BotCore.Comandos.LoginCommand}, \hyperpage{78}
+    \subitem {Library.BotCore.Comandos.LogoutCommand}, \hyperpage{79}
+    \subitem {Library.BotCore.Comandos.ModificarClienteUsuario}, 
+		\hyperpage{85}
+    \subitem {Library.BotCore.Comandos.PromedioVentasUsuario}, 
+		\hyperpage{88}
+    \subitem {Library.BotCore.Comandos.RegistrarCotizacionClienteUsuario}, 
+		\hyperpage{90}
+    \subitem {Library.BotCore.Comandos.RegistrarVentaClienteUsuario}, 
+		\hyperpage{91}
+    \subitem {Library.BotCore.Comandos.RegistroComunicacionUsuario}, 
+		\hyperpage{96}
+    \subitem {Library.BotCore.Comandos.SuspenderUsuarioAdmin}, 
+		\hyperpage{100}
+    \subitem {Library.BotCore.Comandos.UltimaInteraccionClienteUsuario}, 
+		\hyperpage{102}
+    \subitem {Library.BotCore.Comandos.VerPanelResumenUsuario}, 
+		\hyperpage{120}
+    \subitem {Library.BotCore.Interfaces.IBotCommand}, \hyperpage{67}
+  \item {EliminarCliente}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{107}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{61}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {EliminarClienteUsuario}
+    \subitem {Library.BotCore.Comandos.EliminarClienteUsuario}, 
+		\hyperpage{52}
+  \item {EliminarUsuario}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{30}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{61}
+    \subitem {Library.Tests.AdministradorTest}, \hyperpage{31}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{65}
+  \item {EliminarUsuario\_SiNoExiste}
+    \subitem {Library.Tests.AdministradorTest}, \hyperpage{31}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{65}
+  \item {EliminarUsuarioAdmin}
+    \subitem {Library.BotCore.Comandos.EliminarUsuarioAdmin}, 
+		\hyperpage{53}
+  \item {EliminarUsuarioPorId}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{61}
+  \item {EliminarUsuarioPorId\_DeberiaEliminarUsuarioExistente}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{42}
+  \item {Email}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{40}
+  \item {Emails}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {Enviados}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{57}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{77}
+  \item {EnviarMensaje}
+    \subitem {Library.BotCore.BotCore}, \hyperpage{35}
+    \subitem {Library.BotCore.Interfaces.IMessageContext}, 
+		\hyperpage{68}
+    \subitem {Library.BotCore.MensajeDeConsola}, \hyperpage{81}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{50}
+  \item {EsperarRespuesta}
+    \subitem {Library.BotCore.Interfaces.IMessageContext}, 
+		\hyperpage{69}
+    \subitem {Library.BotCore.MensajeDeConsola}, \hyperpage{81}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{50}
+  \item {EstaLogeado}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{99}
+  \item {Etiqueta}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{40}
+  \item {Etiquetas}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+
+  \indexspace
+
+  \item {FachadaRegistro}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{58}
+  \item {Fecha}
+    \subitem {Library.Clases\_tipos.Email}, \hyperpage{54}
+    \subitem {Library.Clases\_tipos.Llamada}, \hyperpage{75}
+    \subitem {Library.Clases\_tipos.Mensaje}, \hyperpage{80}
+    \subitem {Library.Clases\_tipos.Precio}, \hyperpage{87}
+    \subitem {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+    \subitem {Library.Clases\_tipos.Venta}, \hyperpage{118}
+  \item {FechaNacimiento}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{41}
+
+  \indexspace
+
+  \item {Genero}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{41}
+
+  \indexspace
+
+  \item {Id}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{41}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{116}
+  \item {IniciarSesion}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{98}
+  \item {Instancia}
+    \subitem {Library.Fachadas.Singleton$<$ T $>$}, \hyperpage{99}
+  \item {InteraccionesClienteUsuario}
+    \subitem {Library.BotCore.Comandos.InteraccionesClienteUsuario}, 
+		\hyperpage{70}
+  \item {InteraccionesRecientes}
+    \subitem {Library.Clases\_principales.PanelResumen}, \hyperpage{86}
+
+  \indexspace
+
+  \item {Library}, \hyperpage{25}
+  \item {Library.BotCore}, \hyperpage{25}
+  \item {Library.BotCore.BotCore}, \hyperpage{34}
+    \subitem {EnviarMensaje}, \hyperpage{35}
+    \subitem {MostrarComandos}, \hyperpage{35}
+    \subitem {ProcesarOpcion}, \hyperpage{35}
+    \subitem {RegistrarComando}, \hyperpage{35}
+    \subitem {Sesion}, \hyperpage{37}
+  \item {Library.BotCore.Comandos}, \hyperpage{25}
+  \item {Library.BotCore.Comandos.AgregarEtiquetaClienteUsuario}, 
+		\hyperpage{31}
+    \subitem {AgregarEtiquetaClienteUsuario}, \hyperpage{32}
+    \subitem {Descripcion}, \hyperpage{33}
+    \subitem {Ejecutar}, \hyperpage{32}
+    \subitem {Nombre}, \hyperpage{33}
+  \item {Library.BotCore.Comandos.AsignarClienteVendedor}, 
+		\hyperpage{33}
+    \subitem {AsignarClienteVendedor}, \hyperpage{34}
+    \subitem {Descripcion}, \hyperpage{34}
+    \subitem {Ejecutar}, \hyperpage{34}
+    \subitem {Nombre}, \hyperpage{34}
+  \item {Library.BotCore.Comandos.BuscarClienteUsuario}, \hyperpage{38}
+    \subitem {BuscarClienteUsuario}, \hyperpage{39}
+    \subitem {Descripcion}, \hyperpage{39}
+    \subitem {Ejecutar}, \hyperpage{39}
+    \subitem {Nombre}, \hyperpage{39}
+  \item {Library.BotCore.Comandos.ContactoPendienteClienteUsuario}, 
+		\hyperpage{42}
+    \subitem {ContactoPendienteClienteUsuario}, \hyperpage{43}
+    \subitem {Descripcion}, \hyperpage{43}
+    \subitem {Ejecutar}, \hyperpage{43}
+    \subitem {Nombre}, \hyperpage{43}
+  \item {Library.BotCore.Comandos.CrearClienteUsuario}, \hyperpage{44}
+    \subitem {CrearClienteUsuario}, \hyperpage{44}
+    \subitem {Descripcion}, \hyperpage{45}
+    \subitem {Ejecutar}, \hyperpage{44}
+    \subitem {Nombre}, \hyperpage{45}
+  \item {Library.BotCore.Comandos.CrearEtiquetaUsuario}, \hyperpage{45}
+    \subitem {CrearEtiquetaUsuario}, \hyperpage{46}
+    \subitem {Descripcion}, \hyperpage{46}
+    \subitem {Ejecutar}, \hyperpage{46}
+    \subitem {Nombre}, \hyperpage{46}
+  \item {Library.BotCore.Comandos.CrearUsuarioAdmin}, \hyperpage{46}
+    \subitem {CrearUsuarioAdmin}, \hyperpage{47}
+    \subitem {Descripcion}, \hyperpage{48}
+    \subitem {Ejecutar}, \hyperpage{47}
+    \subitem {Nombre}, \hyperpage{48}
+  \item {Library.BotCore.Comandos.CrearVendedorUsuario}, \hyperpage{48}
+    \subitem {CrearVendedorUsuario}, \hyperpage{48}
+    \subitem {Descripcion}, \hyperpage{49}
+    \subitem {Ejecutar}, \hyperpage{49}
+    \subitem {Nombre}, \hyperpage{49}
+  \item {Library.BotCore.Comandos.EliminarClienteUsuario}, 
+		\hyperpage{51}
+    \subitem {Descripcion}, \hyperpage{52}
+    \subitem {Ejecutar}, \hyperpage{52}
+    \subitem {EliminarClienteUsuario}, \hyperpage{52}
+    \subitem {Nombre}, \hyperpage{52}
+  \item {Library.BotCore.Comandos.EliminarUsuarioAdmin}, \hyperpage{53}
+    \subitem {Descripcion}, \hyperpage{54}
+    \subitem {Ejecutar}, \hyperpage{53}
+    \subitem {EliminarUsuarioAdmin}, \hyperpage{53}
+    \subitem {Nombre}, \hyperpage{54}
+  \item {Library.BotCore.Comandos.InteraccionesClienteUsuario}, 
+		\hyperpage{69}
+    \subitem {Descripcion}, \hyperpage{70}
+    \subitem {Ejecutar}, \hyperpage{70}
+    \subitem {InteraccionesClienteUsuario}, \hyperpage{70}
+    \subitem {Nombre}, \hyperpage{70}
+  \item {Library.BotCore.Comandos.ListarClientesCommand}, 
+		\hyperpage{70}
+    \subitem {Descripcion}, \hyperpage{72}
+    \subitem {Ejecutar}, \hyperpage{71}
+    \subitem {ListarClientesCommand}, \hyperpage{71}
+    \subitem {Nombre}, \hyperpage{72}
+  \item {Library.BotCore.Comandos.ListarClientesVendedor}, 
+		\hyperpage{72}
+    \subitem {Descripcion}, \hyperpage{73}
+    \subitem {Ejecutar}, \hyperpage{73}
+    \subitem {ListarClientesVendedor}, \hyperpage{72}
+    \subitem {Nombre}, \hyperpage{73}
+  \item {Library.BotCore.Comandos.ListarVendedoresVendedorUsuario}, 
+		\hyperpage{73}
+    \subitem {Descripcion}, \hyperpage{74}
+    \subitem {Ejecutar}, \hyperpage{74}
+    \subitem {ListarVendedoresVendedorUsuario}, \hyperpage{74}
+    \subitem {Nombre}, \hyperpage{74}
+  \item {Library.BotCore.Comandos.LoginCommand}, \hyperpage{77}
+    \subitem {Descripcion}, \hyperpage{78}
+    \subitem {Ejecutar}, \hyperpage{78}
+    \subitem {LoginCommand}, \hyperpage{77}
+    \subitem {Nombre}, \hyperpage{78}
+  \item {Library.BotCore.Comandos.LogoutCommand}, \hyperpage{78}
+    \subitem {Descripcion}, \hyperpage{79}
+    \subitem {Ejecutar}, \hyperpage{79}
+    \subitem {LogoutCommand}, \hyperpage{79}
+    \subitem {Nombre}, \hyperpage{79}
+  \item {Library.BotCore.Comandos.ModificarClienteUsuario}, 
+		\hyperpage{85}
+    \subitem {Descripcion}, \hyperpage{86}
+    \subitem {Ejecutar}, \hyperpage{85}
+    \subitem {ModificarClienteUsuario}, \hyperpage{85}
+    \subitem {Nombre}, \hyperpage{86}
+  \item {Library.BotCore.Comandos.PromedioVentasUsuario}, 
+		\hyperpage{87}
+    \subitem {Descripcion}, \hyperpage{89}
+    \subitem {Ejecutar}, \hyperpage{88}
+    \subitem {Nombre}, \hyperpage{89}
+    \subitem {PromedioVentasUsuario}, \hyperpage{88}
+  \item {Library.BotCore.Comandos.RegistrarCotizacionClienteUsuario}, 
+		\hyperpage{89}
+    \subitem {Descripcion}, \hyperpage{90}
+    \subitem {Ejecutar}, \hyperpage{90}
+    \subitem {Nombre}, \hyperpage{90}
+    \subitem {RegistrarCotizacionClienteUsuario}, \hyperpage{89}
+  \item {Library.BotCore.Comandos.RegistrarVentaClienteUsuario}, 
+		\hyperpage{90}
+    \subitem {Descripcion}, \hyperpage{91}
+    \subitem {Ejecutar}, \hyperpage{91}
+    \subitem {Nombre}, \hyperpage{92}
+    \subitem {RegistrarVentaClienteUsuario}, \hyperpage{91}
+  \item {Library.BotCore.Comandos.RegistroComunicacionUsuario}, 
+		\hyperpage{95}
+    \subitem {Descripcion}, \hyperpage{96}
+    \subitem {Ejecutar}, \hyperpage{96}
+    \subitem {Nombre}, \hyperpage{96}
+    \subitem {RegistroComunicacionUsuario}, \hyperpage{96}
+  \item {Library.BotCore.Comandos.SuspenderUsuarioAdmin}, 
+		\hyperpage{100}
+    \subitem {Descripcion}, \hyperpage{101}
+    \subitem {Ejecutar}, \hyperpage{100}
+    \subitem {Nombre}, \hyperpage{101}
+    \subitem {SuspenderUsuarioAdmin}, \hyperpage{100}
+  \item {Library.BotCore.Comandos.UltimaInteraccionClienteUsuario}, 
+		\hyperpage{101}
+    \subitem {Descripcion}, \hyperpage{102}
+    \subitem {Ejecutar}, \hyperpage{102}
+    \subitem {Nombre}, \hyperpage{103}
+    \subitem {UltimaInteraccionClienteUsuario}, \hyperpage{102}
+  \item {Library.BotCore.Comandos.VerPanelResumenUsuario}, 
+		\hyperpage{119}
+    \subitem {Descripcion}, \hyperpage{120}
+    \subitem {Ejecutar}, \hyperpage{120}
+    \subitem {Nombre}, \hyperpage{120}
+    \subitem {VerPanelResumenUsuario}, \hyperpage{120}
+  \item {Library.BotCore.Interfaces}, \hyperpage{26}
+  \item {Library.BotCore.Interfaces.IBotCommand}, \hyperpage{66}
+    \subitem {Descripcion}, \hyperpage{67}
+    \subitem {Ejecutar}, \hyperpage{67}
+    \subitem {Nombre}, \hyperpage{67}
+  \item {Library.BotCore.Interfaces.IMessageContext}, \hyperpage{68}
+    \subitem {EnviarMensaje}, \hyperpage{68}
+    \subitem {EsperarRespuesta}, \hyperpage{69}
+    \subitem {UsuarioId}, \hyperpage{69}
+    \subitem {UsuarioNombre}, \hyperpage{69}
+  \item {Library.BotCore.MensajeDeConsola}, \hyperpage{81}
+    \subitem {EnviarMensaje}, \hyperpage{81}
+    \subitem {EsperarRespuesta}, \hyperpage{81}
+    \subitem {UsuarioId}, \hyperpage{81}
+    \subitem {UsuarioNombre}, \hyperpage{81}
+  \item {Library.BotCore.Sesion}, \hyperpage{98}
+    \subitem {CerrarSesion}, \hyperpage{98}
+    \subitem {EstaLogeado}, \hyperpage{99}
+    \subitem {IniciarSesion}, \hyperpage{98}
+    \subitem {Rol}, \hyperpage{99}
+    \subitem {ToString}, \hyperpage{98}
+    \subitem {UsuarioActual}, \hyperpage{99}
+  \item {Library.Clases\_principales}, \hyperpage{27}
+  \item {Library.Clases\_principales.Administrador}, \hyperpage{29}
+    \subitem {Administrador}, \hyperpage{29}
+    \subitem {Clave}, \hyperpage{30}
+    \subitem {CrearUsuario}, \hyperpage{30}
+    \subitem {EliminarUsuario}, \hyperpage{30}
+    \subitem {Nombre}, \hyperpage{30}
+    \subitem {Usuarios}, \hyperpage{30}
+  \item {Library.Clases\_principales.Cliente}, \hyperpage{40}
+    \subitem {Apellido}, \hyperpage{40}
+    \subitem {Cliente}, \hyperpage{40}
+    \subitem {Contactar}, \hyperpage{40}
+    \subitem {Email}, \hyperpage{40}
+    \subitem {Etiqueta}, \hyperpage{40}
+    \subitem {FechaNacimiento}, \hyperpage{41}
+    \subitem {Genero}, \hyperpage{41}
+    \subitem {Id}, \hyperpage{41}
+    \subitem {Nombre}, \hyperpage{41}
+    \subitem {Telefono}, \hyperpage{41}
+  \item {Library.Clases\_principales.PanelResumen}, \hyperpage{86}
+    \subitem {InteraccionesRecientes}, \hyperpage{86}
+    \subitem {ReunionesProximas}, \hyperpage{86}
+    \subitem {TotalClientes}, \hyperpage{86}
+  \item {Library.Clases\_principales.RegistroCliente}, \hyperpage{92}
+    \subitem {Cliente}, \hyperpage{94}
+    \subitem {Emails}, \hyperpage{94}
+    \subitem {Llamadas}, \hyperpage{94}
+    \subitem {Mensajes}, \hyperpage{94}
+    \subitem {Precio}, \hyperpage{94}
+    \subitem {RegistrarGenero}, \hyperpage{93}
+    \subitem {RegistrarNacimiento}, \hyperpage{93}
+    \subitem {RegistrarPrecio}, \hyperpage{93}
+    \subitem {RegistroCliente}, \hyperpage{92}
+    \subitem {Reunion}, \hyperpage{94}
+    \subitem {UltimaInteraccion}, \hyperpage{93}
+    \subitem {Ventas}, \hyperpage{94}
+  \item {Library.Clases\_principales.Usuario}, \hyperpage{103}
+    \subitem {ActualizarCliente}, \hyperpage{104}
+    \subitem {AgregarDescripcionAEmail}, \hyperpage{104}
+    \subitem {AgregarDescripcionALlamada}, \hyperpage{105}
+    \subitem {AgregarDescripcionAMensaje}, \hyperpage{105}
+    \subitem {AgregarDescripcionAReunion}, \hyperpage{106}
+    \subitem {AgregarEtiqueta}, \hyperpage{106}
+    \subitem {BuscarClientePorId}, \hyperpage{106}
+    \subitem {BuscarClientes}, \hyperpage{106}
+    \subitem {Clave}, \hyperpage{110}
+    \subitem {Clientes}, \hyperpage{110}
+    \subitem {EliminarCliente}, \hyperpage{107}
+    \subitem {Etiquetas}, \hyperpage{110}
+    \subitem {Id}, \hyperpage{110}
+    \subitem {ListarClientes}, \hyperpage{107}
+    \subitem {ModificarCliente}, \hyperpage{107}
+    \subitem {Nombre}, \hyperpage{110}
+    \subitem {ObtenerPanelResumen}, \hyperpage{109}
+    \subitem {RegistrarLlamadaRecibida}, \hyperpage{109}
+    \subitem {RegistrarMensajeRecibido}, \hyperpage{109}
+    \subitem {Suspendido}, \hyperpage{110}
+    \subitem {TotalVentasPorPeriodo}, \hyperpage{110}
+    \subitem {Usuario}, \hyperpage{104}
+  \item {Library.Clases\_principales.Vendedor}, \hyperpage{113}
+    \subitem {AgregarCliente}, \hyperpage{114}
+    \subitem {AsignarClienteAotroVendedor}, \hyperpage{114}
+    \subitem {BuscarClientePorId}, \hyperpage{114}
+    \subitem {Clave}, \hyperpage{116}
+    \subitem {Clientes}, \hyperpage{116}
+    \subitem {Id}, \hyperpage{116}
+    \subitem {Nombre}, \hyperpage{116}
+    \subitem {ValidarCredenciales}, \hyperpage{116}
+    \subitem {Vendedor}, \hyperpage{114}
+  \item {Library.Clases\_tipos}, \hyperpage{27}
+  \item {Library.Clases\_tipos.Email}, \hyperpage{54}
+    \subitem {AgregarDescripcion}, \hyperpage{54}
+    \subitem {Descripcion}, \hyperpage{54}
+    \subitem {Fecha}, \hyperpage{54}
+    \subitem {Texto}, \hyperpage{54}
+  \item {Library.Clases\_tipos.Emails}, \hyperpage{55}
+    \subitem {AgregarAsunto}, \hyperpage{55}
+    \subitem {AgregarDescripcion}, \hyperpage{55}
+    \subitem {AgregarEnviados}, \hyperpage{55}
+    \subitem {AgregarRecibidos}, \hyperpage{57}
+    \subitem {Asunto}, \hyperpage{57}
+    \subitem {Descripcion}, \hyperpage{57}
+    \subitem {Enviados}, \hyperpage{57}
+    \subitem {Recibidos}, \hyperpage{57}
+  \item {Library.Clases\_tipos.Llamada}, \hyperpage{75}
+    \subitem {AgregarDescripcion}, \hyperpage{75}
+    \subitem {Asunto}, \hyperpage{75}
+    \subitem {Descripcion}, \hyperpage{75}
+    \subitem {Fecha}, \hyperpage{75}
+  \item {Library.Clases\_tipos.Llamadas}, \hyperpage{75}
+    \subitem {AgregarDescripcion}, \hyperpage{76}
+    \subitem {AgregarEnviados}, \hyperpage{76}
+    \subitem {AgregarRecibidos}, \hyperpage{76}
+    \subitem {Descripcion}, \hyperpage{77}
+    \subitem {Enviados}, \hyperpage{77}
+    \subitem {Recibidos}, \hyperpage{77}
+  \item {Library.Clases\_tipos.Mensaje}, \hyperpage{80}
+    \subitem {AgregarDescripcion}, \hyperpage{80}
+    \subitem {Descripcion}, \hyperpage{80}
+    \subitem {Fecha}, \hyperpage{80}
+    \subitem {Texto}, \hyperpage{80}
+  \item {Library.Clases\_tipos.Mensajes}, \hyperpage{82}
+    \subitem {AgregarAsunto}, \hyperpage{82}
+    \subitem {AgregarDescripcion}, \hyperpage{82}
+    \subitem {AgregarEnviados}, \hyperpage{84}
+    \subitem {AgregarRecibidos}, \hyperpage{84}
+    \subitem {Asunto}, \hyperpage{84}
+    \subitem {Descripcion}, \hyperpage{84}
+    \subitem {mensajesEnviados}, \hyperpage{84}
+    \subitem {mensajesRecibidos}, \hyperpage{84}
+  \item {Library.Clases\_tipos.Precio}, \hyperpage{87}
+    \subitem {Costo}, \hyperpage{87}
+    \subitem {Descripcion}, \hyperpage{87}
+    \subitem {Fecha}, \hyperpage{87}
+  \item {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+    \subitem {AgregarDescripcion}, \hyperpage{97}
+    \subitem {Asunto}, \hyperpage{97}
+    \subitem {Descripcion}, \hyperpage{97}
+    \subitem {Fecha}, \hyperpage{97}
+    \subitem {Lugar}, \hyperpage{97}
+  \item {Library.Clases\_tipos.Venta}, \hyperpage{118}
+    \subitem {Descripcion}, \hyperpage{118}
+    \subitem {Fecha}, \hyperpage{118}
+    \subitem {Precio}, \hyperpage{118}
+  \item {Library.Clases\_tipos.Ventas}, \hyperpage{118}
+    \subitem {AgregarVenta}, \hyperpage{119}
+    \subitem {ListaVentas}, \hyperpage{119}
+  \item {Library.Fachadas}, \hyperpage{27}
+  \item {Library.Fachadas.Fachada}, \hyperpage{57}
+  \item {Library.Fachadas.FachadaRegistro}, \hyperpage{57}
+    \subitem {BuscarClientes}, \hyperpage{58}
+    \subitem {CrearCliente}, \hyperpage{60}
+    \subitem {CrearUsuario}, \hyperpage{60}
+    \subitem {CrearVendedor}, \hyperpage{60}
+    \subitem {EliminarCliente}, \hyperpage{61}
+    \subitem {EliminarUsuario}, \hyperpage{61}
+    \subitem {EliminarUsuarioPorId}, \hyperpage{61}
+    \subitem {FachadaRegistro}, \hyperpage{58}
+    \subitem {ListarClientes}, \hyperpage{62}
+    \subitem {LoginAdministrador}, \hyperpage{62}
+    \subitem {LoginUsuario}, \hyperpage{62}
+    \subitem {LoginVendedor}, \hyperpage{62}
+    \subitem {ModificarCliente}, \hyperpage{63}
+    \subitem {ObtenerPanelResumen}, \hyperpage{63}
+    \subitem {ObtenerTotalVentasPorPeriodo}, \hyperpage{64}
+    \subitem {SuspenderUsuario}, \hyperpage{64}
+    \subitem {Vendedores}, \hyperpage{64}
+  \item {Library.Fachadas.Singleton$<$ T $>$}, \hyperpage{99}
+    \subitem {Instancia}, \hyperpage{99}
+  \item {Library.PuenteDiscord}, \hyperpage{28}
+  \item {Library.PuenteDiscord.DiscordMessageContext}, \hyperpage{49}
+    \subitem {DiscordMessageContext}, \hyperpage{50}
+    \subitem {EnviarMensaje}, \hyperpage{50}
+    \subitem {EsperarRespuesta}, \hyperpage{50}
+    \subitem {RecibirMensaje}, \hyperpage{50}
+    \subitem {UserId}, \hyperpage{51}
+    \subitem {UsuarioId}, \hyperpage{51}
+    \subitem {UsuarioNombre}, \hyperpage{51}
+  \item {Library.Tests}, \hyperpage{28}
+  \item {Library.Tests.AdministradorTest}, \hyperpage{31}
+    \subitem {CrearUsuario}, \hyperpage{31}
+    \subitem {EliminarUsuario}, \hyperpage{31}
+    \subitem {EliminarUsuario\_SiNoExiste}, \hyperpage{31}
+    \subitem {Setup}, \hyperpage{31}
+  \item {Library.Tests.BotCoreTest}, \hyperpage{37}
+    \subitem {ProcesarOpcion\_FormatoIncorrecto}, \hyperpage{37}
+    \subitem {ProcesarOpcion\_Inexistente}, \hyperpage{37}
+    \subitem {ProcesarOpcion\_Valida}, \hyperpage{37}
+    \subitem {RegistrarComando}, \hyperpage{37}
+    \subitem {Setup}, \hyperpage{37}
+  \item {Library.Tests.ComandosBotTest}, \hyperpage{41}
+    \subitem {CrearCliente\_DeberiaAgregarClienteAlUsuario}, 
+		\hyperpage{41}
+    \subitem {CrearUsuario\_DeberiaAgregarUsuarioALaLista}, 
+		\hyperpage{41}
+    \subitem {EliminarUsuarioPorId\_DeberiaEliminarUsuarioExistente}, 
+		\hyperpage{42}
+    \subitem {LoginAdministrador\_DeberiaRetornarAdminCorrecto}, 
+		\hyperpage{42}
+    \subitem {Setup}, \hyperpage{42}
+    \subitem {SuspenderUsuario\_DeberiaMarcarUsuarioComoSuspendido}, 
+		\hyperpage{42}
+  \item {Library.Tests.FachadaRegistroTest}, \hyperpage{64}
+    \subitem {CrearCliente\_DesdeFachada}, \hyperpage{65}
+    \subitem {CrearUsuario}, \hyperpage{65}
+    \subitem {EliminarUsuario}, \hyperpage{65}
+    \subitem {EliminarUsuario\_SiNoExiste}, \hyperpage{65}
+    \subitem {ObtenerTotalVentasPorPeriodo\_DesdeFachada}, 
+		\hyperpage{65}
+    \subitem {Setup}, \hyperpage{66}
+  \item {Library.Tests.RegistroClientesTests}, \hyperpage{94}
+    \subitem {RegistrarGenero}, \hyperpage{95}
+    \subitem {RegistrarNacimiento}, \hyperpage{95}
+    \subitem {RegistrarPrecio}, \hyperpage{95}
+    \subitem {Setup}, \hyperpage{95}
+  \item {Library.Tests.Tests}, \hyperpage{101}
+    \subitem {Setup}, \hyperpage{101}
+    \subitem {Test1}, \hyperpage{101}
+  \item {Library.Tests.UsuarioTests}, \hyperpage{111}
+    \subitem {ActualizarCliente\_ConLlamada}, \hyperpage{111}
+    \subitem {ActualizarCliente\_ConMensaje}, \hyperpage{111}
+    \subitem {ActualizarCliente\_ConPrecio}, \hyperpage{111}
+    \subitem {ActualizarCliente\_ConReunion}, \hyperpage{112}
+    \subitem {ActualizarCliente\_ConVenta}, \hyperpage{112}
+    \subitem {AgregarDescripcionAEmail}, \hyperpage{112}
+    \subitem {AgregarDescripcionALlamada}, \hyperpage{112}
+    \subitem {AgregarDescripcionAMensaje}, \hyperpage{112}
+    \subitem {AgregarDescripcionAReunion}, \hyperpage{112}
+    \subitem {AgregarEtiqueta}, \hyperpage{112}
+    \subitem {BuscarClientePorId}, \hyperpage{112}
+    \subitem {EliminarCliente}, \hyperpage{112}
+    \subitem {ModificarCliente}, \hyperpage{112}
+    \subitem {RegistrarLlamadaRecibida}, \hyperpage{113}
+    \subitem {RegistrarMensajeRecibido}, \hyperpage{113}
+    \subitem {Setup}, \hyperpage{113}
+    \subitem {TotalVentasPorPeriodo}, \hyperpage{113}
+  \item {Library.Tests.VendedorTests}, \hyperpage{116}
+    \subitem {ActualizarCliente\_ConReunion}, \hyperpage{117}
+    \subitem {ActualizarCliente\_ConVenta}, \hyperpage{117}
+    \subitem {AsignarClienteAotroVendedor}, \hyperpage{117}
+    \subitem {AsignarClienteAotroVendedor\_SiNoExiste}, \hyperpage{117}
+    \subitem {ListarClientes}, \hyperpage{117}
+    \subitem {ModificarCliente\_Etiqueta}, \hyperpage{117}
+    \subitem {Setup}, \hyperpage{118}
+  \item {ListarClientes}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{107}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{62}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {ListarClientesCommand}
+    \subitem {Library.BotCore.Comandos.ListarClientesCommand}, 
+		\hyperpage{71}
+  \item {ListarClientesVendedor}
+    \subitem {Library.BotCore.Comandos.ListarClientesVendedor}, 
+		\hyperpage{72}
+  \item {ListarVendedoresVendedorUsuario}
+    \subitem {Library.BotCore.Comandos.ListarVendedoresVendedorUsuario}, 
+		\hyperpage{74}
+  \item {ListaVentas}
+    \subitem {Library.Clases\_tipos.Ventas}, \hyperpage{119}
+  \item {Llamadas}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {LoginAdministrador}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{62}
+  \item {LoginAdministrador\_DeberiaRetornarAdminCorrecto}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{42}
+  \item {LoginCommand}
+    \subitem {Library.BotCore.Comandos.LoginCommand}, \hyperpage{77}
+  \item {LoginUsuario}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{62}
+  \item {LoginVendedor}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{62}
+  \item {LogoutCommand}
+    \subitem {Library.BotCore.Comandos.LogoutCommand}, \hyperpage{79}
+  \item {Lugar}
+    \subitem {Library.Clases\_tipos.Reunion}, \hyperpage{97}
+
+  \indexspace
+
+  \item {Mensajes}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {mensajesEnviados}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+  \item {mensajesRecibidos}
+    \subitem {Library.Clases\_tipos.Mensajes}, \hyperpage{84}
+  \item {ModificarCliente}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{107}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{63}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{112}
+  \item {ModificarCliente\_Etiqueta}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{117}
+  \item {ModificarClienteUsuario}
+    \subitem {Library.BotCore.Comandos.ModificarClienteUsuario}, 
+		\hyperpage{85}
+  \item {MostrarComandos}
+    \subitem {Library.BotCore.BotCore}, \hyperpage{35}
+
+  \indexspace
+
+  \item {Nombre}
+    \subitem {Library.BotCore.Comandos.AgregarEtiquetaClienteUsuario}, 
+		\hyperpage{33}
+    \subitem {Library.BotCore.Comandos.AsignarClienteVendedor}, 
+		\hyperpage{34}
+    \subitem {Library.BotCore.Comandos.BuscarClienteUsuario}, 
+		\hyperpage{39}
+    \subitem {Library.BotCore.Comandos.ContactoPendienteClienteUsuario}, 
+		\hyperpage{43}
+    \subitem {Library.BotCore.Comandos.CrearClienteUsuario}, 
+		\hyperpage{45}
+    \subitem {Library.BotCore.Comandos.CrearEtiquetaUsuario}, 
+		\hyperpage{46}
+    \subitem {Library.BotCore.Comandos.CrearUsuarioAdmin}, 
+		\hyperpage{48}
+    \subitem {Library.BotCore.Comandos.CrearVendedorUsuario}, 
+		\hyperpage{49}
+    \subitem {Library.BotCore.Comandos.EliminarClienteUsuario}, 
+		\hyperpage{52}
+    \subitem {Library.BotCore.Comandos.EliminarUsuarioAdmin}, 
+		\hyperpage{54}
+    \subitem {Library.BotCore.Comandos.InteraccionesClienteUsuario}, 
+		\hyperpage{70}
+    \subitem {Library.BotCore.Comandos.ListarClientesCommand}, 
+		\hyperpage{72}
+    \subitem {Library.BotCore.Comandos.ListarClientesVendedor}, 
+		\hyperpage{73}
+    \subitem {Library.BotCore.Comandos.ListarVendedoresVendedorUsuario}, 
+		\hyperpage{74}
+    \subitem {Library.BotCore.Comandos.LoginCommand}, \hyperpage{78}
+    \subitem {Library.BotCore.Comandos.LogoutCommand}, \hyperpage{79}
+    \subitem {Library.BotCore.Comandos.ModificarClienteUsuario}, 
+		\hyperpage{86}
+    \subitem {Library.BotCore.Comandos.PromedioVentasUsuario}, 
+		\hyperpage{89}
+    \subitem {Library.BotCore.Comandos.RegistrarCotizacionClienteUsuario}, 
+		\hyperpage{90}
+    \subitem {Library.BotCore.Comandos.RegistrarVentaClienteUsuario}, 
+		\hyperpage{92}
+    \subitem {Library.BotCore.Comandos.RegistroComunicacionUsuario}, 
+		\hyperpage{96}
+    \subitem {Library.BotCore.Comandos.SuspenderUsuarioAdmin}, 
+		\hyperpage{101}
+    \subitem {Library.BotCore.Comandos.UltimaInteraccionClienteUsuario}, 
+		\hyperpage{103}
+    \subitem {Library.BotCore.Comandos.VerPanelResumenUsuario}, 
+		\hyperpage{120}
+    \subitem {Library.BotCore.Interfaces.IBotCommand}, \hyperpage{67}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{30}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{41}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{116}
+
+  \indexspace
+
+  \item {ObtenerPanelResumen}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{109}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{63}
+  \item {ObtenerTotalVentasPorPeriodo}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{64}
+  \item {ObtenerTotalVentasPorPeriodo\_DesdeFachada}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{65}
+
+  \indexspace
+
+  \item {PII\_Proyecto -\/ Programación 2}, \hyperpage{1}
+  \item {Precio}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+    \subitem {Library.Clases\_tipos.Venta}, \hyperpage{118}
+  \item {ProcesarOpcion}
+    \subitem {Library.BotCore.BotCore}, \hyperpage{35}
+  \item {ProcesarOpcion\_FormatoIncorrecto}
+    \subitem {Library.Tests.BotCoreTest}, \hyperpage{37}
+  \item {ProcesarOpcion\_Inexistente}
+    \subitem {Library.Tests.BotCoreTest}, \hyperpage{37}
+  \item {ProcesarOpcion\_Valida}
+    \subitem {Library.Tests.BotCoreTest}, \hyperpage{37}
+  \item {Program}, \hyperpage{87}
+  \item {PromedioVentasUsuario}
+    \subitem {Library.BotCore.Comandos.PromedioVentasUsuario}, 
+		\hyperpage{88}
+
+  \indexspace
+
+  \item {README.md}, \hyperpage{121}
+  \item {Recibidos}
+    \subitem {Library.Clases\_tipos.Emails}, \hyperpage{57}
+    \subitem {Library.Clases\_tipos.Llamadas}, \hyperpage{77}
+  \item {RecibirMensaje}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{50}
+  \item {RegistrarComando}
+    \subitem {Library.BotCore.BotCore}, \hyperpage{35}
+    \subitem {Library.Tests.BotCoreTest}, \hyperpage{37}
+  \item {RegistrarCotizacionClienteUsuario}
+    \subitem {Library.BotCore.Comandos.RegistrarCotizacionClienteUsuario}, 
+		\hyperpage{89}
+  \item {RegistrarGenero}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{93}
+    \subitem {Library.Tests.RegistroClientesTests}, \hyperpage{95}
+  \item {RegistrarLlamadaRecibida}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{109}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{113}
+  \item {RegistrarMensajeRecibido}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{109}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{113}
+  \item {RegistrarNacimiento}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{93}
+    \subitem {Library.Tests.RegistroClientesTests}, \hyperpage{95}
+  \item {RegistrarPrecio}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{93}
+    \subitem {Library.Tests.RegistroClientesTests}, \hyperpage{95}
+  \item {RegistrarVentaClienteUsuario}
+    \subitem {Library.BotCore.Comandos.RegistrarVentaClienteUsuario}, 
+		\hyperpage{91}
+  \item {RegistroCliente}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{92}
+  \item {RegistroComunicacionUsuario}
+    \subitem {Library.BotCore.Comandos.RegistroComunicacionUsuario}, 
+		\hyperpage{96}
+  \item {Reunion}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {ReunionesProximas}
+    \subitem {Library.Clases\_principales.PanelResumen}, \hyperpage{86}
+  \item {Rol}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{99}
+
+  \indexspace
+
+  \item {Sesion}
+    \subitem {Library.BotCore.BotCore}, \hyperpage{37}
+  \item {Setup}
+    \subitem {Library.Tests.AdministradorTest}, \hyperpage{31}
+    \subitem {Library.Tests.BotCoreTest}, \hyperpage{37}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{42}
+    \subitem {Library.Tests.FachadaRegistroTest}, \hyperpage{66}
+    \subitem {Library.Tests.RegistroClientesTests}, \hyperpage{95}
+    \subitem {Library.Tests.Tests}, \hyperpage{101}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{113}
+    \subitem {Library.Tests.VendedorTests}, \hyperpage{118}
+  \item {src Directory Reference}, \hyperpage{24}
+  \item {src/Library Directory Reference}, \hyperpage{23}
+  \item {src/Library/BotCore Directory Reference}, \hyperpage{21}
+  \item {src/Library/BotCore/BotCore.cs}, \hyperpage{121}
+  \item {src/Library/BotCore/Comandos Directory Reference}, 
+		\hyperpage{22}
+  \item {src/Library/BotCore/Comandos/AgregarEtiquetaClienteUsuario.cs}, 
+		\hyperpage{121}
+  \item {src/Library/BotCore/Comandos/AsignarClienteVendedor.cs}, 
+		\hyperpage{121}
+  \item {src/Library/BotCore/Comandos/BuscarClienteUsuario.cs}, 
+		\hyperpage{122}
+  \item {src/Library/BotCore/Comandos/ContactoPendienteClienteUsuario.cs}, 
+		\hyperpage{122}
+  \item {src/Library/BotCore/Comandos/CrearClienteUsuario.cs}, 
+		\hyperpage{122}
+  \item {src/Library/BotCore/Comandos/CrearEtiquetaUsuario.cs}, 
+		\hyperpage{122}
+  \item {src/Library/BotCore/Comandos/CrearUsuarioAdmin.cs}, 
+		\hyperpage{123}
+  \item {src/Library/BotCore/Comandos/CrearVendedorUsuario.cs}, 
+		\hyperpage{123}
+  \item {src/Library/BotCore/Comandos/EliminarClienteUsuario.cs}, 
+		\hyperpage{123}
+  \item {src/Library/BotCore/Comandos/EliminarUsuarioAdmin.cs}, 
+		\hyperpage{123}
+  \item {src/Library/BotCore/Comandos/InteraccionesClienteUsuario.cs}, 
+		\hyperpage{124}
+  \item {src/Library/BotCore/Comandos/ListarClientesUsuario.cs}, 
+		\hyperpage{124}
+  \item {src/Library/BotCore/Comandos/ListarClientesVendedor.cs}, 
+		\hyperpage{124}
+  \item {src/Library/BotCore/Comandos/ListarVendedoresVendedorUsuario.cs}, 
+		\hyperpage{124}
+  \item {src/Library/BotCore/Comandos/Login.cs}, \hyperpage{125}
+  \item {src/Library/BotCore/Comandos/Logout.cs}, \hyperpage{125}
+  \item {src/Library/BotCore/Comandos/ModificarClienteUsuario.cs}, 
+		\hyperpage{125}
+  \item {src/Library/BotCore/Comandos/PromedioVentasUsuario.cs}, 
+		\hyperpage{125}
+  \item {src/Library/BotCore/Comandos/RegistrarCotizacionClienteUsuario.cs}, 
+		\hyperpage{126}
+  \item {src/Library/BotCore/Comandos/RegistrarVentaClienteUsuario.cs}, 
+		\hyperpage{126}
+  \item {src/Library/BotCore/Comandos/RegistroComunicacionUsuario.cs}, 
+		\hyperpage{126}
+  \item {src/Library/BotCore/Comandos/SuspenderUsuarioAdmin.cs}, 
+		\hyperpage{126}
+  \item {src/Library/BotCore/Comandos/UltimaInteraccionClienteUsuario.cs}, 
+		\hyperpage{127}
+  \item {src/Library/BotCore/Comandos/VerPanelResumenUsuario.cs}, 
+		\hyperpage{127}
+  \item {src/Library/BotCore/Interfaces Directory Reference}, 
+		\hyperpage{23}
+  \item {src/Library/BotCore/Interfaces/IBotCommand.cs}, 
+		\hyperpage{127}
+  \item {src/Library/BotCore/Interfaces/IMessageContext.cs}, 
+		\hyperpage{127}
+  \item {src/Library/BotCore/MensajeDeConsola.cs}, \hyperpage{128}
+  \item {src/Library/BotCore/Sesion.cs}, \hyperpage{128}
+  \item {src/Library/Clases principales Directory Reference}, 
+		\hyperpage{21}
+  \item {src/Library/Clases principales/Administrador.cs}, 
+		\hyperpage{128}
+  \item {src/Library/Clases principales/Cliente.cs}, \hyperpage{128}
+  \item {src/Library/Clases principales/PanelResumen.cs}, 
+		\hyperpage{128}
+  \item {src/Library/Clases principales/RegistroCliente.cs}, 
+		\hyperpage{129}
+  \item {src/Library/Clases principales/Usuario.cs}, \hyperpage{129}
+  \item {src/Library/Clases principales/Vendedor.cs}, \hyperpage{129}
+  \item {src/Library/Clases tipos Directory Reference}, \hyperpage{21}
+  \item {src/Library/Clases tipos/Email.cs}, \hyperpage{129}
+  \item {src/Library/Clases tipos/Emails.cs}, \hyperpage{130}
+  \item {src/Library/Clases tipos/Llamada.cs}, \hyperpage{130}
+  \item {src/Library/Clases tipos/Llamadas.cs}, \hyperpage{130}
+  \item {src/Library/Clases tipos/Mensaje.cs}, \hyperpage{130}
+  \item {src/Library/Clases tipos/Mensajes.cs}, \hyperpage{130}
+  \item {src/Library/Clases tipos/Precio.cs}, \hyperpage{131}
+  \item {src/Library/Clases tipos/Reunion.cs}, \hyperpage{131}
+  \item {src/Library/Clases tipos/Venta.cs}, \hyperpage{131}
+  \item {src/Library/Clases tipos/Ventas.cs}, \hyperpage{131}
+  \item {src/Library/Fachadas Directory Reference}, \hyperpage{22}
+  \item {src/Library/Fachadas/Fachada.cs}, \hyperpage{132}
+  \item {src/Library/Fachadas/FachadaRegistro.cs}, \hyperpage{132}
+  \item {src/Library/Fachadas/Singleton.cs}, \hyperpage{132}
+  \item {src/Library/obj Directory Reference}, \hyperpage{23}
+  \item {src/Library/obj/Debug Directory Reference}, \hyperpage{22}
+  \item {src/Library/obj/Debug/net9.0 Directory Reference}, 
+		\hyperpage{23}
+  \item {src/Library/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs}, 
+		\hyperpage{133}
+  \item {src/Library/obj/Debug/net9.0/Library.AssemblyInfo.cs}, 
+		\hyperpage{133}
+  \item {src/Library/obj/Debug/net9.0/Library.GlobalUsings.g.cs}, 
+		\hyperpage{133}
+  \item {src/Library/PuenteDiscord Directory Reference}, \hyperpage{24}
+  \item {src/Library/PuenteDiscord/ActiveContextManager.cs}, 
+		\hyperpage{133}
+  \item {src/Library/PuenteDiscord/BotDiscordBridge.cs}, 
+		\hyperpage{133}
+  \item {src/Library/PuenteDiscord/DiscordMessageContext.cs}, 
+		\hyperpage{133}
+  \item {src/Program Directory Reference}, \hyperpage{24}
+  \item {src/Program/obj Directory Reference}, \hyperpage{24}
+  \item {src/Program/obj/Debug Directory Reference}, \hyperpage{22}
+  \item {src/Program/obj/Debug/net9.0 Directory Reference}, 
+		\hyperpage{23}
+  \item {src/Program/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs}, 
+		\hyperpage{133}
+  \item {src/Program/obj/Debug/net9.0/Program.AssemblyInfo.cs}, 
+		\hyperpage{134}
+  \item {src/Program/obj/Debug/net9.0/Program.GlobalUsings.g.cs}, 
+		\hyperpage{134}
+  \item {src/Program/Program.cs}, \hyperpage{134}
+  \item {SuspenderUsuario}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{64}
+  \item {SuspenderUsuario\_DeberiaMarcarUsuarioComoSuspendido}
+    \subitem {Library.Tests.ComandosBotTest}, \hyperpage{42}
+  \item {SuspenderUsuarioAdmin}
+    \subitem {Library.BotCore.Comandos.SuspenderUsuarioAdmin}, 
+		\hyperpage{100}
+  \item {Suspendido}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+
+  \indexspace
+
+  \item {Telefono}
+    \subitem {Library.Clases\_principales.Cliente}, \hyperpage{41}
+  \item {test Directory Reference}, \hyperpage{24}
+  \item {test/Library.Tests Directory Reference}, \hyperpage{23}
+  \item {test/Library.Tests/obj Directory Reference}, \hyperpage{24}
+  \item {test/Library.Tests/obj/Debug Directory Reference}, 
+		\hyperpage{22}
+  \item {test/Library.Tests/obj/Debug/net9.0 Directory Reference}, 
+		\hyperpage{23}
+  \item {test/Library.Tests/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs}, 
+		\hyperpage{133}
+  \item {test/Library.Tests/obj/Debug/net9.0/Library.Tests.AssemblyInfo.cs}, 
+		\hyperpage{134}
+  \item {test/Library.Tests/obj/Debug/net9.0/Library.Tests.GlobalUsings.g.cs}, 
+		\hyperpage{134}
+  \item {test/Library.Tests/Tests Directory Reference}, \hyperpage{24}
+  \item {test/Library.Tests/Tests/AdministradorTest.cs}, 
+		\hyperpage{134}
+  \item {test/Library.Tests/Tests/BotCoreTest.cs}, \hyperpage{134}
+  \item {test/Library.Tests/Tests/ComandosBotTests.cs}, \hyperpage{134}
+  \item {test/Library.Tests/Tests/FachadaRegistroTest.cs}, 
+		\hyperpage{135}
+  \item {test/Library.Tests/Tests/RegistroClientesTest.cs}, 
+		\hyperpage{135}
+  \item {test/Library.Tests/Tests/UnitTest.cs}, \hyperpage{135}
+  \item {test/Library.Tests/Tests/UsuarioTest.cs}, \hyperpage{135}
+  \item {test/Library.Tests/Tests/VendedorTest.cs}, \hyperpage{135}
+  \item {Test1}
+    \subitem {Library.Tests.Tests}, \hyperpage{101}
+  \item {Texto}
+    \subitem {Library.Clases\_tipos.Email}, \hyperpage{54}
+    \subitem {Library.Clases\_tipos.Mensaje}, \hyperpage{80}
+  \item {ToString}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{98}
+  \item {TotalClientes}
+    \subitem {Library.Clases\_principales.PanelResumen}, \hyperpage{86}
+  \item {TotalVentasPorPeriodo}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{110}
+    \subitem {Library.Tests.UsuarioTests}, \hyperpage{113}
+
+  \indexspace
+
+  \item {UltimaInteraccion}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{93}
+  \item {UltimaInteraccionClienteUsuario}
+    \subitem {Library.BotCore.Comandos.UltimaInteraccionClienteUsuario}, 
+		\hyperpage{102}
+  \item {UserId}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{51}
+  \item {Usuario}
+    \subitem {Library.Clases\_principales.Usuario}, \hyperpage{104}
+  \item {UsuarioActual}
+    \subitem {Library.BotCore.Sesion}, \hyperpage{99}
+  \item {UsuarioId}
+    \subitem {Library.BotCore.Interfaces.IMessageContext}, 
+		\hyperpage{69}
+    \subitem {Library.BotCore.MensajeDeConsola}, \hyperpage{81}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{51}
+  \item {UsuarioNombre}
+    \subitem {Library.BotCore.Interfaces.IMessageContext}, 
+		\hyperpage{69}
+    \subitem {Library.BotCore.MensajeDeConsola}, \hyperpage{81}
+    \subitem {Library.PuenteDiscord.DiscordMessageContext}, 
+		\hyperpage{51}
+  \item {Usuarios}
+    \subitem {Library.Clases\_principales.Administrador}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {ValidarCredenciales}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{116}
+  \item {Vendedor}
+    \subitem {Library.Clases\_principales.Vendedor}, \hyperpage{114}
+  \item {Vendedores}
+    \subitem {Library.Fachadas.FachadaRegistro}, \hyperpage{64}
+  \item {Ventas}
+    \subitem {Library.Clases\_principales.RegistroCliente}, 
+		\hyperpage{94}
+  \item {VerPanelResumenUsuario}
+    \subitem {Library.BotCore.Comandos.VerPanelResumenUsuario}, 
+		\hyperpage{120}
+
+\end{theindex}

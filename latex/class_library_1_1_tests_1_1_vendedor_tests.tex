@@ -1,0 +1,123 @@
+\doxysection{Library.\+Tests.\+Vendedor\+Tests Class Reference}
+\hypertarget{class_library_1_1_tests_1_1_vendedor_tests}{}\label{class_library_1_1_tests_1_1_vendedor_tests}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a563d04bc2f7f1b939dda34203f26bad5}{Setup}} ()
+\begin{DoxyCompactList}\small\item\em Configuración previa a cada test. Actualmente no realiza ninguna acción. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a5e9cf822701ea3e95b0d0eef1c730f4f}{Asignar\+Cliente\+Aotro\+Vendedor}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que un cliente pueda ser reasignado correctamente desde un vendedor a otro. Verifica que\+: \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a60434e5859ff6be29c2cb4da8f32db91}{Asignar\+Cliente\+Aotro\+Vendedor\+\_\+\+Si\+No\+Existe}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que no se pueda reasignar un cliente que no pertenece al vendedor original. Verifica que\+: \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_ae51f5ea1ea25a9613058ebce0c4b7322}{Listar\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Prueba la funcionalidad de listar clientes en un usuario. Verifica que\+: \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a1d92aa69d18be81c97c0be9d6d6cce74}{Actualizar\+Cliente\+\_\+\+Con\+Venta}} ()
+\begin{DoxyCompactList}\small\item\em Prueba actualizar un cliente agregándole una venta. Verifica que\+: \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a7eacdb5f40d3ff7371e22063a752620e}{Modificar\+Cliente\+\_\+\+Etiqueta}} ()
+\begin{DoxyCompactList}\small\item\em Prueba modificar la etiqueta de un cliente según su ID. Verifica que\+: \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_vendedor_tests_a470e1495ea73e057bad1f630e3d02210}{Actualizar\+Cliente\+\_\+\+Con\+Reunion}} ()
+\begin{DoxyCompactList}\small\item\em Prueba actualizar un cliente agregándole una reunión. Verifica que\+: \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a470e1495ea73e057bad1f630e3d02210}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!ActualizarCliente\_ConReunion@{ActualizarCliente\_ConReunion}}
+\index{ActualizarCliente\_ConReunion@{ActualizarCliente\_ConReunion}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{ActualizarCliente\_ConReunion()}{ActualizarCliente\_ConReunion()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a470e1495ea73e057bad1f630e3d02210} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Actualizar\+Cliente\+\_\+\+Con\+Reunion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba actualizar un cliente agregándole una reunión. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item El método devuelva true.
+\item La reunión quede registrada correctamente en el cliente. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a1d92aa69d18be81c97c0be9d6d6cce74}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!ActualizarCliente\_ConVenta@{ActualizarCliente\_ConVenta}}
+\index{ActualizarCliente\_ConVenta@{ActualizarCliente\_ConVenta}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{ActualizarCliente\_ConVenta()}{ActualizarCliente\_ConVenta()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a1d92aa69d18be81c97c0be9d6d6cce74} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Actualizar\+Cliente\+\_\+\+Con\+Venta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba actualizar un cliente agregándole una venta. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item El método devuelva true.
+\item La venta quede registrada correctamente en el cliente. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a5e9cf822701ea3e95b0d0eef1c730f4f}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!AsignarClienteAotroVendedor@{AsignarClienteAotroVendedor}}
+\index{AsignarClienteAotroVendedor@{AsignarClienteAotroVendedor}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{AsignarClienteAotroVendedor()}{AsignarClienteAotroVendedor()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a5e9cf822701ea3e95b0d0eef1c730f4f} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Asignar\+Cliente\+Aotro\+Vendedor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que un cliente pueda ser reasignado correctamente desde un vendedor a otro. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item El método devuelva true.
+\item El cliente sea removido del primer vendedor.
+\item El cliente sea agregado al segundo vendedor. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a60434e5859ff6be29c2cb4da8f32db91}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!AsignarClienteAotroVendedor\_SiNoExiste@{AsignarClienteAotroVendedor\_SiNoExiste}}
+\index{AsignarClienteAotroVendedor\_SiNoExiste@{AsignarClienteAotroVendedor\_SiNoExiste}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{AsignarClienteAotroVendedor\_SiNoExiste()}{AsignarClienteAotroVendedor\_SiNoExiste()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a60434e5859ff6be29c2cb4da8f32db91} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Asignar\+Cliente\+Aotro\+Vendedor\+\_\+\+Si\+No\+Existe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que no se pueda reasignar un cliente que no pertenece al vendedor original. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item El método devuelva false. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_ae51f5ea1ea25a9613058ebce0c4b7322}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!ListarClientes@{ListarClientes}}
+\index{ListarClientes@{ListarClientes}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{ListarClientes()}{ListarClientes()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_ae51f5ea1ea25a9613058ebce0c4b7322} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Listar\+Clientes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba la funcionalidad de listar clientes en un usuario. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item La lista devuelta contenga la cantidad correcta.
+\item Estén los clientes correspondientes. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a7eacdb5f40d3ff7371e22063a752620e}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!ModificarCliente\_Etiqueta@{ModificarCliente\_Etiqueta}}
+\index{ModificarCliente\_Etiqueta@{ModificarCliente\_Etiqueta}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{ModificarCliente\_Etiqueta()}{ModificarCliente\_Etiqueta()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a7eacdb5f40d3ff7371e22063a752620e} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Modificar\+Cliente\+\_\+\+Etiqueta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba modificar la etiqueta de un cliente según su ID. Verifica que\+: 
+
+
+\begin{DoxyItemize}
+\item El método devuelva true.
+\item La etiqueta haya sido cambiada correctamente. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_vendedor_tests_a563d04bc2f7f1b939dda34203f26bad5}\index{Library.Tests.VendedorTests@{Library.Tests.VendedorTests}!Setup@{Setup}}
+\index{Setup@{Setup}!Library.Tests.VendedorTests@{Library.Tests.VendedorTests}}
+\doxysubsubsection{\texorpdfstring{Setup()}{Setup()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_vendedor_tests_a563d04bc2f7f1b939dda34203f26bad5} 
+void Library.\+Tests.\+Vendedor\+Tests.\+Setup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Configuración previa a cada test. Actualmente no realiza ninguna acción. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test/\+Library.\+Tests/\+Tests/\mbox{\hyperlink{_vendedor_test_8cs}{Vendedor\+Test.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,115 @@
+\doxysection{Library.\+Bot\+Core.\+Sesion Class Reference}
+\hypertarget{class_library_1_1_bot_core_1_1_sesion}{}\label{class_library_1_1_bot_core_1_1_sesion}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+
+
+Representa la información de la sesión.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_ad75bdda49990a8dee1104be3dd6b77e7}{Iniciar\+Sesion}} (object usuario, string rol)
+\begin{DoxyCompactList}\small\item\em Inicia una nueva sesión con el usuario y rol especificados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_a8f6c845fd5dacd4c0d58fcad4052d6c1}{Cerrar\+Sesion}} ()
+\begin{DoxyCompactList}\small\item\em Cierra la sesión actual y limpia los datos asociados. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_a640cbf4f59180b50318601b484dc1fc8}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve una representación en texto del estado actual de la sesión. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+object \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_ab7c5860821084d52903d80c90d1631d3}{Usuario\+Actual}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Representa el tipo de entidad actual (Admin, Usuario, Vendedor). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_ab177ae8dabf85b154b4a14f3b981bdb7}{Rol}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Rol del tipo de usuario actual. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_bot_core_1_1_sesion_acfba5061b4ff3f8a4fbc539aa1178cd4}{Esta\+Logeado}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indica si existe una sesión activa en el sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa la información de la sesión. 
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_bot_core_1_1_sesion_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_bot_core_1_1_sesion_a8f6c845fd5dacd4c0d58fcad4052d6c1}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!CerrarSesion@{CerrarSesion}}
+\index{CerrarSesion@{CerrarSesion}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{CerrarSesion()}{CerrarSesion()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_a8f6c845fd5dacd4c0d58fcad4052d6c1} 
+void Library.\+Bot\+Core.\+Sesion.\+Cerrar\+Sesion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Cierra la sesión actual y limpia los datos asociados. 
+
+Este método borra el usuario y el rol activos, dejando el sistema sin sesión iniciada. \Hypertarget{class_library_1_1_bot_core_1_1_sesion_ad75bdda49990a8dee1104be3dd6b77e7}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!IniciarSesion@{IniciarSesion}}
+\index{IniciarSesion@{IniciarSesion}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{IniciarSesion()}{IniciarSesion()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_ad75bdda49990a8dee1104be3dd6b77e7} 
+void Library.\+Bot\+Core.\+Sesion.\+Iniciar\+Sesion (\begin{DoxyParamCaption}\item[{object}]{usuario}{, }\item[{string}]{rol}{}\end{DoxyParamCaption})}
+
+
+
+Inicia una nueva sesión con el usuario y rol especificados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em usuario} & Instancia del usuario que inicia sesión.\\
+\hline
+{\em rol} & Rol del usuario (por ejemplo, "{}\+Administrador"{}, "{}\+Usuario"{} o "{}\+Vendedor"{}).\\
+\hline
+\end{DoxyParams}
+
+
+Este método establece el usuario actual y marca la sesión como activa. \Hypertarget{class_library_1_1_bot_core_1_1_sesion_a640cbf4f59180b50318601b484dc1fc8}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!ToString@{ToString}}
+\index{ToString@{ToString}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_a640cbf4f59180b50318601b484dc1fc8} 
+override string Library.\+Bot\+Core.\+Sesion.\+To\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Devuelve una representación en texto del estado actual de la sesión. 
+
+\begin{DoxyReturn}{Returns}
+Un mensaje indicando si hay una sesión activa y el rol del usuario, o un mensaje indicando que no hay sesión iniciada. 
+\end{DoxyReturn}
+
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_bot_core_1_1_sesion_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_bot_core_1_1_sesion_acfba5061b4ff3f8a4fbc539aa1178cd4}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!EstaLogeado@{EstaLogeado}}
+\index{EstaLogeado@{EstaLogeado}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{EstaLogeado}{EstaLogeado}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_acfba5061b4ff3f8a4fbc539aa1178cd4} 
+bool Library.\+Bot\+Core.\+Sesion.\+Esta\+Logeado\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Indica si existe una sesión activa en el sistema. 
+
+Devuelve {\ttfamily true} si hay un usuario logeado; de lo contrario, {\ttfamily false}. \Hypertarget{class_library_1_1_bot_core_1_1_sesion_ab177ae8dabf85b154b4a14f3b981bdb7}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!Rol@{Rol}}
+\index{Rol@{Rol}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{Rol}{Rol}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_ab177ae8dabf85b154b4a14f3b981bdb7} 
+string Library.\+Bot\+Core.\+Sesion.\+Rol\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Rol del tipo de usuario actual. 
+
+\Hypertarget{class_library_1_1_bot_core_1_1_sesion_ab7c5860821084d52903d80c90d1631d3}\index{Library.BotCore.Sesion@{Library.BotCore.Sesion}!UsuarioActual@{UsuarioActual}}
+\index{UsuarioActual@{UsuarioActual}!Library.BotCore.Sesion@{Library.BotCore.Sesion}}
+\doxysubsubsection{\texorpdfstring{UsuarioActual}{UsuarioActual}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_sesion_ab7c5860821084d52903d80c90d1631d3} 
+object Library.\+Bot\+Core.\+Sesion.\+Usuario\+Actual\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Representa el tipo de entidad actual (Admin, Usuario, Vendedor). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Bot\+Core/\mbox{\hyperlink{_sesion_8cs}{Sesion.\+cs}}\end{DoxyCompactItemize}

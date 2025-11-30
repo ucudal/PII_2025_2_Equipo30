@@ -1,0 +1,79 @@
+\doxysection{Library.\+Tests.\+Registro\+Clientes\+Tests Class Reference}
+\hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests}{}\label{class_library_1_1_tests_1_1_registro_clientes_tests}\index{Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}}
+
+
+Conjunto de pruebas unitarias para la clase {\ttfamily \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}}. Valida el comportamiento de los métodos relacionados al registro de información del cliente.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_registro_clientes_tests_a144fe2aa8c9f6643f2b706e6091f7dde}{Setup}} ()
+\begin{DoxyCompactList}\small\item\em Método de inicialización ejecutado antes de cada test. Actualmente no realiza ninguna configuración adicional. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_registro_clientes_tests_a0f9fc7e4dd790ee2110cbc3837bc8322}{Registrar\+Genero}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que el método {\ttfamily Registrar\+Genero} registre correctamente un género válido en el cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_registro_clientes_tests_a533ff2a931c944690d86d84b6d41fa83}{Registrar\+Nacimiento}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que {\ttfamily Registrar\+Nacimiento} retorne {\ttfamily false} cuando se pasa una cadena vacía, indicando que no se ingresó una fecha válida. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_registro_clientes_tests_abfd98c880161a23e8fa74d5d6cd687aa}{Registrar\+Precio}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que el método {\ttfamily Registrar\+Precio} registre correctamente un objeto {\ttfamily \doxylink{class_library_1_1_clases__tipos_1_1_precio}{Precio}} asociado al registro del cliente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Conjunto de pruebas unitarias para la clase {\ttfamily \doxylink{class_library_1_1_clases__principales_1_1_registro_cliente}{Registro\+Cliente}}. Valida el comportamiento de los métodos relacionados al registro de información del cliente. 
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests_a0f9fc7e4dd790ee2110cbc3837bc8322}\index{Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}!RegistrarGenero@{RegistrarGenero}}
+\index{RegistrarGenero@{RegistrarGenero}!Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}}
+\doxysubsubsection{\texorpdfstring{RegistrarGenero()}{RegistrarGenero()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_registro_clientes_tests_a0f9fc7e4dd790ee2110cbc3837bc8322} 
+void Library.\+Tests.\+Registro\+Clientes\+Tests.\+Registrar\+Genero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que el método {\ttfamily Registrar\+Genero} registre correctamente un género válido en el cliente. 
+
+Verifica que\+:
+\begin{DoxyItemize}
+\item El método retorne {\ttfamily true}.
+\item El atributo {\ttfamily Genero} del cliente coincida con el valor ingresado. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests_a533ff2a931c944690d86d84b6d41fa83}\index{Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}!RegistrarNacimiento@{RegistrarNacimiento}}
+\index{RegistrarNacimiento@{RegistrarNacimiento}!Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}}
+\doxysubsubsection{\texorpdfstring{RegistrarNacimiento()}{RegistrarNacimiento()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_registro_clientes_tests_a533ff2a931c944690d86d84b6d41fa83} 
+void Library.\+Tests.\+Registro\+Clientes\+Tests.\+Registrar\+Nacimiento (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que {\ttfamily Registrar\+Nacimiento} retorne {\ttfamily false} cuando se pasa una cadena vacía, indicando que no se ingresó una fecha válida. 
+
+\Hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests_abfd98c880161a23e8fa74d5d6cd687aa}\index{Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}!RegistrarPrecio@{RegistrarPrecio}}
+\index{RegistrarPrecio@{RegistrarPrecio}!Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}}
+\doxysubsubsection{\texorpdfstring{RegistrarPrecio()}{RegistrarPrecio()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_registro_clientes_tests_abfd98c880161a23e8fa74d5d6cd687aa} 
+void Library.\+Tests.\+Registro\+Clientes\+Tests.\+Registrar\+Precio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que el método {\ttfamily Registrar\+Precio} registre correctamente un objeto {\ttfamily \doxylink{class_library_1_1_clases__tipos_1_1_precio}{Precio}} asociado al registro del cliente. 
+
+Verifica que\+:
+\begin{DoxyItemize}
+\item El método retorne {\ttfamily true}.
+\item La propiedad {\ttfamily \doxylink{class_library_1_1_clases__tipos_1_1_precio}{Precio}} del registro coincida con el objeto entregado. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_registro_clientes_tests_a144fe2aa8c9f6643f2b706e6091f7dde}\index{Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}!Setup@{Setup}}
+\index{Setup@{Setup}!Library.Tests.RegistroClientesTests@{Library.Tests.RegistroClientesTests}}
+\doxysubsubsection{\texorpdfstring{Setup()}{Setup()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_registro_clientes_tests_a144fe2aa8c9f6643f2b706e6091f7dde} 
+void Library.\+Tests.\+Registro\+Clientes\+Tests.\+Setup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Método de inicialización ejecutado antes de cada test. Actualmente no realiza ninguna configuración adicional. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test/\+Library.\+Tests/\+Tests/\mbox{\hyperlink{_registro_clientes_test_8cs}{Registro\+Clientes\+Test.\+cs}}\end{DoxyCompactItemize}

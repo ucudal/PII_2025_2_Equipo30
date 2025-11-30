@@ -1,0 +1,111 @@
+\doxysection{Library.\+Tests.\+Fachada\+Registro\+Test Class Reference}
+\hypertarget{class_library_1_1_tests_1_1_fachada_registro_test}{}\label{class_library_1_1_tests_1_1_fachada_registro_test}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+
+
+Conjunto de pruebas unitarias para la clase {\ttfamily \doxylink{class_library_1_1_fachadas_1_1_fachada_registro}{Fachada\+Registro}}. Se evalúan las funcionalidades relacionadas con la creación, eliminación y gestión de usuarios y clientes.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_a3f8b1692898a9b1eb05afd615e3d6b8c}{Setup}} ()
+\begin{DoxyCompactList}\small\item\em Método ejecutado antes de cada prueba. Actualmente no realiza ninguna configuración previa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_a204154cd5fb655ed3a9f4c4e5a3d42e8}{Crear\+Usuario}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que verifica la creación de un nuevo usuario a través de la fachada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_a7b3577ddbd98cbc5d8fefc43fd559b08}{Eliminar\+Usuario}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que verifica la eliminación correcta de un usuario existente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_a7db67f62d366fa1616fbce6382bef167}{Eliminar\+Usuario\+\_\+\+Si\+No\+Existe}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que verifica el comportamiento del método {\ttfamily Eliminar\+Usuario} cuando se intenta eliminar un usuario que no existe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_a7b2ef1e48ebf2323f8b63d98c85113bc}{Crear\+Cliente\+\_\+\+Desde\+Fachada}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que verifica la creación de un cliente asociado a un usuario mediante la fachada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_tests_1_1_fachada_registro_test_aa609a38d08bc4b3e6b01a385932c5071}{Obtener\+Total\+Ventas\+Por\+Periodo\+\_\+\+Desde\+Fachada}} ()
+\begin{DoxyCompactList}\small\item\em Prueba que verifica el cálculo del total de ventas de un cliente en un período determinado mediante la fachada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Conjunto de pruebas unitarias para la clase {\ttfamily \doxylink{class_library_1_1_fachadas_1_1_fachada_registro}{Fachada\+Registro}}. Se evalúan las funcionalidades relacionadas con la creación, eliminación y gestión de usuarios y clientes. 
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_a7b2ef1e48ebf2323f8b63d98c85113bc}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!CrearCliente\_DesdeFachada@{CrearCliente\_DesdeFachada}}
+\index{CrearCliente\_DesdeFachada@{CrearCliente\_DesdeFachada}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{CrearCliente\_DesdeFachada()}{CrearCliente\_DesdeFachada()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_a7b2ef1e48ebf2323f8b63d98c85113bc} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Crear\+Cliente\+\_\+\+Desde\+Fachada (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que verifica la creación de un cliente asociado a un usuario mediante la fachada. 
+
+Valida que\+:
+\begin{DoxyItemize}
+\item El cliente se cree correctamente.
+\item El usuario tenga exactamente un cliente registrado.
+\item Los datos del cliente coincidan con los ingresados. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_a204154cd5fb655ed3a9f4c4e5a3d42e8}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!CrearUsuario@{CrearUsuario}}
+\index{CrearUsuario@{CrearUsuario}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{CrearUsuario()}{CrearUsuario()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_a204154cd5fb655ed3a9f4c4e5a3d42e8} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Crear\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que verifica la creación de un nuevo usuario a través de la fachada. 
+
+Valida que\+:
+\begin{DoxyItemize}
+\item El usuario creado no sea nulo.
+\item El nombre asignado coincida con el proporcionado. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_a7b3577ddbd98cbc5d8fefc43fd559b08}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!EliminarUsuario@{EliminarUsuario}}
+\index{EliminarUsuario@{EliminarUsuario}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{EliminarUsuario()}{EliminarUsuario()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_a7b3577ddbd98cbc5d8fefc43fd559b08} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Eliminar\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que verifica la eliminación correcta de un usuario existente. 
+
+Valida que\+:
+\begin{DoxyItemize}
+\item El método retorne {\ttfamily true} al eliminar un usuario previamente creado. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_a7db67f62d366fa1616fbce6382bef167}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!EliminarUsuario\_SiNoExiste@{EliminarUsuario\_SiNoExiste}}
+\index{EliminarUsuario\_SiNoExiste@{EliminarUsuario\_SiNoExiste}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{EliminarUsuario\_SiNoExiste()}{EliminarUsuario\_SiNoExiste()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_a7db67f62d366fa1616fbce6382bef167} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Eliminar\+Usuario\+\_\+\+Si\+No\+Existe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que verifica el comportamiento del método {\ttfamily Eliminar\+Usuario} cuando se intenta eliminar un usuario que no existe. 
+
+Debe retornar {\ttfamily false}. \Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_aa609a38d08bc4b3e6b01a385932c5071}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!ObtenerTotalVentasPorPeriodo\_DesdeFachada@{ObtenerTotalVentasPorPeriodo\_DesdeFachada}}
+\index{ObtenerTotalVentasPorPeriodo\_DesdeFachada@{ObtenerTotalVentasPorPeriodo\_DesdeFachada}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{ObtenerTotalVentasPorPeriodo\_DesdeFachada()}{ObtenerTotalVentasPorPeriodo\_DesdeFachada()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_aa609a38d08bc4b3e6b01a385932c5071} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Obtener\+Total\+Ventas\+Por\+Periodo\+\_\+\+Desde\+Fachada (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Prueba que verifica el cálculo del total de ventas de un cliente en un período determinado mediante la fachada. 
+
+Valida que\+:
+\begin{DoxyItemize}
+\item Se sumen correctamente las ventas del cliente dentro del rango de fechas.
+\item El total retornado coincida con la suma esperada. 
+\end{DoxyItemize}\Hypertarget{class_library_1_1_tests_1_1_fachada_registro_test_a3f8b1692898a9b1eb05afd615e3d6b8c}\index{Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}!Setup@{Setup}}
+\index{Setup@{Setup}!Library.Tests.FachadaRegistroTest@{Library.Tests.FachadaRegistroTest}}
+\doxysubsubsection{\texorpdfstring{Setup()}{Setup()}}
+{\footnotesize\ttfamily \label{class_library_1_1_tests_1_1_fachada_registro_test_a3f8b1692898a9b1eb05afd615e3d6b8c} 
+void Library.\+Tests.\+Fachada\+Registro\+Test.\+Setup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Método ejecutado antes de cada prueba. Actualmente no realiza ninguna configuración previa. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test/\+Library.\+Tests/\+Tests/\mbox{\hyperlink{_fachada_registro_test_8cs}{Fachada\+Registro\+Test.\+cs}}\end{DoxyCompactItemize}

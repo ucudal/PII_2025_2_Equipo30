@@ -1,0 +1,173 @@
+\doxysection{Library.\+Clases\+\_\+principales.\+Vendedor Class Reference}
+\hypertarget{class_library_1_1_clases__principales_1_1_vendedor}{}\label{class_library_1_1_clases__principales_1_1_vendedor}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+
+
+Representa a un vendedor dentro del sistema, encargado de gestionar sus clientes.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_a7477daa4eebaa648c5b3174245884479}{Validar\+Credenciales}} (string nombre, string clave)
+\begin{DoxyCompactList}\small\item\em Metodo para asistir con el logeo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_aa70916b45aef2991aa1473b739c3ce6f}{Agregar\+Cliente}} (\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} cliente)
+\item 
+bool \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_a3ec8ac384629bf825d48e69b7af269b6}{Asignar\+Cliente\+Aotro\+Vendedor}} (\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} cliente, \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_aaf93d6cabece42d975352b844f409a5f}{Vendedor}} otro\+Vendedor)
+\begin{DoxyCompactList}\small\item\em Asigna un cliente de este vendedor a otro vendedor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_a35fe11e457f7010e1073053869c06543}{Buscar\+Cliente\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Busca un \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} por Id. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_aaf93d6cabece42d975352b844f409a5f}{Vendedor}} (string nombre, string clave)
+\begin{DoxyCompactList}\small\item\em Constructor de \doxylink{class_library_1_1_clases__principales_1_1_vendedor}{Vendedor}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_afb4801d5dc9088986192f0bfc670cf72}{Nombre}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_a59b529aaea4986b71db7663ed66107fa}{Clave}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_ad5ddae3ac1f64a62fbed4cbb7e67e0aa}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_a95aeb7d0b4ac1878c62dc3e8c3f632f3}{Clientes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Lista de \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} asociados a este vendedor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa a un vendedor dentro del sistema, encargado de gestionar sus clientes. 
+
+\label{doc-constructors}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_aaf93d6cabece42d975352b844f409a5f}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!Vendedor@{Vendedor}}
+\index{Vendedor@{Vendedor}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{Vendedor()}{Vendedor()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_aaf93d6cabece42d975352b844f409a5f} 
+Library.\+Clases\+\_\+principales.\+Vendedor.\+Vendedor (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{clave}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de \doxylink{class_library_1_1_clases__principales_1_1_vendedor}{Vendedor}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del vendedor.\\
+\hline
+{\em clave} & Clave o contraseña del vendedor.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_aa70916b45aef2991aa1473b739c3ce6f}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!AgregarCliente@{AgregarCliente}}
+\index{AgregarCliente@{AgregarCliente}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{AgregarCliente()}{AgregarCliente()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_aa70916b45aef2991aa1473b739c3ce6f} 
+void Library.\+Clases\+\_\+principales.\+Vendedor.\+Agregar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}}}]{cliente}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_a3ec8ac384629bf825d48e69b7af269b6}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!AsignarClienteAotroVendedor@{AsignarClienteAotroVendedor}}
+\index{AsignarClienteAotroVendedor@{AsignarClienteAotroVendedor}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{AsignarClienteAotroVendedor()}{AsignarClienteAotroVendedor()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_a3ec8ac384629bf825d48e69b7af269b6} 
+bool Library.\+Clases\+\_\+principales.\+Vendedor.\+Asignar\+Cliente\+Aotro\+Vendedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}}}]{cliente}{, }\item[{\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_vendedor_aaf93d6cabece42d975352b844f409a5f}{Vendedor}}}]{otro\+Vendedor}{}\end{DoxyParamCaption})}
+
+
+
+Asigna un cliente de este vendedor a otro vendedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & Instancia del \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} que se desea reasignar.\\
+\hline
+{\em otro\+Vendedor} & Instancia del \doxylink{class_library_1_1_clases__principales_1_1_vendedor}{Vendedor} al cual se le asignará el cliente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} si el cliente fue reasignado correctamente; ~\newline
+ {\ttfamily false} si el cliente o el vendedor destino son nulos, ~\newline
+ o si el cliente no pertenece al vendedor actual. 
+\end{DoxyReturn}
+
+
+El método realiza los siguientes pasos\+: 
+\begin{DoxyEnumerate}
+\item Verifica que el cliente y el otro vendedor existan. 
+\item Comprueba que el cliente esté asignado a este vendedor. 
+\item Elimina al cliente de la lista actual. 
+\item Agrega al cliente a la lista de clientes del otro vendedor. 
+\end{DoxyEnumerate}\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_a35fe11e457f7010e1073053869c06543}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!BuscarClientePorId@{BuscarClientePorId}}
+\index{BuscarClientePorId@{BuscarClientePorId}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{BuscarClientePorId()}{BuscarClientePorId()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_a35fe11e457f7010e1073053869c06543} 
+\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}} Library.\+Clases\+\_\+principales.\+Vendedor.\+Buscar\+Cliente\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Busca un \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} por Id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} si se encontró, null si no."{}/\texorpdfstring{$>$}{>}
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_a7477daa4eebaa648c5b3174245884479}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!ValidarCredenciales@{ValidarCredenciales}}
+\index{ValidarCredenciales@{ValidarCredenciales}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{ValidarCredenciales()}{ValidarCredenciales()}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_a7477daa4eebaa648c5b3174245884479} 
+bool Library.\+Clases\+\_\+principales.\+Vendedor.\+Validar\+Credenciales (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{clave}{}\end{DoxyParamCaption})}
+
+
+
+Metodo para asistir con el logeo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & \\
+\hline
+{\em clave} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True si credenciales coinciden, False si no.
+\end{DoxyReturn}
+summary\texorpdfstring{$>$}{>} Agrega un nuevo cliente a la lista de clientes del vendedor. 
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_a59b529aaea4986b71db7663ed66107fa}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!Clave@{Clave}}
+\index{Clave@{Clave}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{Clave}{Clave}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_a59b529aaea4986b71db7663ed66107fa} 
+string Library.\+Clases\+\_\+principales.\+Vendedor.\+Clave\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_a95aeb7d0b4ac1878c62dc3e8c3f632f3}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!Clientes@{Clientes}}
+\index{Clientes@{Clientes}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{Clientes}{Clientes}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_a95aeb7d0b4ac1878c62dc3e8c3f632f3} 
+List$<$\mbox{\hyperlink{class_library_1_1_clases__principales_1_1_cliente}{Cliente}}$>$ Library.\+Clases\+\_\+principales.\+Vendedor.\+Clientes\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Lista de \doxylink{class_library_1_1_clases__principales_1_1_cliente}{Cliente} asociados a este vendedor. 
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_ad5ddae3ac1f64a62fbed4cbb7e67e0aa}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!Id@{Id}}
+\index{Id@{Id}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_ad5ddae3ac1f64a62fbed4cbb7e67e0aa} 
+int Library.\+Clases\+\_\+principales.\+Vendedor.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_library_1_1_clases__principales_1_1_vendedor_afb4801d5dc9088986192f0bfc670cf72}\index{Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}!Nombre@{Nombre}}
+\index{Nombre@{Nombre}!Library.Clases\_principales.Vendedor@{Library.Clases\_principales.Vendedor}}
+\doxysubsubsection{\texorpdfstring{Nombre}{Nombre}}
+{\footnotesize\ttfamily \label{class_library_1_1_clases__principales_1_1_vendedor_afb4801d5dc9088986192f0bfc670cf72} 
+string Library.\+Clases\+\_\+principales.\+Vendedor.\+Nombre\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Clases principales/\mbox{\hyperlink{_vendedor_8cs}{Vendedor.\+cs}}\end{DoxyCompactItemize}

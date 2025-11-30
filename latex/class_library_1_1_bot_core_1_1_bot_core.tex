@@ -1,0 +1,107 @@
+\doxysection{Library.\+Bot\+Core.\+Bot\+Core Class Reference}
+\hypertarget{class_library_1_1_bot_core_1_1_bot_core}{}\label{class_library_1_1_bot_core_1_1_bot_core}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+
+
+Clase que contiene la lógica interna del bot.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_library_1_1_bot_core_1_1_bot_core_a09703adecc0e107b26aa419259a8e0ce}{Registrar\+Comando}} (\mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_bot_command}{IBot\+Command}} comando)
+\begin{DoxyCompactList}\small\item\em Asigna un comando al bot para poder ejecutarlo. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_library_1_1_bot_core_1_1_bot_core_a071e5ca160375f622419181d920994c7}{Mostrar\+Comandos}} ()
+\begin{DoxyCompactList}\small\item\em Guarda un string con la lista de comandos asignados al bot y su número correspondiente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_library_1_1_bot_core_1_1_bot_core_a254ec8f2ff1ee7c03b531acc938c2a6a}{Procesar\+Opcion}} (string texto, \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}} contexto)
+\begin{DoxyCompactList}\small\item\em Procesa el número recibido por el tipo de usuario e intenta ejecutar el tipo de comando correspondiente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_library_1_1_bot_core_1_1_bot_core_ad3177db0c56063cc911ee25e2e7edd39}{Enviar\+Mensaje}} (string texto, \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}} contexto)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Sesion \mbox{\hyperlink{class_library_1_1_bot_core_1_1_bot_core_ae55a562eedbc93f5f6b3f7f5705e60ae}{Sesion}} = new Sesion()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Representa la información de la sesión actual. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que contiene la lógica interna del bot. 
+
+\label{doc-func-members}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_ad3177db0c56063cc911ee25e2e7edd39}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}!EnviarMensaje@{EnviarMensaje}}
+\index{EnviarMensaje@{EnviarMensaje}!Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+\doxysubsubsection{\texorpdfstring{EnviarMensaje()}{EnviarMensaje()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_bot_core_ad3177db0c56063cc911ee25e2e7edd39} 
+void Library.\+Bot\+Core.\+Bot\+Core.\+Enviar\+Mensaje (\begin{DoxyParamCaption}\item[{string}]{texto}{, }\item[{\mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}}}]{contexto}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_a071e5ca160375f622419181d920994c7}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}!MostrarComandos@{MostrarComandos}}
+\index{MostrarComandos@{MostrarComandos}!Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+\doxysubsubsection{\texorpdfstring{MostrarComandos()}{MostrarComandos()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_bot_core_a071e5ca160375f622419181d920994c7} 
+string Library.\+Bot\+Core.\+Bot\+Core.\+Mostrar\+Comandos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Guarda un string con la lista de comandos asignados al bot y su número correspondiente. 
+
+\begin{DoxyReturn}{Returns}
+Un string de texto con el mensaje. 
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_a254ec8f2ff1ee7c03b531acc938c2a6a}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}!ProcesarOpcion@{ProcesarOpcion}}
+\index{ProcesarOpcion@{ProcesarOpcion}!Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+\doxysubsubsection{\texorpdfstring{ProcesarOpcion()}{ProcesarOpcion()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_bot_core_a254ec8f2ff1ee7c03b531acc938c2a6a} 
+bool Library.\+Bot\+Core.\+Bot\+Core.\+Procesar\+Opcion (\begin{DoxyParamCaption}\item[{string}]{texto}{, }\item[{\mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{IMessage\+Context}}}]{contexto}{}\end{DoxyParamCaption})}
+
+
+
+Procesa el número recibido por el tipo de usuario e intenta ejecutar el tipo de comando correspondiente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em texto} & opcion recibida por el usuario\\
+\hline
+{\em contexto} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} si se pudo procesar la opción y se ejecutó el comando. {\ttfamily false} si no se pudo procesar la opción o no se ejecutó el comando. 
+\end{DoxyReturn}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_a09703adecc0e107b26aa419259a8e0ce}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}!RegistrarComando@{RegistrarComando}}
+\index{RegistrarComando@{RegistrarComando}!Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+\doxysubsubsection{\texorpdfstring{RegistrarComando()}{RegistrarComando()}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_bot_core_a09703adecc0e107b26aa419259a8e0ce} 
+void Library.\+Bot\+Core.\+Bot\+Core.\+Registrar\+Comando (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_bot_command}{IBot\+Command}}}]{comando}{}\end{DoxyParamCaption})}
+
+
+
+Asigna un comando al bot para poder ejecutarlo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comando} & \\
+\hline
+\end{DoxyParams}
+
+
+El numero asignado al comando es asignado según el orden en el que se ejecuta el metodo. 
+
+\label{doc-property-members}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_library_1_1_bot_core_1_1_bot_core_ae55a562eedbc93f5f6b3f7f5705e60ae}\index{Library.BotCore.BotCore@{Library.BotCore.BotCore}!Sesion@{Sesion}}
+\index{Sesion@{Sesion}!Library.BotCore.BotCore@{Library.BotCore.BotCore}}
+\doxysubsubsection{\texorpdfstring{Sesion}{Sesion}}
+{\footnotesize\ttfamily \label{class_library_1_1_bot_core_1_1_bot_core_ae55a562eedbc93f5f6b3f7f5705e60ae} 
+Sesion Library.\+Bot\+Core.\+Bot\+Core.\+Sesion = new Sesion()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Representa la información de la sesión actual. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Bot\+Core/\mbox{\hyperlink{_bot_core_8cs}{Bot\+Core.\+cs}}\end{DoxyCompactItemize}

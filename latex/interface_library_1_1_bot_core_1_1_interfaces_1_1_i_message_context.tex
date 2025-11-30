@@ -1,0 +1,102 @@
+\doxysection{Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context Interface Reference}
+\hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}{}\label{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}\index{Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}}
+
+
+Representa el contexto de una interacción con el bot, independientemente de la API.  
+
+
+Inheritance diagram for Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.937716cm]{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a2cd31198ae6a0e9d0f115a7fe0d89b73}{Enviar\+Mensaje}} (string texto)
+\begin{DoxyCompactList}\small\item\em Envía la respuesta al usuario (Debe integrarse con la API). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_ae8046aa70a55721ec8560f42479d990f}{Esperar\+Respuesta}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a04ca1829733ef161125d34e80dccb104}{Usuario\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em ID de usuario según la API (Debe integrarse con la API). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_abf39b786ea5e3236796d4904dac749f4}{Usuario\+Nombre}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Nombre del usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa el contexto de una interacción con el bot, independientemente de la API. 
+
+\label{doc-func-members}
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a2cd31198ae6a0e9d0f115a7fe0d89b73}\index{Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}!EnviarMensaje@{EnviarMensaje}}
+\index{EnviarMensaje@{EnviarMensaje}!Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}}
+\doxysubsubsection{\texorpdfstring{EnviarMensaje()}{EnviarMensaje()}}
+{\footnotesize\ttfamily \label{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a2cd31198ae6a0e9d0f115a7fe0d89b73} 
+void Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context.\+Enviar\+Mensaje (\begin{DoxyParamCaption}\item[{string}]{texto}{}\end{DoxyParamCaption})}
+
+
+
+Envía la respuesta al usuario (Debe integrarse con la API). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em texto} & Mensaje a enviar\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_library_1_1_bot_core_1_1_mensaje_de_consola_ac89a17905e1b1951754562e4494e10d8}{Library.\+Bot\+Core.\+Mensaje\+De\+Consola}}, and \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_a6c8a1599ce3f6aa39bf543cd137a0bd4}{Library.\+Puente\+Discord.\+Discord\+Message\+Context}}.
+
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_ae8046aa70a55721ec8560f42479d990f}\index{Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}!EsperarRespuesta@{EsperarRespuesta}}
+\index{EsperarRespuesta@{EsperarRespuesta}!Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}}
+\doxysubsubsection{\texorpdfstring{EsperarRespuesta()}{EsperarRespuesta()}}
+{\footnotesize\ttfamily \label{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_ae8046aa70a55721ec8560f42479d990f} 
+string Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context.\+Esperar\+Respuesta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_library_1_1_bot_core_1_1_mensaje_de_consola_a8c192c0fc60626d3fda4fd33dc5fe3aa}{Library.\+Bot\+Core.\+Mensaje\+De\+Consola}}, and \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_ac3015522f889ec10bb8aef203ec8bcc2}{Library.\+Puente\+Discord.\+Discord\+Message\+Context}}.
+
+
+
+\label{doc-property-members}
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a04ca1829733ef161125d34e80dccb104}\index{Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}!UsuarioId@{UsuarioId}}
+\index{UsuarioId@{UsuarioId}!Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}}
+\doxysubsubsection{\texorpdfstring{UsuarioId}{UsuarioId}}
+{\footnotesize\ttfamily \label{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_a04ca1829733ef161125d34e80dccb104} 
+string Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context.\+Usuario\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+ID de usuario según la API (Debe integrarse con la API). 
+
+
+
+Implemented in \mbox{\hyperlink{class_library_1_1_bot_core_1_1_mensaje_de_consola_a17d9d247f23b7443fd2e6e9d0c39f841}{Library.\+Bot\+Core.\+Mensaje\+De\+Consola}}, and \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_a20426519f8fa95614e43a8a65d1043a1}{Library.\+Puente\+Discord.\+Discord\+Message\+Context}}.
+
+\Hypertarget{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_abf39b786ea5e3236796d4904dac749f4}\index{Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}!UsuarioNombre@{UsuarioNombre}}
+\index{UsuarioNombre@{UsuarioNombre}!Library.BotCore.Interfaces.IMessageContext@{Library.BotCore.Interfaces.IMessageContext}}
+\doxysubsubsection{\texorpdfstring{UsuarioNombre}{UsuarioNombre}}
+{\footnotesize\ttfamily \label{interface_library_1_1_bot_core_1_1_interfaces_1_1_i_message_context_abf39b786ea5e3236796d4904dac749f4} 
+string Library.\+Bot\+Core.\+Interfaces.\+IMessage\+Context.\+Usuario\+Nombre\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Nombre del usuario. 
+
+
+
+Implemented in \mbox{\hyperlink{class_library_1_1_bot_core_1_1_mensaje_de_consola_a13082f4bb47d97835889c3f0fa294d05}{Library.\+Bot\+Core.\+Mensaje\+De\+Consola}}, and \mbox{\hyperlink{class_library_1_1_puente_discord_1_1_discord_message_context_af044f06a4d50d4768261e09b89b35049}{Library.\+Puente\+Discord.\+Discord\+Message\+Context}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Library/\+Bot\+Core/\+Interfaces/\mbox{\hyperlink{_i_message_context_8cs}{IMessage\+Context.\+cs}}\end{DoxyCompactItemize}
