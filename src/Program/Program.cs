@@ -9,7 +9,15 @@ class Program
 {
     static async Task Main()
     {
-        var client = new DiscordSocketClient();
+        var config = new DiscordSocketConfig
+        {
+            GatewayIntents =
+                GatewayIntents.Guilds |
+                GatewayIntents.GuildMessages |
+                GatewayIntents.DirectMessages |
+                GatewayIntents.MessageContent
+        };
+        var client = new DiscordSocketClient(config);
         var botCore = new BotCore();
         var fachada = new FachadaRegistro();
 
@@ -44,7 +52,7 @@ class Program
         // Inicializar el puente
         new BotDiscordBridge(client, botCore);
 
-        await client.LoginAsync(TokenType.Bot, "PONE LA TOKEN DEL BOT ACA PAPURRI");
+        await client.LoginAsync(TokenType.Bot, "");
         await client.StartAsync();
 
         await Task.Delay(-1);
