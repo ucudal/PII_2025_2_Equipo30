@@ -25,7 +25,7 @@
 <img src="assets/Join-Trello.png" alt="Unete a trello" width="200" height="200">
 </a>
 
-<img width="2245" height="1587" alt="Pink Gradient Feminine Page Border Double-Sided Poster" src="https://github.com/user-attachments/assets/5576fbbd-b4c0-4dd5-84bd-a9dd09db4adb" />
+<img width="2245" height="1587" alt="Pink Gradient Feminine Page Border Double-Sided Poster" src="https://github.com/user-attachments/assets/49f9a9ce-c146-4cc0-865d-1ade28e683cf" />
 
 ---
 ## Descripción del proyecto
