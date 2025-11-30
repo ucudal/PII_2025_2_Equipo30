@@ -44,7 +44,7 @@ public class UltimaInteraccionClienteUsuario : IBotCommand
         {
             DateTime fechaFiltro;
             contexto.EnviarMensaje("Digite una fecha a partir de la cual listar las ultimas interacciónes:");
-            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
+            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
                     out fechaFiltro))
             {
                 contexto.EnviarMensaje("Clientes que verifican las condiciones:");

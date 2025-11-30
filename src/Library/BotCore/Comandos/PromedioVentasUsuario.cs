@@ -42,11 +42,11 @@ public class PromedioVentasUsuario : IBotCommand
             DateTime promedioFin;
             //Solicitar fechas
             contexto.EnviarMensaje($"Ingrese la fecha de inicio para calcular el periodo de ventas (DD/MM/AA):");
-            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
+            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
                     out promedioInicio))
             {
                 contexto.EnviarMensaje($"Ingrese la fecha de fin para calcular el periodo de ventas (DD/MM/AA):");
-                if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
+                if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
                         out promedioFin))
                 {
                     int ventasTotales = 0;

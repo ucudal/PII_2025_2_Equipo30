@@ -118,10 +118,10 @@ namespace Library.BotCore.Comandos
                     contexto.EnviarMensaje("Ingrese el asunto/tema de la llamada:");
                     string asunto = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Descripción breve de la llamada (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Descripción breve de la llamada:");
                     string descripcion = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Notas o comentarios adicionales (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Notas o comentarios adicionales:");
                     string notas = contexto.EsperarRespuesta();
 
                     var llamada = new Llamada
@@ -174,10 +174,10 @@ namespace Library.BotCore.Comandos
                     contexto.EnviarMensaje("Ingrese el asunto/tema de la reunión:");
                     string asunto = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Descripción breve de la reunión (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Descripción breve de la reunión:");
                     string descripcion = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Notas o comentarios adicionales (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Notas o comentarios adicionales:");
                     string notas = contexto.EsperarRespuesta();
 
                     var reunion = new Reunion
@@ -221,7 +221,7 @@ namespace Library.BotCore.Comandos
                     contexto.EnviarMensaje("Ingrese el texto del mensaje:");
                     string texto = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Notas o comentarios adicionales (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Notas o comentarios adicionales:");
                     string notas = contexto.EsperarRespuesta();
 
                     string textoFinal;
@@ -275,7 +275,7 @@ namespace Library.BotCore.Comandos
                     contexto.EnviarMensaje("Ingrese el cuerpo del email:");
                     string cuerpo = contexto.EsperarRespuesta();
 
-                    contexto.EnviarMensaje("Notas o comentarios adicionales (opcional, Enter para omitir):");
+                    contexto.EnviarMensaje("Notas o comentarios adicionales:");
                     string notas = contexto.EsperarRespuesta();
 
                     string textoFinal;
