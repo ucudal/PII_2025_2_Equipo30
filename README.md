@@ -13,7 +13,7 @@
 
 **Enlaces de interes:**
 
-<a href="https://discord.gg/JEuNjdv5VX">
+<a href="https://discord.gg/JEuNjdv5VX](https://discord.gg/sGzCKUBbX2">
 <img src="assets/Join-Discord.png" alt="Unete a discord" width="200" height="200">
 </a>
 
