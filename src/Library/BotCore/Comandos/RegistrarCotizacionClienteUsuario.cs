@@ -50,7 +50,7 @@ public class RegistrarCotizacionClienteUsuario : IBotCommand
                 {
                     contexto.EnviarMensaje($"¡Cliente encontrado!\n" +
                                            $"Digite el nombre del articulo que cotizó.");
-                    Precio precio = null;
+                    Precio precio = new Precio();
                     precio.Descripcion = contexto.EsperarRespuesta();
                     contexto.EnviarMensaje($"Digite el precio de cotización.");
                     precio.Costo = int.Parse(contexto.EsperarRespuesta());
