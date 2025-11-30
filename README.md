@@ -48,7 +48,11 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 
 - **Aprendizajes extra-clase:
   Trabajamos en mejorar la calidad de nuestras historias de usuario, buscando que fueran más profesionales.
-                              Para ello, consultamos videos en YouTube, así como un artículo y un libro que citamos en el documento “Historias de Usuario BOT CORE”.**  
+                              Para ello, consultamos videos en YouTube, así como un artículo y un libro que citamos en el documento “Historias de Usuario BOT CORE”.**
+  
+  Tambien fue un proceso de muchos desafios al momento de relacionar nuestro proyecto y tratar de que la API se pueda consumir y andar de una manera correcta.
+  
+   
  
 
 - **Recursos útiles:
@@ -59,17 +63,20 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 - **Otras reflexiones o comentarios:
   Realizar un sistema de recepción y envios de mensajes escalable y extensible para futuramente implementar con la API fue un verdadero desafío pues al desconocer a ciencia cierta
                                      el funcionamiento de las APIs tener que diseñar el botcore a "ciegas" no fue nada facil, afortunadamente aplicando ciertas caracteristicas del patrón SOLID se pudo lograr un diseño prometedor.**  
- 
+
+Por último, este tipo de proyecto no solo nos ayudó a mejorar nuestras habilidades técnicas, sino también a tener la posibilidad de trabajar en grupo y fortalecer habilidades blandas, como por ejemplo la comunicación, teniendo en cuenta que es una de las más importantes a la hora de trabajar: si algo no se comunica, no se entiende, no se integra y no avanza. Por otro lado, también nos permitió mejorar la organización, el orden y el respeto a lo largo de todo el proceso de este proyecto.Por último, este tipo de proyecto no solo nos ayudó a mejorar nuestras habilidades técnicas, sino también a tener la posibilidad de trabajar en grupo y fortalecer habilidades blandas, como por ejemplo la comunicación, teniendo en cuenta que es una de las más importantes a la hora de trabajar: si algo no se comunica, no se entiende, no se integra y no avanza. Por otro lado, también nos permitió mejorar la organización, el orden y el respeto a lo largo de todo el proceso de este proyecto.
 
 ---
 
 ## Tecnologías utilizadas
 
 - Lenguaje principal: C#  
-- Frameworks o librerías: Discord.NET,  
+- Frameworks o librerías: Discord.NET  
 - Herramientas de control de versiones: Git y GitHub
 - Herramienta de gestión de proyecto: Trello
-- API de discord
+- Api: Discord API
+- Herramientas generales: Canva, Doxygen, ClipChamp, Microsoft Word
+- IDE: Jetbrains Rider
 
 ---
 
