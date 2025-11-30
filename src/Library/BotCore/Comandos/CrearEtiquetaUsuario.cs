@@ -15,13 +15,21 @@ namespace Library.BotCore.Comandos
 
         private readonly BotCore _bot;
         private readonly FachadaRegistro _fachada;
-
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="bot"></param>
+        /// <param name="fachada"></param>
         public CrearEtiquetaUsuario(BotCore bot, FachadaRegistro fachada)
         {
             _bot = bot;
             _fachada = fachada;
         }
-
+        /// <summary>
+        /// Ejecuta el comando que Crea una Etiqueta con un nombre y Id.
+        /// </summary>
+        /// <param name="contexto"></param>
+        /// <returns></returns>
         public bool Ejecutar(IMessageContext contexto)
         {
             // Validar sesión y rol

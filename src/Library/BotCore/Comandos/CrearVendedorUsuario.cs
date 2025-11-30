@@ -20,6 +20,11 @@ public class CrearVendedorUsuario : IBotCommand
         _fachada = fachada;
     }
     
+    /// <summary>
+    /// Ejecuta el comando que Crea un Vendedor con un nombre y Clave.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")

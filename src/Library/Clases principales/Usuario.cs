@@ -59,6 +59,12 @@ public class Usuario
         return false; //false si no se encontró al cliente
     }
     
+    /// <summary>
+    /// Agrega una etiqueta a un cliente.
+    /// </summary>
+    /// <param name="clienteId">Id del cliente.</param>
+    /// <param name="etiqueta">Etiqueta existente.</param>
+    /// <returns></returns>
     public bool AgregarEtiqueta(int clienteId, string etiqueta)
     {
         return ModificarCliente(clienteId, nuevaEtiqueta: etiqueta);
@@ -196,6 +202,12 @@ public class Usuario
         }
     }
     
+    /// <summary>
+    /// Registra un mensaje recibido por un cliente.
+    /// </summary>
+    /// <param name="clienteId">Id del <see cref="Cliente"/>.</param>
+    /// <param name="mensaje"><see cref="Mensaje"/> recibido.</param>
+    /// <returns></returns>
     public bool RegistrarMensajeRecibido(int clienteId, Mensaje mensaje)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -205,6 +217,12 @@ public class Usuario
         return true;
     }
     
+    /// <summary>
+    /// Registra una llamada recibida por un cliente.
+    /// </summary>
+    /// <param name="clienteId">Id del <see cref="Cliente"/></param>
+    /// <param name="llamada"><see cref="Llamada"/> recibida.</param>
+    /// <returns></returns>
     public bool RegistrarLlamadaRecibida(int clienteId, Llamada llamada)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -214,6 +232,13 @@ public class Usuario
         return true;
     }
     
+    /// <summary>
+    /// Devuelve un total de ventas por periodo.
+    /// </summary>
+    /// <param name="clienteId"></param>
+    /// <param name="desde"></param>
+    /// <param name="hasta"></param>
+    /// <returns>integer de total de ventas.</returns>
     public int TotalVentasPorPeriodo(int clienteId, DateTime desde, DateTime hasta)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -242,7 +267,14 @@ public class Usuario
         return total;
     }
 
-    
+    /// <summary>
+    /// Busca un cliente por nombre, apellido, telefono o email.
+    /// </summary>
+    /// <param name="nombre"></param>
+    /// <param name="apellido"></param>
+    /// <param name="telefono"></param>
+    /// <param name="email"></param>
+    /// <returns>Una lista con clientes que coinciden con la busqueda.</returns>
     public List<Cliente> BuscarClientes(string nombre = null, string apellido = null, string telefono = null, string email = null)
     {
         List<Cliente> resultados = new List<Cliente>();
@@ -281,6 +313,13 @@ public class Usuario
         return resultados;
     }
     
+    /// <summary>
+    /// Agrega una descripción a una llamada.
+    /// </summary>
+    /// <param name="clienteId"></param>
+    /// <param name="llamada"></param>
+    /// <param name="descripcion"></param>
+    /// <returns></returns>
     public bool AgregarDescripcionALlamada(int clienteId, Llamada llamada, string descripcion)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -295,6 +334,13 @@ public class Usuario
         return false;
     }
     
+    /// <summary>
+    /// Agrega una descripción a un mensaje.
+    /// </summary>
+    /// <param name="clienteId"></param>
+    /// <param name="mensaje"></param>
+    /// <param name="descripcion"></param>
+    /// <returns></returns>
     public bool AgregarDescripcionAMensaje(int clienteId, Mensaje mensaje, string descripcion)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -309,6 +355,13 @@ public class Usuario
         return false;
     }
     
+    /// <summary>
+    /// Agrega una descripción a una reunion.
+    /// </summary>
+    /// <param name="clienteId"></param>
+    /// <param name="reunion"></param>
+    /// <param name="descripcion"></param>
+    /// <returns></returns>
     public bool AgregarDescripcionAReunion(int clienteId, Reunion reunion, string descripcion)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -323,6 +376,13 @@ public class Usuario
         return false;
     }
     
+    /// <summary>
+    /// Agrega una descripción a un Email.
+    /// </summary>
+    /// <param name="clienteId"></param>
+    /// <param name="email"></param>
+    /// <param name="descripcion"></param>
+    /// <returns></returns>
     public bool AgregarDescripcionAEmail(int clienteId, Email email, string descripcion)
     {
         var registro = BuscarClientePorId(clienteId);
@@ -337,6 +397,10 @@ public class Usuario
         return false;
     }
     
+    /// <summary>
+    /// Devuelve un <see cref="PanelResumen"/> con toda la información resumida.
+    /// </summary>
+    /// <returns></returns>
     public PanelResumen ObtenerPanelResumen()
     {
         var panel = new PanelResumen();
@@ -376,6 +440,17 @@ public class Usuario
         }
 
         return panel;
+    }
+
+    
+    private static int ContadorId = 1;
+    
+    /// <summary>
+    /// Constructor (asigna id automaticamente)
+    /// </summary>
+    public Usuario()
+    {
+        this.Id = ContadorId++;
     }
 
 }

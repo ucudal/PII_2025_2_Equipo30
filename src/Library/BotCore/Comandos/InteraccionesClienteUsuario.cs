@@ -25,7 +25,11 @@ public class InteraccionesClienteUsuario : IBotCommand
         _fachada = fachada;
         _bot = bot;
     }
-
+    /// <summary>
+    /// Ejecuta el comando que Muestra las Interaciones.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
@@ -149,13 +153,13 @@ public class InteraccionesClienteUsuario : IBotCommand
                             case 2:
                                 contexto.EnviarMensaje("Ingrese a partir de que fecha mostrar los mensajes (DD/MM/AA)");
                                 string fecha = contexto.EsperarRespuesta();
-                                if (DateTime.TryParseExact(fecha, "dd/MM/yy", null, DateTimeStyles.None, out DateTime fechaFiltro))
+                                if (DateTime.TryParseExact(fecha, "DD/MM/AAy", null, DateTimeStyles.None, out DateTime fechaFiltro))
                                 {
                                     if (cliente.Mensajes.mensajesEnviados.Count > 0)
                                     {
                                         foreach (var mensaje in cliente.Mensajes.mensajesEnviados)
                                         {
-                                            if (DateTime.TryParseExact(mensaje.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(mensaje.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaMensaje) && (fechaMensaje > fechaFiltro))
                                             {
                                                 contexto.EnviarMensaje($"Mensaje: {mensaje.Texto}\n" +
@@ -169,7 +173,7 @@ public class InteraccionesClienteUsuario : IBotCommand
                                     {
                                         foreach (var mensaje in cliente.Mensajes.mensajesRecibidos)
                                         {
-                                            if (DateTime.TryParseExact(mensaje.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(mensaje.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaMensaje) && (fechaMensaje > fechaFiltro))
                                             {
                                                 contexto.EnviarMensaje($"Mensaje: {mensaje.Texto}\n" +
@@ -191,14 +195,14 @@ public class InteraccionesClienteUsuario : IBotCommand
                                 contexto.EnviarMensaje("Ingrese a partir de que fecha mostrar los emails (DD/MM/AA)");
                                 string fechaEmail = contexto.EsperarRespuesta();
 
-                                if (DateTime.TryParseExact(fechaEmail, "dd/MM/yy", null, DateTimeStyles.None, out DateTime fechaFiltroEmail))
+                                if (DateTime.TryParseExact(fechaEmail, "DD/MM/AA", null, DateTimeStyles.None, out DateTime fechaFiltroEmail))
                                 {
                                     contexto.EnviarMensaje("===Emails enviados===");
                                     if (cliente.Emails.Enviados.Count > 0)
                                     {
                                         foreach (var email in cliente.Emails.Enviados)
                                         {
-                                            if (DateTime.TryParseExact(email.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(email.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaEmailItem) && fechaEmailItem >= fechaFiltroEmail)
                                             {
                                                 contexto.EnviarMensaje($"Email: {email.Texto}\n" +
@@ -213,7 +217,7 @@ public class InteraccionesClienteUsuario : IBotCommand
                                     {
                                         foreach (var email in cliente.Emails.Recibidos)
                                         {
-                                            if (DateTime.TryParseExact(email.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(email.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaEmailItem) && fechaEmailItem >= fechaFiltroEmail)
                                             {
                                                 contexto.EnviarMensaje($"Email: {email.Texto}\n" +
@@ -234,14 +238,14 @@ public class InteraccionesClienteUsuario : IBotCommand
                                 contexto.EnviarMensaje("Ingrese a partir de que fecha mostrar las llamadas (DD/MM/AA)");
                                 string fechaLlamada = contexto.EsperarRespuesta();
 
-                                if (DateTime.TryParseExact(fechaLlamada, "dd/MM/yy", null, DateTimeStyles.None, out DateTime fechaFiltroLlamada))
+                                if (DateTime.TryParseExact(fechaLlamada, "DD/MM/AA", null, DateTimeStyles.None, out DateTime fechaFiltroLlamada))
                                 {
                                     contexto.EnviarMensaje("===Llamadas enviadas===");
                                     if (cliente.Llamadas.Enviados.Count > 0)
                                     {
                                         foreach (var llamada in cliente.Llamadas.Enviados)
                                         {
-                                            if (DateTime.TryParseExact(llamada.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(llamada.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaLlamadaItem) && fechaLlamadaItem >= fechaFiltroLlamada)
                                             {
                                                 contexto.EnviarMensaje($"Llamada: {llamada.Asunto}\n" +
@@ -256,7 +260,7 @@ public class InteraccionesClienteUsuario : IBotCommand
                                     {
                                         foreach (var llamada in cliente.Llamadas.Recibidos)
                                         {
-                                            if (DateTime.TryParseExact(llamada.Fecha, "dd/MM/yy", null, DateTimeStyles.None,
+                                            if (DateTime.TryParseExact(llamada.Fecha, "DD/MM/AA", null, DateTimeStyles.None,
                                                     out DateTime fechaLlamadaItem) && fechaLlamadaItem >= fechaFiltroLlamada)
                                             {
                                                 contexto.EnviarMensaje($"Llamada: {llamada.Asunto}\n" +

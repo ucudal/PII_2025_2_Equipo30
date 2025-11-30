@@ -5,7 +5,9 @@ using Library.Clases_principales;
 using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
-
+/// <summary>
+/// Muestra cuales clientes no se les contacta hace cierto tiempo.
+/// </summary>
 public class ContactoPendienteClienteUsuario : IBotCommand
 {
     public string Nombre { get; } = "Listar clientes a los cuales no se respondió.";
@@ -23,7 +25,11 @@ public class ContactoPendienteClienteUsuario : IBotCommand
         _bot = bot;
         _fachada = fachada;
     }
-
+    /// <summary>
+    /// Ejecuta el comando que lista los clientes con mensajes pendientes de respuesta.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")

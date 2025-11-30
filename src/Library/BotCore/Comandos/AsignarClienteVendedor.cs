@@ -4,7 +4,9 @@ using Library.Clases_principales;
 using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
-
+/// <summary>
+/// Asigna un Cliente a un Vededor.
+/// </summary>
 public class AsignarClienteVendedor : IBotCommand
 {
     public string Nombre { get; } = "Asignar cliente a otro vendedor.";
@@ -22,7 +24,11 @@ public class AsignarClienteVendedor : IBotCommand
         _bot = bot;
         _fachada = fachada;
     }
-
+    /// <summary>
+    /// Ejecuta el comando de asignación de cliente a otro vendedor.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Vendedor")

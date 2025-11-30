@@ -12,7 +12,7 @@ namespace Library.BotCore.Comandos;
 public class UltimaInteraccionClienteUsuario : IBotCommand
 {
     public string Nombre { get; } = "Listar clientes desde ultima interacción.";
-    public string Descripcion { get; } = "Lista clientes con los uqe no se interactua desde cierta fecha.";
+    public string Descripcion { get; } = "Lista clientes con los que no se interactua desde cierta fecha.";
     private BotCore _bot;
     private FachadaRegistro _fachada;
 
@@ -26,12 +26,16 @@ public class UltimaInteraccionClienteUsuario : IBotCommand
         _bot = bot;
         _fachada = fachada;
     }
-
+    /// <summary>
+    /// Ejecuta el comando de una lista de clientes con los que no se interactua desde cierta fecha.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
         {
-            contexto.EnviarMensaje("Solo un usuario puede agregar una etiqueta a un cliente.");
+            contexto.EnviarMensaje("Solo un usuario puede ver la ultima interacion a un cliente.");
             return false;
         }
 
@@ -40,7 +44,7 @@ public class UltimaInteraccionClienteUsuario : IBotCommand
         {
             DateTime fechaFiltro;
             contexto.EnviarMensaje("Digite una fecha a partir de la cual listar las ultimas interacciónes:");
-            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "dd/MM/yy", null, DateTimeStyles.None,
+            if (DateTime.TryParseExact(contexto.EsperarRespuesta(), "DD/MM/AA", null, DateTimeStyles.None,
                     out fechaFiltro))
             {
                 contexto.EnviarMensaje("Clientes que verifican las condiciones:");
@@ -70,7 +74,7 @@ public class UltimaInteraccionClienteUsuario : IBotCommand
             }
             else
             {
-                contexto.EnviarMensaje("El formato de fecha es invalido, recuerde que debe ser DD/MM/YY.");
+                contexto.EnviarMensaje("El formato de fecha es invalido, recuerde que debe ser DD/MM/AA.");
                 return false;
             }
         }

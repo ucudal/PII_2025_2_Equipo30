@@ -12,13 +12,21 @@ public class EliminarUsuarioAdmin : IBotCommand
     public string Descripcion { get; } = "Permite eliminar un usuario por Id siendo administrador.";
     private readonly BotCore _bot;
     private readonly FachadaRegistro _fachada;
-
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="bot"></param>
+    /// <param name="fachada"></param>
     public EliminarUsuarioAdmin(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
-
+    /// <summary>
+    /// Ejecuta el comando que Elimina al Usuario por su Id.
+    /// </summary>
+    /// <param name="contexto"></param>
+    /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
         if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Administrador")

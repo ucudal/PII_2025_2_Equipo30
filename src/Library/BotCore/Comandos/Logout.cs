@@ -10,7 +10,10 @@ public class LogoutCommand : IBotCommand
     public string Nombre { get; set; } = "Cerrar sesión";
     public string Descripcion { get; } = "Cierra la sesión independientemente de quién este logueado";
     private readonly BotCore _bot;
-
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="bot"></param>
     public LogoutCommand(BotCore bot)
     {
         _bot = bot;

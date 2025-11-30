@@ -4,13 +4,29 @@ using Library.Fachadas;
 
 namespace Library.Tests;
 
+/// <summary>
+/// Conjunto de pruebas unitarias para la clase <c>FachadaRegistro</c>.
+/// Se evalúan las funcionalidades relacionadas con la creación,
+/// eliminación y gestión de usuarios y clientes.
+/// </summary>
 public class FachadaRegistroTest
 {
+    /// <summary>
+    /// Método ejecutado antes de cada prueba.
+    /// Actualmente no realiza ninguna configuración previa.
+    /// </summary>
     [SetUp]
     public void Setup()
     {
     }
     
+    /// <summary>
+    /// Prueba que verifica la creación de un nuevo usuario a través de la fachada.
+    /// 
+    /// Valida que:
+    /// - El usuario creado no sea nulo.
+    /// - El nombre asignado coincida con el proporcionado.
+    /// </summary>
     [Test]
     public void CrearUsuario()
     {
@@ -21,6 +37,12 @@ public class FachadaRegistroTest
         Assert.That(usuario.Nombre, Is.EqualTo("nuevoUsuario"));
     }
     
+    /// <summary>
+    /// Prueba que verifica la eliminación correcta de un usuario existente.
+    /// 
+    /// Valida que:
+    /// - El método retorne <c>true</c> al eliminar un usuario previamente creado.
+    /// </summary>
     [Test]
     public void EliminarUsuario()
     {
@@ -32,6 +54,12 @@ public class FachadaRegistroTest
         Assert.That(eliminado, Is.True);
     }
 
+    /// <summary>
+    /// Prueba que verifica el comportamiento del método <c>EliminarUsuario</c>
+    /// cuando se intenta eliminar un usuario que no existe.
+    /// 
+    /// Debe retornar <c>false</c>.
+    /// </summary>
     [Test]
     public void EliminarUsuario_SiNoExiste()
     {
@@ -42,6 +70,15 @@ public class FachadaRegistroTest
         Assert.That(eliminado, Is.False);
     }
     
+    /// <summary>
+    /// Prueba que verifica la creación de un cliente asociado a un usuario
+    /// mediante la fachada.
+    /// 
+    /// Valida que:
+    /// - El cliente se cree correctamente.
+    /// - El usuario tenga exactamente un cliente registrado.
+    /// - Los datos del cliente coincidan con los ingresados.
+    /// </summary>
     [Test]
     public void CrearCliente_DesdeFachada()
     {
@@ -55,6 +92,14 @@ public class FachadaRegistroTest
         Assert.That(usuario.Clientes[0].Cliente.Nombre, Is.EqualTo("Ana"));
     }
     
+    /// <summary>
+    /// Prueba que verifica el cálculo del total de ventas de un cliente
+    /// en un período determinado mediante la fachada.
+    /// 
+    /// Valida que:
+    /// - Se sumen correctamente las ventas del cliente dentro del rango de fechas.
+    /// - El total retornado coincida con la suma esperada.
+    /// </summary>
     [Test]
     public void ObtenerTotalVentasPorPeriodo_DesdeFachada()
     {
