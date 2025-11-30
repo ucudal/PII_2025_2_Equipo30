@@ -46,13 +46,12 @@ class Program
         botCore.RegistrarComando(new SuspenderUsuarioAdmin(botCore, fachada));
         botCore.RegistrarComando(new UltimaInteraccionClienteUsuario(botCore, fachada));
         botCore.RegistrarComando(new VerPanelResumenUsuario(botCore, fachada));
-        
-        // etc...
+        //Se pueden agregar más comandos si se quiere, se van a listar en el orden de agregado.
 
         // Inicializar el puente
         new BotDiscordBridge(client, botCore);
 
-        await client.LoginAsync(TokenType.Bot, "");
+        await client.LoginAsync(TokenType.Bot, "TOKEN ACÁ");
         await client.StartAsync();
 
         await Task.Delay(-1);
