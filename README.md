@@ -41,6 +41,39 @@ El objetivo principal del proyecto fue hacer un chatbot o bot conversacional es 
 - [**Historias De Usuario BOT CORE**](https://docs.google.com/document/d/1gokicN-E-mH8XW8sk8x3_lTA2epfpu3lMCv_7lvzzlI/edit?tab=t.0)
 - [**Flujo de la lógica**](https://docs.google.com/document/d/1RTaWC1s5vCUZR3403XroSm7rdRrt_VOOXBJ4RUGmzsE/edit?tab=t.0)
 - [**Video BOT CORE**](https://www.youtube.com/watch?v=doZsXBkPkL8)
+
+## Organización del Trabajo
+
+Para llevar adelante este proyecto utilizamos un espacio de trabajo en Trello, donde estructuramos nuestras tareas y avances de forma organizada y visual. Nuestra organización se basó en varios tableros específicos:
+
+- **Bitácora:** registro del progreso diario y decisiones tomadas durante el desarrollo.
+- **Historias de Usuario:** espacio donde definimos las funcionalidades desde la perspectiva del usuario final.
+- **Scrum History:** repositorio donde archivamos y documentamos lo realizado en semanas anteriores, manteniendo un registro histórico del proyecto.
+
+---
+
+## ⚙️ Scrum Board
+
+El **Scrum Board** fue el tablero principal de trabajo del equipo, donde gestionamos el desarrollo del chatbot utilizando la metodología Scrum.  
+Durante la mayor parte del proyecto trabajamos con **sprints de una semana**, y en las etapas finales, debido a una mayor carga de integración y ajustes, implementamos **sprints de dos semanas**.
+
+El flujo de trabajo se organizó en las siguientes listas:
+
+- **📝 To Do:** tareas planificadas para el sprint actual.
+- **⚙️ Work in Progress:** tareas actualmente en desarrollo.
+- **✅ Done:** tareas completadas durante la semana.
+- **🗓️ Retrospectiva:** registro de la reunión semanal con puntos positivos, mejoras y acciones futuras.
+- **📦 Send To Scrum History:** atajo para enviar rápidamente las tareas completadas al tablero **Scrum History**.
+
+Cada fin de semana (o cada dos semanas, según la duración del sprint) realizamos una **reunión de retrospectiva** y, al cerrar el sprint, enviamos las tarjetas completadas al tablero **Scrum History**, donde se conserva el registro histórico del avance del proyecto.  
+
+**Y así quedó todo nuestro chequeo del trabajo en nuestro Scrum History, reflejando de forma ordenada y transparente cada avance que logramos durante todo el proceso.**
+
+<img src="assets/SCRUM history.png " alt="Scrum History tablero" width="100%">
+
+Esta es la **versión final** de nuestro Scrum History.  
+En algunos momentos del proyecto llegamos a no completar ciertas tareas dentro del sprint, pero gracias a la retrospectiva y a la reorganización continua del equipo pudimos **reacomodarlas**, integrarlas y darles cierre de forma efectiva durante el proceso.
+  
 ## Notas de reflexión del equipo
 
 - **Desafíos más difíciles:
