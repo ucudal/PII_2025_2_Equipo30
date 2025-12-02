@@ -1,16 +1,16 @@
-﻿using System.Runtime.InteropServices.JavaScript;
 using Library.BotCore.Interfaces;
 using Library.Clases_principales;
 using Library.Fachadas;
 
 namespace Library.BotCore.Comandos;
+
 /// <summary>
-/// Asigna un Cliente a un Vededor.
+/// Asigna un cliente a un <see cref="Vendedor"/> siendo usuario.
 /// </summary>
-public class AsignarClienteVendedor : IBotCommand
+public class AsignarClienteVendedorUsuario : IBotCommand
 {
-    public string Nombre { get; } = "Asignar cliente a otro vendedor siendo vendedor.";
-    public string Descripcion { get; } = "Asigna el cliente a otro vendedor para distribuir el trabajo en equipo.";
+     public string Nombre { get; } = "Asignar cliente a otro vendedor siendo Usuario.";
+    public string Descripcion { get; } = "Asigna el cliente a otro vendedor para distribuir el trabajo.";
     private BotCore _bot;
     private FachadaRegistro _fachada;
 
@@ -19,11 +19,12 @@ public class AsignarClienteVendedor : IBotCommand
     /// </summary>
     /// <param name="bot"></param>
     /// <param name="fachada"></param>
-    public AsignarClienteVendedor(BotCore bot, FachadaRegistro fachada)
+    public AsignarClienteVendedorUsuario(BotCore bot, FachadaRegistro fachada)
     {
         _bot = bot;
         _fachada = fachada;
     }
+
     /// <summary>
     /// Ejecuta el comando de asignación de registro del cliente a otro vendedor.
     /// </summary>
@@ -31,19 +32,19 @@ public class AsignarClienteVendedor : IBotCommand
     /// <returns></returns>
     public bool Ejecutar(IMessageContext contexto)
     {
-        if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Vendedor")
+        if (!_bot.Sesion.EstaLogeado || _bot.Sesion.Rol != "Usuario")
         {
-            contexto.EnviarMensaje("Solo un vendedor puede asignar un cliente a otro vendedor.");
+            contexto.EnviarMensaje("Solo un Usuario puede asignar un cliente a otro vendedor con este comando.");
             return false;
         }
 
-        if (_bot.Sesion.UsuarioActual is Vendedor vendedor)
+        if (_bot.Sesion.UsuarioActual is Usuario usuario)
         {
             contexto.EnviarMensaje("Ingrese el id del cliente a asignar.");
             int id;
             if (int.TryParse(contexto.EsperarRespuesta(), out id))
             {
-                RegistroCliente cliente = vendedor.BuscarClientePorId(id);
+                RegistroCliente cliente = usuario.BuscarClientePorId(id);
                 if (cliente != null)
                 {
                     contexto.EnviarMensaje(
@@ -63,7 +64,7 @@ public class AsignarClienteVendedor : IBotCommand
                         if (otroVendedor != null)
                         {
                             contexto.EnviarMensaje("Vendedor encontrado, asignando al cliente...");
-                            if (vendedor.AsignarClienteAotroVendedor(cliente, otroVendedor))
+                            if (usuario.AsignarClienteAVendedor(cliente, otroVendedor))
                             {
                                 contexto.EnviarMensaje("Asignación existosa.");
                                 return true;
@@ -88,6 +89,7 @@ public class AsignarClienteVendedor : IBotCommand
                 return false;
             }
         }
+
         contexto.EnviarMensaje("Surgió algún problema.");
         return false;
     }

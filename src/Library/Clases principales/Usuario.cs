@@ -112,6 +112,37 @@ public class Usuario
     }
 
     
+    public bool AsignarClienteAVendedor(RegistroCliente cliente, Vendedor otroVendedor)
+    {
+        if (cliente == null || otroVendedor == null) //Verifica que exista el registro del cliente y vendedor
+            return false;
+        
+        bool clienteEnEsteVendedor = false; //Verifica que el cliente esté asignado a este vendedor
+        foreach (var c in Clientes)
+        {
+            if (c.Cliente.Id == cliente.Cliente.Id)
+            {
+                clienteEnEsteVendedor = true;
+                break;
+            }
+        }
+        if (!clienteEnEsteVendedor)
+            return false;
+        
+        for (int i = 0; i < Clientes.Count; i++) //Eliminar cliente de este vendedor
+        {
+            if (Clientes[i].Cliente.Id == cliente.Cliente.Id)
+            {
+                Clientes.RemoveAt(i);
+                break;
+            }
+        }
+        
+        otroVendedor.RegistroClientes.Add(cliente); //Asignar cliente a otro vendedor
+
+        return true;
+    }
+    
     /// <summary>
     /// Obtiene una lista de todos los clientes registrados.
     /// </summary>

@@ -1,4 +1,5 @@
-﻿using Library.Clases_principales;
+﻿using Library.BotCore.Comandos;
+using Library.Clases_principales;
 using Library.Clases_tipos;
 
 namespace Library.Tests;
@@ -28,14 +29,14 @@ public class VendedorTests
         Vendedor vendedor2 = new Vendedor("Pedro", "abcd");
 
         Cliente cliente = new Cliente("Nombre", "Apellido", "091234567", "nombreapellido@mail.com") { Id = 1 };
-        vendedor1.Clientes.Add(cliente);
+        vendedor1.RegistroClientes.Add(new RegistroCliente(cliente));
 
-        bool resultado = vendedor1.AsignarClienteAotroVendedor(cliente, vendedor2);
+        bool resultado = vendedor1.AsignarClienteAotroVendedor(vendedor1.BuscarClientePorId(cliente.Id), vendedor2);
 
         Assert.That(resultado.Equals(true));
-        Assert.That(vendedor1.Clientes, Is.Empty);
-        Assert.That(vendedor2.Clientes, Has.Count.EqualTo(1));
-        Assert.That(vendedor2.Clientes, Contains.Item(cliente));
+        Assert.That(vendedor1.RegistroClientes, Is.Empty);
+        Assert.That(vendedor2.RegistroClientes, Has.Count.EqualTo(1));
+        Assert.That(vendedor2.RegistroClientes[0].Cliente.Nombre.Equals("Nombre"));
     }
 
     /// <summary>
@@ -50,8 +51,9 @@ public class VendedorTests
         Vendedor vendedor2 = new Vendedor("Pedro", "abcd");
 
         Cliente cliente = new Cliente("Paraguay", "X", "000", "paraguay@gmail.com") { Id = 99 };
+        vendedor1.RegistroClientes.Add(new RegistroCliente(cliente));
 
-        bool resultado = vendedor1.AsignarClienteAotroVendedor(cliente, vendedor2);
+        bool resultado = vendedor1.AsignarClienteAotroVendedor(vendedor1.BuscarClientePorId(5), vendedor2);
 
         Assert.That(resultado.Equals(false));
     }

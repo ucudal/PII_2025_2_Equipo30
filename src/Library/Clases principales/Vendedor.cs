@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Library.Clases_principales;
 /// <summary>
 /// Representa a un vendedor dentro del sistema, encargado de gestionar sus clientes.
@@ -14,6 +16,11 @@ public class Vendedor
     /// Lista de <see cref="Cliente"/> asociados a este vendedor.
     /// </summary>
     public List<Cliente> Clientes { get; set; }
+
+    /// <summary>
+    /// Lista de <see cref="RegistroCliente"/> con información de los clientes asociados a este vendedor.
+    /// </summary>
+    public List<RegistroCliente> RegistroClientes = new List<RegistroCliente>();
     
     /// <summary>
     /// Metodo para asistir con el logeo.
@@ -27,12 +34,12 @@ public class Vendedor
     }
     
     ///<summary>
-    /// Agrega un nuevo cliente a la lista de clientes del vendedor.
+    /// Agrega un nuevo cliente a la lista de registro clientes del vendedor.
     /// </summary>
-    public void AgregarCliente(Cliente cliente)
+    public void AgregarCliente(RegistroCliente cliente)
     {
         if (cliente != null)
-            Clientes.Add(cliente);
+            RegistroClientes.Add(cliente);
     }
     
     /// <summary>
@@ -54,15 +61,15 @@ public class Vendedor
     /// <item><description>Agrega al cliente a la lista de clientes del otro vendedor.</description></item>
     /// </list>
     /// </remarks>
-    public bool AsignarClienteAotroVendedor(Cliente cliente, Vendedor otroVendedor)
+    public bool AsignarClienteAotroVendedor(RegistroCliente cliente, Vendedor otroVendedor)
     {
-        if (cliente == null || otroVendedor == null) //Verifica que exista el cliente y vendedor
+        if (cliente == null || otroVendedor == null) //Verifica que exista el registro del cliente y vendedor
             return false;
         
         bool clienteEnEsteVendedor = false; //Verifica que el cliente esté asignado a este vendedor
-        foreach (var c in Clientes)
+        foreach (var c in RegistroClientes)
         {
-            if (c.Id == cliente.Id)
+            if (c.Cliente.Id == cliente.Cliente.Id)
             {
                 clienteEnEsteVendedor = true;
                 break;
@@ -71,16 +78,16 @@ public class Vendedor
         if (!clienteEnEsteVendedor)
             return false;
         
-        for (int i = 0; i < Clientes.Count; i++) //Eliminar cliente de este vendedor
+        for (int i = 0; i < RegistroClientes.Count; i++) //Eliminar cliente de este vendedor
         {
-            if (Clientes[i].Id == cliente.Id)
+            if (RegistroClientes[i].Cliente.Id == cliente.Cliente.Id)
             {
-                Clientes.RemoveAt(i);
+                RegistroClientes.RemoveAt(i);
                 break;
             }
         }
         
-        otroVendedor.Clientes.Add(cliente); //Asignar cliente a otro vendedor
+        otroVendedor.RegistroClientes.Add(cliente); //Asignar cliente a otro vendedor
 
         return true;
     }
@@ -90,13 +97,13 @@ public class Vendedor
     /// </summary>
     /// <param name="id"></param>
     /// <returns><see cref="Cliente"/> si se encontró, null si no."/></returns>
-    public Cliente BuscarClientePorId(int id)
+    public RegistroCliente BuscarClientePorId(int id)
     {
-        foreach (var cliente in Clientes)
+        foreach (var registro in RegistroClientes)
         {
-            if (cliente.Id == id)
+            if (registro.Cliente.Id == id)
             {
-                return cliente;
+                return registro;
             }
         }
         return null;
